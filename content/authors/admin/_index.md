@@ -7,27 +7,6 @@ role: Research Fellow · Physical Oceanography
 organizations:
   - name: University of Melbourne, Australia
     url: 'https://findanexpert.unimelb.edu.au/profile/1038580-jin-liu'
-Interests:
-  - Physical oceanography
-  - Coastal oceanography
-  - Ocean engineering
-  - Climate change
-  - Nature-based solutions
-  - Ocean wave
-  - Ocean circulation
-  - Mesoscale eddies
-  - Sea surface temperature
-Education:
-  courses:
-    - course: PhD in Physical Oceanography
-      institution: University of Melbourne, Australia
-      year: '2019–2023'
-    - course: MSc in Physical Oceanography
-      institution: Zhejiang University, China
-      year: '2016–2019'
-    - course: BSc in Physical Oceanography
-      institution: Guangdong Ocean University, China
-      year: '2012–2016'
 social:
   - icon: researchgate
     icon_pack: fab
@@ -45,4 +24,4 @@ email: 'jin.liu.prc@gmail.com'
 highlight_name: true
 ---
 
-I am a Research Fellow at the University of Melbourne. My current research focuses on wave–mangrove interactions and hybrid living shorelines, including SWAN and XBeach modelling and field measurements in New South Wales.
+I am a Research Fellow at the University of Melbourne. My current studies focuses on wave–mangrove interactions and hybrid living shorelines, including SWAN and XBeach modelling and field measurements in New South Wales. My research interests include physical oceanography, coastal oceanography, ocean engineering, climate change, nature-based solutions. Specifically, ocean wave, ocean circulation, mesoscale eddies, and sea surface temperature.

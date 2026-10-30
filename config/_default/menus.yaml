@@ -14,10 +14,10 @@ main:
   - name: Reports
     url: "#Reports"
     weight: 50
-  - name: Research Projects
+  - name: Research projects
     url: "#research_projects"
     weight: 60
-  - name: Selected Awards
+  - name: Selected awards
     url: "#selected_awards"
     weight: 70
   - name: Skills

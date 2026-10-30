@@ -7,7 +7,7 @@ role: Research Fellow · Physical Oceanography
 organizations:
   - name: University of Melbourne, Australia
     url: 'https://findanexpert.unimelb.edu.au/profile/1038580-jin-liu'
-Research Interests:
+Interests:
   - Physical oceanography
   - Coastal oceanography
   - Ocean engineering

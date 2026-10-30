@@ -1,0 +1,67 @@
+name: Build and deploy website
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+permissions:
+  contents: read
+concurrency:
+  group: github-pages
+  cancel-in-progress: false
+jobs:
+  build:
+    permissions:
+      contents: write
+      pages: read
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out website source
+        uses: actions/checkout@v6
+      - name: Expand initial source upload
+        if: hashFiles('website-source.zip') != ''
+        run: |
+          unzip -oq website-source.zip
+          rm website-source.zip
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add --all -- . ':!.github'
+          git commit -m "Expand initial website source into editable files"
+          git push
+      - name: Set up Go for Hugo modules
+        uses: actions/setup-go@v6
+        with:
+          go-version: '1.23.12'
+          cache: true
+      - name: Configure Pages
+        id: pages
+        uses: actions/configure-pages@v5
+      - name: Install the tested Hugo version
+        env:
+          HUGO_VERSION: '0.111.3'
+        run: |
+          curl --fail --location --retry 3 "https://github.com/gohugoio/hugo/releases/download/v${HUGO_VERSION}/hugo_extended_${HUGO_VERSION}_linux-amd64.tar.gz" --output "${RUNNER_TEMP}/hugo.tar.gz"
+          echo "b382aacb522a470455ab771d0e8296e42488d3ea4e61fe49c11c32ec7fb6ee8b  ${RUNNER_TEMP}/hugo.tar.gz" | sha256sum --check
+          mkdir -p "${RUNNER_TEMP}/hugo-bin"
+          tar -xzf "${RUNNER_TEMP}/hugo.tar.gz" -C "${RUNNER_TEMP}/hugo-bin"
+          echo "${RUNNER_TEMP}/hugo-bin" >> "${GITHUB_PATH}"
+      - name: Build public website
+        env:
+          HUGO_ENV: production
+        run: hugo --gc --minify --baseURL "${{ steps.pages.outputs.base_url }}/"
+      - name: Upload website artifact
+        uses: actions/upload-pages-artifact@v4
+        with:
+          path: public
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Publish to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4

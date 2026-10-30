@@ -1,5 +1,5 @@
 main:
-  - name: Home
+  - name: About me
     url: "#biography"
     weight: 10
   - name: Appointments
@@ -29,9 +29,12 @@ main:
   - name: Surveys
     url: "#surveys"
     weight: 100
-  - name: Outreach
+  - name: Outreach & service
     url: "#outreach"
     weight: 110
   - name: Contact
     url: "#contact"
     weight: 120
+  - name: CV
+    url: "https://www.jinliu.org/CV.pdf"
+    weight: 130

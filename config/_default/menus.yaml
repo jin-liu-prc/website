@@ -29,7 +29,7 @@ main:
   - name: Surveys
     url: "#surveys"
     weight: 100
-  - name: Outreach & service
+  - name: Service
     url: "#outreach"
     weight: 110
   - name: Contact

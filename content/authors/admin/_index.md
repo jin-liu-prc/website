@@ -45,4 +45,4 @@ email: 'jin.liu.prc@gmail.com'
 highlight_name: true
 ---
 
-I am a Research Fellow at the University of Melbourne. My current research focuses on wave–mangrove interactions and hybrid living shorelines, including SWAN and XBeach modelling and field measurements in New South Wales. Previously, I worked as a Science Officer with the Victoria State Government.
+I am a Research Fellow at the University of Melbourne. My current research focuses on wave–mangrove interactions and hybrid living shorelines, including SWAN and XBeach modelling and field measurements in New South Wales.

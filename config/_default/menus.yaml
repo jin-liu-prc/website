@@ -2,26 +2,26 @@ main:
   - name: Home
     url: "#biography"
     weight: 10
-  - name: Research Interests
-    url: "#research_interests"
+  - name: Appointments
+    url: "#appointments"
     weight: 20
   - name: Education
     url: "#education"
     weight: 30
-  - name: Conferences
-    url: "#conferences"
-    weight: 40
   - name: Publications
     url: "#publications"
+    weight: 40
+  - name: Reports
+    url: "#Reports"
     weight: 50
-  - name: Data
-    url: "#data"
-    weight: 60
   - name: Selected Awards
     url: "#selected_awards"
-    weight: 70
+    weight: 60
   - name: Skills
     url: "#skills"
+    weight: 70
+  - name: Teaching
+    url: "#teaching"
     weight: 80
   - name: Outreach
     url: "#outreach"

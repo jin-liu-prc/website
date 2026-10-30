@@ -80,3 +80,25 @@ body.dark .wg-about-biography { background: linear-gradient(145deg, #1b3240, #15
   .navbar .main-menu-item .nav-link { padding-top: .65rem; padding-bottom: .65rem; }
   .wg-markdown .section-heading { align-items: flex-start !important; text-align: left; margin-bottom: 28px !important; }
 }
+
+/* Keep the revised profile and section navigation compact and easy to scan. */
+.wg-about-biography .ul-interests { display: flex; flex-wrap: wrap; gap: 8px; }
+.wg-about-biography .ul-interests li { padding: 7px 12px; border: 1px solid var(--coast-line); border-radius: 8px; background: var(--coast-paper); font-size: .78rem; }
+.wg-markdown { border-top: 1px solid var(--coast-line); }
+.wg-markdown:nth-of-type(even) { background: var(--coast-wash); }
+.wg-markdown .section-heading h1 { margin-top: 0; }
+.wg-markdown .article-style > :first-child { margin-top: 0; }
+.wg-markdown .article-style > :last-child { margin-bottom: 0; }
+@media (min-width: 992px) {
+  .home-section.wg-markdown { padding: 72px 0; }
+}
+@media (max-width: 991px) {
+  .navbar-collapse { max-height: calc(100vh - 80px); overflow-y: auto; }
+  .navbar .main-menu-item .nav-link { border-bottom: 1px solid var(--coast-line); }
+  .home-section.wg-markdown { padding: 44px 0; }
+  .wg-about-biography #profile { max-width: 340px; padding: 24px; margin-bottom: 32px; }
+  #profile .avatar { width: 144px; height: 144px; }
+  #profile .portrait-title h2 { font-size: 1.7rem; }
+  .wg-markdown .section-heading { margin-bottom: 20px !important; }
+  .wg-markdown .section-heading h1 { font-size: 1.85rem; }
+}

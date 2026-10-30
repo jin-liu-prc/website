@@ -14,18 +14,24 @@ main:
   - name: Reports
     url: "#Reports"
     weight: 50
+  - name: Research Projects
+    url: "#research_projects"
+    weight: 60
   - name: Selected Awards
     url: "#selected_awards"
-    weight: 60
+    weight: 70
   - name: Skills
     url: "#skills"
-    weight: 70
+    weight: 80
   - name: Teaching
     url: "#teaching"
-    weight: 80
+    weight: 90
+  - name: Surveys
+    url: "#surveys"
+    weight: 100
   - name: Outreach
     url: "#outreach"
-    weight: 90
+    weight: 110
   - name: Contact
     url: "#contact"
-    weight: 100
+    weight: 120

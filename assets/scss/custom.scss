@@ -102,3 +102,10 @@ body.dark .wg-about-biography { background: linear-gradient(145deg, #1b3240, #15
   .wg-markdown .section-heading { margin-bottom: 20px !important; }
   .wg-markdown .section-heading h1 { font-size: 1.85rem; }
 }
+
+/* Match About me typography to the other content sections. */
+.wg-about-biography h1 { font-size: 2.1rem; line-height: 1.2; }
+.wg-about-biography .article-style, .wg-markdown .article-style { font-size: 1rem; line-height: 1.75; }
+@media (max-width: 991px) {
+  .wg-about-biography h1 { font-size: 1.85rem; }
+}

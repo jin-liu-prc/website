@@ -1,0 +1,82 @@
+/* Coastal palette and responsive academic profile, using existing Wowchemy markup. */
+:root { --coast-ink: #153548; --coast-text: #415865; --coast-teal: #087e83; --coast-paper: #fff; --coast-wash: #f0f6f7; --coast-line: #dbe7e9; }
+body { color: var(--coast-text); background: var(--coast-paper); line-height: 1.75; }
+h1, h2, h3, .section-subheading { color: var(--coast-ink); letter-spacing: -.035em; }
+a { color: var(--coast-teal); text-underline-offset: .2em; }
+a:hover { color: var(--coast-ink); }
+a:focus-visible, button:focus-visible, input:focus-visible { outline: 3px solid var(--coast-teal); outline-offset: 4px; }
+html { scroll-behavior: smooth; scroll-padding-top: 100px; }
+.navbar { background: var(--coast-paper); box-shadow: 0 1px 0 var(--coast-line); min-height: 80px; }
+.navbar .navbar-brand { color: var(--coast-ink); font-weight: 700; letter-spacing: -.05em; font-size: 1.45rem; }
+.navbar .navbar-nav .nav-link { font-size: .85rem; font-weight: 500; padding-left: 1rem; padding-right: 1rem; }
+.navbar .navbar-nav .nav-link.active { color: var(--coast-teal); }
+.home-section { padding: 100px 0; }
+.wg-about-biography { position: relative; background: linear-gradient(145deg, #f4f9fa 0%, #edf5f5 55%, #fff 100%); }
+.wg-about-biography::before { content: ''; position: absolute; top: 0; left: 0; right: 0; height: 5px; background: linear-gradient(90deg, #153548, #087e83, #98c9c8); }
+.wg-about-biography #profile { max-width: 340px; padding: 38px 26px 28px; background: var(--coast-paper); border: 1px solid var(--coast-line); border-radius: 20px; box-shadow: 0 18px 50px rgba(21,53,72,.06); }
+#profile .avatar { width: 188px; height: 188px; border: 7px solid var(--coast-wash); }
+#profile .portrait-title h2 { font-size: 2rem; font-weight: 700; margin-top: 1.1rem; }
+#profile .portrait-title h3 { font-size: .85rem; line-height: 1.65; font-weight: 400; letter-spacing: 0; }
+#profile .portrait-title h3:first-of-type { color: var(--coast-teal); font-weight: 700; }
+#profile .portrait-title a { color: var(--coast-text); }
+#profile .network-icon { margin-top: 24px; display: flex; justify-content: center; gap: 18px; }
+#profile .network-icon li { margin: 0; }
+#profile .network-icon .big-icon { font-size: 1.4rem; }
+.wg-about-biography h1 { font-size: clamp(2.5rem, 5vw, 3.6rem); font-weight: 700; line-height: 1.12; margin-bottom: 28px; }
+.wg-about-biography .article-style { font-size: 1rem; line-height: 1.9; }
+.wg-about-biography .article-style p { text-align: left !important; }
+.wg-about-biography .section-subheading { margin-top: 32px; margin-bottom: 18px; font-size: 1.15rem; font-weight: 700; }
+.wg-about-biography .ul-interests { margin-left: 0; list-style: none; }
+.wg-about-biography .ul-interests li { padding: 9px 0 9px 16px; border-left: 2px solid #91c4c5; line-height: 1.55; font-size: .85rem; }
+.wg-about-biography .ul-interests .fa-li, .wg-about-biography .ul-edu .fa-li { display: none; }
+.wg-about-biography .ul-edu { margin-left: 0; list-style: none; }
+.wg-about-biography .ul-edu li { border-bottom: 1px solid var(--coast-line); padding: 0 0 16px; margin-bottom: 16px; }
+.wg-about-biography .ul-edu .course { font-size: .85rem; font-weight: 700; color: var(--coast-ink); line-height: 1.55; }
+.wg-about-biography .ul-edu .institution { font-size: .78rem; line-height: 1.6; color: var(--coast-text); }
+.wg-experience { background: var(--coast-paper); border-top: 1px solid var(--coast-line); }
+.wg-experience .section-heading h1 { font-size: 2.15rem; line-height: 1.2; font-weight: 700; }
+.wg-experience .card { background: var(--coast-wash); border: 1px solid var(--coast-line); border-radius: 14px; box-shadow: none; margin-bottom: 20px; }
+.wg-experience .card-body { padding: 28px; }
+.wg-experience .card .exp-title { color: var(--coast-ink) !important; font-size: 1.05rem; font-weight: 700; letter-spacing: -.025em; }
+.wg-experience .card .exp-company { margin-top: 8px !important; font-size: .88rem; line-height: 1.6; font-weight: 400; letter-spacing: 0; }
+.wg-experience .exp-meta { margin-top: 14px; font-size: .76rem; }
+.wg-experience .border-right { border-color: var(--coast-line) !important; }
+.wg-experience .exp-fill { background: var(--coast-teal) !important; }
+.page-footer { background: var(--coast-wash); border-top: 1px solid var(--coast-line); }
+.site-footer { margin-top: 0; padding: 38px 0; }
+.site-footer p { font-size: .7rem; }
+body.dark { --coast-ink: #e1f1f5; --coast-text: #bdcfd7; --coast-teal: #73cecb; --coast-paper: #152733; --coast-wash: #1b3240; --coast-line: #304a58; }
+body.dark .wg-about-biography { background: linear-gradient(145deg, #1b3240, #152733); }
+@media (min-width: 992px) {
+  .wg-about-biography .col-lg-8 { padding-left: 48px; }
+  .wg-about-biography .row > .col-md-5 { flex: 0 0 45%; max-width: 45%; }
+  .wg-about-biography .row > .col-md-7 { flex: 0 0 55%; max-width: 55%; }
+}
+@media (max-width: 991px) {
+  .home-section { padding: 56px 0; }
+  .wg-about-biography #profile { margin: 0 auto 44px; }
+  .wg-experience .section-heading { align-items: flex-start !important; text-align: left; }
+  .wg-experience .section-heading h1 { margin-bottom: 24px !important; }
+}
+@media (max-width: 575px) {
+  .home-section > .container { padding-left: 24px; padding-right: 24px; }
+  .wg-about-biography h1 { font-size: 2.4rem; }
+  .wg-experience .card-body { padding: 22px; }
+  #profile .avatar { width: 160px; height: 160px; }
+}
+@media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } }
+
+/* Keep the complete banner readable, including on intermediate desktop widths. */
+@media (min-width: 992px) {
+  .navbar .main-menu-item .navbar-nav { flex-wrap: wrap; }
+  .navbar .navbar-nav .nav-link { font-size: .74rem; line-height: 1.4; padding: .5rem .48rem; }
+  .navbar .navbar-brand { margin-right: 1rem; }
+}
+.wg-markdown .section-heading h1 { font-size: 2.1rem; font-weight: 700; line-height: 1.2; }
+.wg-markdown .section-subheading, .wg-markdown h3 { font-size: 1.15rem; margin-top: 1.8rem; }
+.wg-markdown li { margin-bottom: .8rem; }
+.wg-markdown .section-heading { padding-right: 28px; }
+@media (max-width: 991px) {
+  .navbar .main-menu-item .nav-link { padding-top: .65rem; padding-bottom: .65rem; }
+  .wg-markdown .section-heading { align-items: flex-start !important; text-align: left; margin-bottom: 28px !important; }
+}

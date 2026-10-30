@@ -1,0 +1,31 @@
+main:
+  - name: Home
+    url: "#biography"
+    weight: 10
+  - name: Research Interests
+    url: "#research_interests"
+    weight: 20
+  - name: Education
+    url: "#education"
+    weight: 30
+  - name: Conferences
+    url: "#conferences"
+    weight: 40
+  - name: Publications
+    url: "#publications"
+    weight: 50
+  - name: Data
+    url: "#data"
+    weight: 60
+  - name: Selected Awards
+    url: "#selected_awards"
+    weight: 70
+  - name: Skills
+    url: "#skills"
+    weight: 80
+  - name: Outreach
+    url: "#outreach"
+    weight: 90
+  - name: Contact
+    url: "#contact"
+    weight: 100

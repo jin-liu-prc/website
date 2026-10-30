@@ -24,4 +24,6 @@ email: 'jin.liu.prc@gmail.com'
 highlight_name: true
 ---
 
-I am a Research Fellow at the University of Melbourne. My current studies focuses on wave–mangrove interactions and hybrid living shorelines, including SWAN and XBeach modelling and field measurements in New South Wales. My research interests include physical oceanography, coastal oceanography, ocean engineering, climate change, nature-based solutions. Specifically, ocean wave, ocean circulation, mesoscale eddies, and sea surface temperature.
+I am a Research Fellow at the University of Melbourne. My current research focuses on wave–mangrove interactions and hybrid living shorelines. I use SWAN and XBeach modelling, together with field measurements in New South Wales, to study these coastal systems.
+
+My research interests span physical oceanography, coastal oceanography, ocean engineering, climate change and nature-based solutions, with a particular focus on ocean waves, ocean circulation, mesoscale eddies and sea surface temperature.

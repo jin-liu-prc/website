@@ -131,3 +131,15 @@ body.dark .wg-about-biography { background: linear-gradient(145deg, #1b3240, #15
   #profile .portrait-title h3 { font-size: .78rem; }
   #profile .network-icon { gap: 14px; margin-top: 12px; }
 }
+
+
+/* Align the navigation with the reading column and use two desktop rows. */
+.navbar > .container-xl { max-width: 860px; padding-left: 24px; padding-right: 24px; }
+@media (min-width: 992px) {
+  .navbar { min-height: 88px; padding-top: 8px; padding-bottom: 8px; }
+  .navbar .main-menu-item { min-width: 0; }
+  #navbar-content > .navbar-nav { display: grid !important; grid-template-columns: repeat(6, max-content); width: 100%; justify-content: space-between; gap: 4px 8px; }
+  .navbar .main-menu-item .nav-link { padding: 6px 0; white-space: nowrap; }
+}
+.navbar .nav-icons:empty { display: none !important; }
+.navbar .main-menu-item .nav-link { padding-left: 0; padding-right: 0; }

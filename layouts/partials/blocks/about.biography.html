@@ -38,7 +38,7 @@
 
       <div class="portrait-title">
 
-        <h2>
+        <h2 class="notranslate" translate="no">
           {{- if $person.name_pronunciation -}}
             <ruby>
               <rb>{{ $person_page.Title }}</rb>
@@ -60,7 +60,7 @@
         {{ end }}
       </div>
 
-      <ul class="network-icon">
+      <ul class="network-icon notranslate" translate="no">
         {{ range $person.social }}
         {{ $pack := or .icon_pack "fas" }}
         {{ $pack_prefix := $pack }}

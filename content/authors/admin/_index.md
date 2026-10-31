@@ -1,9 +1,9 @@
 ---
-title: Jin Liu
+title: Dr. Jin Liu
 first_name: Jin
 last_name: Liu
 superuser: true
-role: Research fellow of the University of Melbourne
+role: Research fellow, University of Melbourne
 social:
   - icon: researchgate
     icon_pack: fab

@@ -43,9 +43,9 @@ header:
 
 footer:
   copyright:
-    notice: '© {year} This work is licensed under {license}'
+    notice: '© {year} Jin Liu. All rights reserved. Personal viewing only. Reproduction or redistribution requires prior written permission, except as permitted by law.'
     license:
-      enable: true
+      enable: false
       allow_derivatives: false
       share_alike: true
       allow_commercial: false

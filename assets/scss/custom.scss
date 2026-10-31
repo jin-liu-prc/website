@@ -5,7 +5,7 @@ h1, h2, h3, .section-subheading { color: var(--coast-ink); letter-spacing: -.035
 a { color: var(--coast-teal); text-underline-offset: .2em; }
 a:hover { color: var(--coast-ink); }
 a:focus-visible, button:focus-visible, input:focus-visible { outline: 3px solid var(--coast-teal); outline-offset: 4px; }
-html { scroll-behavior: smooth; scroll-padding-top: 100px; }
+html { scroll-behavior: auto; scroll-padding-top: 100px; }
 .navbar { background: var(--coast-paper); box-shadow: 0 1px 0 var(--coast-line); min-height: 80px; }
 .navbar .navbar-brand { color: var(--coast-ink); font-weight: 700; letter-spacing: -.05em; font-size: 1.45rem; }
 .navbar .navbar-nav .nav-link { font-size: .85rem; font-weight: 500; padding-left: 1rem; padding-right: 1rem; }

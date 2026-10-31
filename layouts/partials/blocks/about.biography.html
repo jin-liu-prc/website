@@ -78,7 +78,7 @@
         <li>
           <a href="{{ $link | safeURL }}" {{ $target | safeHTMLAttr }} aria-label="{{ .label | default .icon }}" title="{{ .label | default .icon }}">
             {{ if .image }}
-            <img class="social-logo" src="{{ .image | relURL }}" alt="" width="32" height="32">
+            <span class="social-logo big-icon" aria-hidden="true" style="--social-logo: url('{{ .image | relURL }}')"></span>
             {{ else }}
             <i class="{{ $pack }} {{ $pack_prefix }}-{{ .icon }} big-icon"></i>
             {{ end }}

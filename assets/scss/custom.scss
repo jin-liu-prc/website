@@ -144,16 +144,19 @@ body.dark .wg-about-biography { background: linear-gradient(145deg, #1b3240, #15
 .navbar .nav-icons:empty { display: none !important; }
 .navbar .main-menu-item .nav-link { padding-left: 0; padding-right: 0; }
 
-/* University profile logo matches the neighbouring social icons. */
+/* Use the university crest as a monochrome icon that inherits the link colour. */
 #profile .network-icon .social-logo {
   display: inline-block;
-  width: 32px;
-  height: 32px;
-  object-fit: contain;
+  width: 1em;
+  height: 1em;
   vertical-align: -0.125em;
+  background-color: currentColor;
+  mask-image: var(--social-logo);
+  mask-mode: luminance;
+  mask-size: 125%;
+  mask-repeat: no-repeat;
+  mask-position: center;
 }
-
 @media (max-width: 575px) {
   #profile .network-icon { grid-column: 1 / -1; }
-  #profile .network-icon .social-logo { width: 28px; height: 28px; }
 }

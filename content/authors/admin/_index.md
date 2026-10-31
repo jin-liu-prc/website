@@ -3,10 +3,7 @@ title: Jin Liu
 first_name: Jin
 last_name: Liu
 superuser: true
-role: Research fellow · physical oceanography
-organizations:
-  - name: University of Melbourne, Australia
-    url: 'https://findanexpert.unimelb.edu.au/profile/1038580-jin-liu'
+role: Research fellow of University of Melbourne
 social:
   - icon: researchgate
     icon_pack: fab

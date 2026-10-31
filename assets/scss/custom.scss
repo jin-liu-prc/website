@@ -183,8 +183,3 @@ body.dark .wg-about-biography { background: linear-gradient(145deg, #1b3240, #15
 
 /* Keep a longer language list usable on narrow and short screens. */
 .translation-options { width: 260px; max-width: calc(100vw - 48px); max-height: 70vh; overflow-y: auto; overscroll-behavior: contain; }
-.translation-options .translation-more { margin: 4px 0 0; padding-top: 4px; border-top: 1px solid var(--coast-line); }
-.translation-options .translation-more > summary { display: flex; justify-content: space-between; padding: 10px 12px; text-align: left; color: var(--coast-teal); font-weight: 600; }
-.translation-options .translation-more > summary:hover { background: var(--coast-wash); border-radius: 5px; }
-.translation-options .translation-more[open] > summary span { transform: rotate(180deg); }
-.translation-options .translation-more small { color: var(--coast-text); font-size: .6rem; }

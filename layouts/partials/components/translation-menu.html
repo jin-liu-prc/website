@@ -2,17 +2,10 @@
   <summary aria-label="Choose website language"><i class="fas fa-globe" aria-hidden="true"></i> <span>Language</span> <span aria-hidden="true">⌄</span></summary>
   <div class="translation-options">
     <a href="{{ .Permalink }}" data-language-url="{{ .Permalink }}" onclick="window.location.assign(this.dataset.languageUrl); return false;" lang="en" hreflang="en">English <small>Original</small></a>
-    {{ range sort (slice (dict "code" "ar" "name" "العربية" "english" "Arabic") (dict "code" "zh-CN" "name" "中文" "english" "Chinese") (dict "code" "fr" "name" "Français" "english" "French") (dict "code" "ru" "name" "Русский" "english" "Russian") (dict "code" "es" "name" "Español" "english" "Spanish")) "english" }}
+    {{ range sort site.Data.translation_languages "english" }}
     {{ $url := printf "https://translate.google.com/translate?sl=en&tl=%s&u=%s" .code ($.Permalink | urlquery) }}
     <a href="{{ $url | safeURL }}" data-language-url="{{ $url }}" onclick="window.location.assign(this.dataset.languageUrl); return false;" lang="{{ .code }}" hreflang="{{ .code }}" rel="noopener"><span dir="auto">{{ .name }}</span><small lang="en">{{ .english }}</small></a>
     {{ end }}
-    <details class="translation-more">
-      <summary>More languages <span aria-hidden="true">⌄</span></summary>
-      {{ range sort site.Data.translation_languages "english" }}
-      {{ $url := printf "https://translate.google.com/translate?sl=en&tl=%s&u=%s" .code ($.Permalink | urlquery) }}
-      <a href="{{ $url | safeURL }}" data-language-url="{{ $url }}" onclick="window.location.assign(this.dataset.languageUrl); return false;" lang="{{ .code }}" hreflang="{{ .code }}" rel="noopener"><span dir="auto">{{ .name }}</span><small lang="en">{{ .english }}</small></a>
-      {{ end }}
-    </details>
     <p>Automatic translation<br>via Google Translate</p>
   </div>
 </details>

@@ -1,13 +1,28 @@
 [
   {
+    "code": "ar",
+    "name": "العربية",
+    "english": "Arabic"
+  },
+  {
     "code": "bn",
     "name": "বাংলা",
     "english": "Bengali"
   },
   {
+    "code": "zh-CN",
+    "name": "中文",
+    "english": "Chinese"
+  },
+  {
     "code": "nl",
     "name": "Nederlands",
     "english": "Dutch"
+  },
+  {
+    "code": "fr",
+    "name": "Français",
+    "english": "French"
   },
   {
     "code": "de",
@@ -63,6 +78,16 @@
     "code": "pt",
     "name": "Português",
     "english": "Portuguese"
+  },
+  {
+    "code": "ru",
+    "name": "Русский",
+    "english": "Russian"
+  },
+  {
+    "code": "es",
+    "name": "Español",
+    "english": "Spanish"
   },
   {
     "code": "sw",

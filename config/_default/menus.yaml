@@ -11,9 +11,6 @@ main:
   - name: Publications
     url: "#publications"
     weight: 40
-  - name: Reports
-    url: "#Reports"
-    weight: 50
   - name: Research projects
     url: "#research_projects"
     weight: 60

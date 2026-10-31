@@ -20,6 +20,10 @@ social:
   - icon: linkedin
     icon_pack: fab
     link: https://www.linkedin.com/in/jin-liu-791ab9132/
+  - icon: unimelb
+    image: /icons/unimelb.png
+    label: University of Melbourne profile
+    link: https://findanexpert.unimelb.edu.au/profile/1038580-jin-liu
   - icon: cv
     icon_pack: ai
     link: /CV.pdf

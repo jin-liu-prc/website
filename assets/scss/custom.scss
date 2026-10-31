@@ -143,3 +143,17 @@ body.dark .wg-about-biography { background: linear-gradient(145deg, #1b3240, #15
 }
 .navbar .nav-icons:empty { display: none !important; }
 .navbar .main-menu-item .nav-link { padding-left: 0; padding-right: 0; }
+
+/* University profile logo matches the neighbouring social icons. */
+#profile .network-icon .social-logo {
+  display: inline-block;
+  width: 32px;
+  height: 32px;
+  object-fit: contain;
+  vertical-align: -0.125em;
+}
+
+@media (max-width: 575px) {
+  #profile .network-icon { grid-column: 1 / -1; }
+  #profile .network-icon .social-logo { width: 28px; height: 28px; }
+}

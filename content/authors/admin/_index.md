@@ -3,7 +3,7 @@ title: Jin Liu
 first_name: Jin
 last_name: Liu
 superuser: true
-role: Research fellow of University of Melbourne
+role: Research fellow of the University of Melbourne
 social:
   - icon: researchgate
     icon_pack: fab

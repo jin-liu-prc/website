@@ -109,3 +109,25 @@ body.dark .wg-about-biography { background: linear-gradient(145deg, #1b3240, #15
 @media (max-width: 991px) {
   .wg-about-biography h1 { font-size: 1.85rem; }
 }
+
+
+/* A narrower reading column with section titles above their text. */
+.home-section > .container, .page-footer > .container { max-width: 860px; padding-left: 24px; padding-right: 24px; }
+.navbar > .container-xl { max-width: 1200px; }
+.wg-markdown .section-heading { text-align: left !important; padding-right: 15px; margin-bottom: 24px !important; }
+.wg-markdown .section-heading h1 { margin: 0; }
+.wg-about-biography .row > .col-lg-4, .wg-about-biography .row > .col-lg-8 { flex: 0 0 100%; max-width: 100%; }
+.wg-about-biography .col-lg-8 { padding-left: 15px; }
+.wg-about-biography #profile { display: grid; grid-template-columns: 128px 1fr; column-gap: 28px; max-width: none; margin: 0 0 36px; padding: 28px; text-align: left; }
+#profile .avatar { grid-column: 1; grid-row: 1 / span 2; width: 128px; height: 128px; margin: 0; }
+#profile .portrait-title { grid-column: 2; align-self: end; }
+#profile .portrait-title h2 { margin: 0 0 8px; }
+#profile .portrait-title h3 { margin: 6px 0; }
+#profile .network-icon { grid-column: 2; justify-content: flex-start; align-self: start; margin: 14px 0 0; padding: 0; }
+@media (max-width: 575px) {
+  .wg-about-biography #profile { grid-template-columns: 80px 1fr; column-gap: 16px; padding: 20px; }
+  #profile .avatar { width: 80px; height: 80px; }
+  #profile .portrait-title h2 { font-size: 1.45rem; }
+  #profile .portrait-title h3 { font-size: .78rem; }
+  #profile .network-icon { gap: 14px; margin-top: 12px; }
+}

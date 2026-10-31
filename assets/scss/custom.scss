@@ -167,7 +167,7 @@ body.dark .wg-about-biography { background: linear-gradient(145deg, #1b3240, #15
 .translation-menu summary::-webkit-details-marker { display: none; }
 .translation-menu summary:focus-visible { outline: 3px solid var(--coast-teal); outline-offset: 4px; }
 .translation-options { position: absolute; top: 100%; right: 0; width: 210px; padding: 8px; border: 1px solid var(--coast-line); border-radius: 10px; background: var(--coast-paper); box-shadow: 0 10px 30px rgba(21,53,72,.12); z-index: 1100; }
-.translation-options a { display: flex; justify-content: flex-start; align-items: center; gap: 8px; padding: 8px 12px; border-radius: 5px; color: var(--coast-text); }
+.translation-options a { display: flex; justify-content: space-between; align-items: center; gap: 8px; padding: 8px 12px; border-radius: 5px; color: var(--coast-text); }
 .translation-options a:hover, .translation-options a:focus-visible { background: var(--coast-wash); color: var(--coast-teal); }
 .translation-options small { font-size: .65rem; }
 .translation-options p { border-left: 0; margin: 6px 12px 4px; padding-top: 8px; border-top: 1px solid var(--coast-line); font-size: .62rem; color: var(--coast-text); line-height: 1.5; }

@@ -20,6 +20,9 @@ social:
   - icon: linkedin
     icon_pack: fab
     link: https://www.linkedin.com/in/jin-liu-791ab9132/
+  - icon: cv
+    icon_pack: ai
+    link: /CV.pdf
 email: 'jin.liu.prc@gmail.com'
 highlight_name: true
 ---

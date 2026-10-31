@@ -11,6 +11,9 @@ main:
   - name: Publications
     url: "#publications"
     weight: 40
+  - name: Data
+    url: "#data"
+    weight: 50
   - name: Research projects
     url: "#research_projects"
     weight: 60
@@ -32,6 +35,3 @@ main:
   - name: Contact
     url: "#contact"
     weight: 120
-  - name: CV
-    url: "https://www.jinliu.org/CV.pdf"
-    weight: 130

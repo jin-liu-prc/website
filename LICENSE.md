@@ -1,3 +1,17 @@
+# Licensing
+
+## Personal website content
+
+Copyright (c) 2026 Jin Liu. All rights reserved.
+
+Jin Liu's original biographical text, images and CV are provided for personal viewing only. No permission to reproduce, redistribute or adapt this material is granted without prior written permission, except as permitted by law or under a previously granted licence.
+
+This content notice does not replace any pre-existing licence or rights belonging to third parties.
+
+## Third-party software
+
+The MIT licence below applies to the upstream website template code. It does not grant rights to Jin Liu's original personal website content. Other third-party dependencies retain their respective licences.
+
 MIT License
 
 Copyright (c) 2016-present George Cushen

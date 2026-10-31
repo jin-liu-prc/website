@@ -1,0 +1,102 @@
+[
+  {
+    "code": "bn",
+    "name": "বাংলা",
+    "english": "Bengali"
+  },
+  {
+    "code": "nl",
+    "name": "Nederlands",
+    "english": "Dutch"
+  },
+  {
+    "code": "de",
+    "name": "Deutsch",
+    "english": "German"
+  },
+  {
+    "code": "el",
+    "name": "Ελληνικά",
+    "english": "Greek"
+  },
+  {
+    "code": "hi",
+    "name": "हिन्दी",
+    "english": "Hindi"
+  },
+  {
+    "code": "id",
+    "name": "Bahasa Indonesia",
+    "english": "Indonesian"
+  },
+  {
+    "code": "it",
+    "name": "Italiano",
+    "english": "Italian"
+  },
+  {
+    "code": "ja",
+    "name": "日本語",
+    "english": "Japanese"
+  },
+  {
+    "code": "ko",
+    "name": "한국어",
+    "english": "Korean"
+  },
+  {
+    "code": "ms",
+    "name": "Bahasa Melayu",
+    "english": "Malay"
+  },
+  {
+    "code": "fa",
+    "name": "فارسی",
+    "english": "Persian"
+  },
+  {
+    "code": "pl",
+    "name": "Polski",
+    "english": "Polish"
+  },
+  {
+    "code": "pt",
+    "name": "Português",
+    "english": "Portuguese"
+  },
+  {
+    "code": "sw",
+    "name": "Kiswahili",
+    "english": "Swahili"
+  },
+  {
+    "code": "ta",
+    "name": "தமிழ்",
+    "english": "Tamil"
+  },
+  {
+    "code": "th",
+    "name": "ไทย",
+    "english": "Thai"
+  },
+  {
+    "code": "tr",
+    "name": "Türkçe",
+    "english": "Turkish"
+  },
+  {
+    "code": "uk",
+    "name": "Українська",
+    "english": "Ukrainian"
+  },
+  {
+    "code": "ur",
+    "name": "اردو",
+    "english": "Urdu"
+  },
+  {
+    "code": "vi",
+    "name": "Tiếng Việt",
+    "english": "Vietnamese"
+  }
+]

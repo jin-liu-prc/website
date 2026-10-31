@@ -6,6 +6,13 @@
     {{ $url := printf "https://translate.google.com/translate?sl=en&tl=%s&u=%s" .code ($.Permalink | urlquery) }}
     <a href="{{ $url | safeURL }}" data-language-url="{{ $url }}" onclick="window.location.assign(this.dataset.languageUrl); return false;" lang="{{ .code }}" hreflang="{{ .code }}" rel="noopener">{{ .name }}</a>
     {{ end }}
+    <details class="translation-more">
+      <summary>More languages <span aria-hidden="true">⌄</span></summary>
+      {{ range site.Data.translation_languages }}
+      {{ $url := printf "https://translate.google.com/translate?sl=en&tl=%s&u=%s" .code ($.Permalink | urlquery) }}
+      <a href="{{ $url | safeURL }}" data-language-url="{{ $url }}" onclick="window.location.assign(this.dataset.languageUrl); return false;" lang="{{ .code }}" hreflang="{{ .code }}" rel="noopener"><span dir="auto">{{ .name }}</span><small lang="en">{{ .english }}</small></a>
+      {{ end }}
+    </details>
     <p>Automatic translation<br>via Google Translate</p>
   </div>
 </details>

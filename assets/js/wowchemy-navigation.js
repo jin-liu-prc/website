@@ -60,45 +60,37 @@ function fixScrollspy() {
  * Add smooth scrolling to all links inside the main navbar.
  * --------------------------------------------------------------------------- */
 
-$('#navbar-main li.nav-item a.nav-link, .js-scroll').on('click', function (event) {
-  // Store requested URL hash.
-  let hash = this.hash;
+// Delegate clicks because automatic translation can insert nested elements or replace link contents.
+$(document).on('click', '#navbar-main li.nav-item a.nav-link, .js-scroll', function (event) {
+  const link = $(event.target).closest('a')[0];
+  if (!link) return;
 
-  // If we are on a widget page and the navbar link is to a section on the same page.
-  if (this.pathname === window.location.pathname && hash && $(hash).length && $('.js-widget-page').length > 0) {
-    // Prevent default click behavior.
-    event.preventDefault();
+  const hash = link.hash;
+  const samePageSection = link.pathname === window.location.pathname && hash &&
+    document.getElementById(hash.substring(1)) && $('.js-widget-page').length > 0;
+  const $menu = $('#navbar-content');
+  const mobileMenuOpen = window.matchMedia('(max-width: 991px)').matches && $menu.hasClass('show');
 
-    // Stop queued jumps and use one fast, constant-speed animation.
+  const scrollToSection = function () {
+    if (!samePageSection) return;
     $('html, body').stop(true);
+    const section = document.getElementById(hash.substring(1));
     const maxScroll = Math.max(0, document.documentElement.scrollHeight - window.innerHeight);
     const elementOffset = Math.max(0, Math.min(
-      Math.ceil($(hash).offset().top - getNavBarHeight()),
-      maxScroll,
+      Math.ceil($(section).offset().top - getNavBarHeight()), maxScroll,
     ));
-    const pixelsPerMillisecond = 24;
     const duration = window.matchMedia('(prefers-reduced-motion: reduce)').matches
-      ? 0
-      : Math.abs(elementOffset - window.scrollY) / pixelsPerMillisecond;
+      ? 0 : Math.abs(elementOffset - window.scrollY) / 24;
+    $('html, body').animate({scrollTop: elementOffset}, duration, 'linear');
+  };
 
-    $('html, body').animate(
-      {scrollTop: elementOffset},
-      duration,
-      'linear',
-    );
-  }
-});
-
-/* ---------------------------------------------------------------------------
- * Hide mobile collapsable menu on clicking a link.
- * --------------------------------------------------------------------------- */
-
-$(document).on('click', '.navbar-collapse.show', function (e) {
-  //get the <a> element that was clicked, even if the <span> element that is inside the <a> element is e.target
-  let targetElement = $(e.target).is('a') ? $(e.target) : $(e.target).parent();
-
-  if (targetElement.is('a') && targetElement.attr('class') != 'dropdown-toggle') {
-    $(this).collapse('hide');
+  if (samePageSection) event.preventDefault();
+  if (mobileMenuOpen && !$(link).hasClass('dropdown-toggle')) {
+    // Measure the destination after the expanded menu finishes closing.
+    if (samePageSection) $menu.one('hidden.bs.collapse', scrollToSection);
+    $menu.collapse('hide');
+  } else {
+    scrollToSection();
   }
 });
 

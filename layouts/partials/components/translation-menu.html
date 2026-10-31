@@ -1,0 +1,11 @@
+<details class="translation-menu notranslate" translate="no">
+  <summary aria-label="Choose website language"><i class="fas fa-globe" aria-hidden="true"></i> <span>Language</span> <span aria-hidden="true">⌄</span></summary>
+  <div class="translation-options">
+    <a href="{{ .Permalink }}" lang="en" hreflang="en">English <small>Original</small></a>
+    {{ range (slice (dict "code" "ar" "name" "العربية") (dict "code" "zh-CN" "name" "中文") (dict "code" "fr" "name" "Français") (dict "code" "ru" "name" "Русский") (dict "code" "es" "name" "Español")) }}
+    {{ $url := printf "https://translate.google.com/translate?sl=en&tl=%s&u=%s" .code ($.Permalink | urlquery) }}
+    <a href="{{ $url | safeURL }}" lang="{{ .code }}" hreflang="{{ .code }}" rel="noopener">{{ .name }}</a>
+    {{ end }}
+    <p>Automatic translation<br>via Google Translate</p>
+  </div>
+</details>

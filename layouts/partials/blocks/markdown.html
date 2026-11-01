@@ -11,11 +11,11 @@
 {{ if ne $columns "1" }}
   <div class="col-12 col-lg-8">
     {{ $text }}
-    {{ if eq $block.id "publications" }}{{ partial "components/collaboration-map" . }}{{ end }}
+    {{ if eq $block.id "collaborators" }}{{ partial "components/collaboration-map" . }}{{ end }}
   </div>
 {{ else }}
   <div class="col-12">
     {{ $text }}
-    {{ if eq $block.id "publications" }}{{ partial "components/collaboration-map" . }}{{ end }}
+    {{ if eq $block.id "collaborators" }}{{ partial "components/collaboration-map" . }}{{ end }}
   </div>
 {{ end }}

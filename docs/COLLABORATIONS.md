@@ -1,6 +1,6 @@
 # Collaboration map maintenance
 
-The map in Publications is built from the public Google Scholar profile `tn1nAw0AAAAJ` and publication-time institutional affiliation evidence. It does not infer nationality or substitute current workplaces for historical affiliations.
+The map in the Collaborators section, immediately after Publications is built from the public Google Scholar profile `tn1nAw0AAAAJ` and publication-time institutional affiliation evidence. It does not infer nationality or substitute current workplaces for historical affiliations.
 
 - `data/collaboration-research.json`: reviewed publication inventory, author identities, affiliations, country codes, source URLs, duplicate exclusions and unresolved records.
 - `data/collaboration-organizations.json`: reviewed institution-level parent organisations by country, with publication IDs and source URLs. Display organisation names only; do not show author names, university colleges/departments/labs, company divisions or office locations. Group repeated variants under the same root institution. Do not union a dual-affiliation author’s raw affiliation strings across all their countries.

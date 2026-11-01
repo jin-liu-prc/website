@@ -138,7 +138,7 @@ body.dark .wg-about-biography { background: linear-gradient(145deg, #1b3240, #15
 @media (min-width: 992px) {
   .navbar { min-height: 88px; padding-top: 8px; padding-bottom: 8px; }
   .navbar .main-menu-item { min-width: 0; }
-  #navbar-content > .navbar-nav { display: grid !important; grid-template-columns: repeat(6, max-content); width: 100%; justify-content: space-between; gap: 4px 8px; }
+  #navbar-content > .navbar-nav { display: grid !important; grid-template-columns: repeat(7, max-content); width: 100%; justify-content: space-between; gap: 4px 8px; }
   .navbar .main-menu-item .nav-link { padding: 6px 0; white-space: nowrap; }
 }
 .navbar .nav-icons:empty { display: none !important; }
@@ -185,7 +185,7 @@ body.dark .wg-about-biography { background: linear-gradient(145deg, #1b3240, #15
 .translation-options { width: 260px; max-width: calc(100vw - 48px); max-height: 70vh; overflow-y: auto; overscroll-behavior: contain; }
 
 /* Country-level collaboration map, within the Publications reading column. */
-.collaboration-map { margin-top: 36px; }
+.collaboration-map { margin-top: 0; }
 .collaboration-heading { display: flex; align-items: baseline; justify-content: space-between; flex-wrap: wrap; gap: 8px 16px; }
 .collaboration-heading h3 { margin: 0 !important; font-size: 1.2rem; }
 .collaboration-period { font-size: .72rem; color: var(--coast-text); }

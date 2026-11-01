@@ -1,9 +1,6 @@
 {{ $mapDataVersion := readFile "static/data/collaborations.json" | md5 }}
 <div class="collaboration-map" data-collaboration-map data-source="{{ "/data/collaborations.json" | absURL }}?v={{ $mapDataVersion }}">
-  <div class="collaboration-heading">
-    <h3>Collaborators around the world</h3>
-    <span class="collaboration-period">All years</span>
-  </div>
+  <p class="collaboration-period">All years</p>
   <p class="collaboration-intro">One marker per collaborating country. Larger markers represent more distinct coauthors.</p>
   <p class="collaboration-status" role="status">Loading collaboration map…</p>
   <div class="collaboration-chart" hidden>

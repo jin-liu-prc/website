@@ -11,6 +11,9 @@ main:
   - name: Publications
     url: "#publications"
     weight: 40
+  - name: Collaborators
+    url: "#collaborators"
+    weight: 45
   - name: Data
     url: "#data"
     weight: 50

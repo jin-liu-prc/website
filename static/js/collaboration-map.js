@@ -4,6 +4,7 @@
   const root = document.querySelector('[data-collaboration-map]');
   if (!root) return;
   const status = root.querySelector('.collaboration-status');
+  const loading = root.querySelector('.collaboration-loading');
   const chart = root.querySelector('.collaboration-chart');
   const svg = root.querySelector('.collaboration-world');
   const markers = root.querySelector('.collaboration-markers');
@@ -100,8 +101,8 @@
   }).then(result => {
     if (!Array.isArray(result.countries) || !result.countries.length) throw new Error('No verified affiliations');
     data = result;
-    root.querySelector('.collaboration-period').textContent = `All years · ${data.yearRange.join('–')}`;
-    status.textContent = `${data.totals.collaborators} distinct collaborators · ${data.countries.length} countries · updated ${new Intl.DateTimeFormat('en-AU', {day:'numeric', month:'long', year:'numeric', timeZone:'UTC'}).format(new Date(data.updated + 'T00:00:00Z'))}`;
+    root.querySelector('.collaboration-period').textContent = `Data cover ${data.yearRange.join('–')}.`;
+    status.textContent = `${data.totals.collaborators} distinct collaborators across ${data.countries.length} countries; updated ${new Intl.DateTimeFormat('en-AU', {day:'numeric', month:'long', year:'numeric', timeZone:'UTC'}).format(new Date(data.updated + 'T00:00:00Z'))}.`;
     data.countries.slice().sort((a, b) => a.name.localeCompare(b.name)).forEach(country => {
       const option = element('option', `${country.name} (${country.collaborators.length})`);
       option.value = country.code;
@@ -150,8 +151,11 @@
       sources.append(li);
     });
     chart.hidden = false;
+    if (loading) loading.hidden = true;
     updateView();
   }).catch(() => {
-    status.textContent = 'The map could not load. Please refresh the page or view the publication record on Google Scholar.';
+    const message = 'The map could not load. Please refresh the page or view the publication record on Google Scholar.';
+    if (loading) { loading.hidden = false; loading.textContent = message; }
+    else status.textContent = message;
   });
 })();

@@ -1,8 +1,6 @@
 {{ $mapDataVersion := readFile "static/data/collaborations.json" | md5 }}
 <div class="collaboration-map" data-collaboration-map data-source="{{ "/data/collaborations.json" | absURL }}?v={{ $mapDataVersion }}">
-  <p class="collaboration-period">All years</p>
-  <p class="collaboration-intro">One marker per collaborating country. Larger markers represent more distinct coauthors.</p>
-  <p class="collaboration-status" role="status">Loading collaboration map…</p>
+  <p class="collaboration-loading" role="status">Loading collaboration map…</p>
   <div class="collaboration-chart" hidden>
     <div class="collaboration-map-frame">
       <svg class="collaboration-world" viewBox="0 0 960 480" role="group" aria-label="World map of coauthor affiliations">
@@ -18,6 +16,7 @@
       </div>
       <div class="collaboration-map-hint">Select a marker to explore</div>
     </div>
+    <p class="collaboration-caption"><span class="collaboration-period">All years.</span> <span class="collaboration-intro">One marker per collaborating country. Larger markers represent more distinct coauthors.</span> <span class="collaboration-status" role="status"></span></p>
     <div class="collaboration-map-key" aria-hidden="true"><span class="collaboration-key-dot"></span><span>Fewer coauthors</span><span class="collaboration-key-dot large"></span><span>More coauthors</span></div>
     <div class="collaboration-country-control">
       <label for="collaboration-country">Explore a country</label>

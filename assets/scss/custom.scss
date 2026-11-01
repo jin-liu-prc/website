@@ -186,11 +186,6 @@ body.dark .wg-about-biography { background: linear-gradient(145deg, #1b3240, #15
 
 /* Country-level collaboration map, within the Publications reading column. */
 .collaboration-map { margin-top: 0; }
-.collaboration-heading { display: flex; align-items: baseline; justify-content: space-between; flex-wrap: wrap; gap: 8px 16px; }
-.collaboration-heading h3 { margin: 0 !important; font-size: 1.2rem; }
-.collaboration-period { font-size: .72rem; color: var(--coast-text); }
-.collaboration-map .collaboration-intro { margin: 12px 0 10px; font-size: .82rem; }
-.collaboration-map .collaboration-status { margin: 0 0 18px; font-size: .7rem; color: var(--coast-text); }
 .collaboration-chart[hidden] { display: none; }
 .collaboration-map-frame { position: relative; border: 1px solid var(--coast-line); border-radius: 12px; background: #f7fbfc; overflow: hidden; }
 .collaboration-world { display: block; width: 100%; height: auto; aspect-ratio: 2 / 1; }
@@ -225,3 +220,8 @@ body.dark .wg-about-biography { background: linear-gradient(145deg, #1b3240, #15
   .collaboration-country-control select { width: 100%; }
   .collaboration-map-key { justify-content: flex-start; }
 }
+
+.collaboration-caption { margin: 14px 0 10px; font-size: .75rem; line-height: 1.7; color: var(--coast-text); }
+.collaboration-caption .collaboration-period, .collaboration-caption .collaboration-intro, .collaboration-caption .collaboration-status { font: inherit; color: inherit; margin: 0; }
+.collaboration-loading { font-size: .75rem; }
+.collaboration-loading[hidden] { display: none; }

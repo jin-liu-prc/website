@@ -72,7 +72,8 @@
         {{ $target := "" }}
         {{ if not $scheme }}
           {{ $link = .link | relLangURL }}
-        {{ else if in (slice "http" "https") $scheme }}
+        {{ end }}
+        {{ if or (in (slice "http" "https") $scheme) (eq (lower (path.Ext (urls.Parse .link).Path)) ".pdf") }}
           {{ $target = "target=\"_blank\" rel=\"noopener\"" }}
         {{ end }}
         <li>

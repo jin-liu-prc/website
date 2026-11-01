@@ -1,0 +1,4 @@
+{{- /* Open web destinations and PDF documents in a new tab; keep anchors and email links in place. */ -}}
+{{- $url := urls.Parse .Destination -}}
+{{- $new_tab := or (in (slice "http" "https") $url.Scheme) (strings.HasPrefix .Destination "//") (eq (lower (path.Ext $url.Path)) ".pdf") -}}
+<a href="{{ .Destination | safeURL }}"{{ with .Title }} title="{{ . }}"{{ end }}{{ if $new_tab }} target="_blank" rel="noopener"{{ end }}>{{ .Text | safeHTML }}</a>

@@ -32,8 +32,10 @@ Use the allowed public profile URL `https://scholar.google.com/citations?user=tn
 
 `updated` is the date of the last reviewed data change, not a promise that every attempted monthly check succeeded. Keep the previous value when nothing changes. Notify Jin only after a meaningful published change or when user action is needed.
 
-Marker size continues to reflect distinct coauthor counts, even though country details list root research organisations. Radii range from 6 to 16 SVG units: a minimum makes small markers visible and a capped maximum keeps the largest markers restrained. The scale preserves count ordering, rather than exact area ratios.
+Marker size continues to reflect distinct coauthor counts, even though country details list root research organisations. Visible diameters range from 18 to 26 CSS pixels, recalculated on resize and zoom: a minimum makes small markers visible on phones and a capped maximum keeps the largest markers restrained. The scale preserves count ordering, rather than exact area ratios.
 
 Country details list parent organisations with distinct coauthored publication counts in brackets, ordered from highest to lowest count (alphabetical ties). Do not show author names or expandable per-organisation paper lists. Count each eligible publication only once per organisation. The refresh schedule is monthly on the first day at 09:00 Australia/Melbourne.
+
+Match map captions, country details, organisation lists, legend and country selector to the website's general body text: 1rem, 1.75 line height and normal weight. Combine the selected country's name and organisation count with “Numbers in brackets show distinct coauthored publications.” in a single paragraph, without a bold heading. Keep the map's overall data description in one paragraph below the map. Legend dots and labels should wrap together on small screens.
 
 Keep methodology and publication-source evidence in the repository for maintenance. Do not display the “How this map is counted and sourced” or “Publication sources” sections on the website.

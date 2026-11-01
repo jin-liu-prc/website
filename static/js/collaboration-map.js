@@ -24,6 +24,20 @@
     return [(country.longitude + 180) * 960 / 360, (90 - country.latitude) * 480 / 180];
   }
 
+  function updateMarkerSizes() {
+    const width = svg.getBoundingClientRect().width;
+    if (!data || !width) return;
+    const unitsPerPixel = svg.viewBox.baseVal.width / width;
+    const maxCount = Math.max(...data.countries.map(c => c.collaborators.length));
+    markers.querySelectorAll('[data-country]').forEach(marker => {
+      const count = Number(marker.dataset.count);
+      // Keep circles 18–26 CSS pixels wide, including on phones and at every zoom level.
+      const radiusPixels = 9 + 4 * Math.sqrt((count - 1) / Math.max(1, maxCount - 1));
+      marker.querySelector('.collaboration-marker-dot').setAttribute('r', radiusPixels * unitsPerPixel);
+      marker.querySelector('.collaboration-marker-hit').setAttribute('r', Math.max(14, radiusPixels + 3) * unitsPerPixel);
+    });
+  }
+
   function updateView() {
     const w = 960 / zoom, h = 480 / zoom;
     center[0] = Math.max(w / 2, Math.min(960 - w / 2, center[0]));
@@ -34,6 +48,7 @@
     root.querySelector('[data-map-zoom="in"]').disabled = zoom === 6;
     root.querySelector('.collaboration-map-hint').textContent = zoom > 1
       ? 'Drag to pan · select a marker to explore' : 'Select a marker to explore';
+    updateMarkerSizes();
   }
 
   function selectCountry(code) {
@@ -50,8 +65,7 @@
       return;
     }
     const organizations = country.organizations || [];
-    selection.append(element('h4', `${country.name} · ${organizations.length} ${organizations.length === 1 ? 'research organisation' : 'research organisations'}`));
-    selection.append(element('p', 'Numbers in brackets show distinct coauthored publications.', 'collaboration-organization-note'));
+    selection.append(element('p', `${country.name} · ${organizations.length} ${organizations.length === 1 ? 'research organisation' : 'research organisations'}. Numbers in brackets show distinct coauthored publications.`, 'collaboration-country-summary'));
     const list = element('ul', undefined, 'collaboration-organizations');
     organizations.slice().sort((a, b) => b.workIds.length - a.workIds.length || a.name.localeCompare(b.name)).forEach(organization => {
       const li = element('li', `${organization.name} (${organization.workIds.length})`);
@@ -85,6 +99,11 @@
     updateView();
   });
   ['pointerup', 'pointercancel'].forEach(type => svg.addEventListener(type, () => { drag = null; }));
+  if ('ResizeObserver' in window) {
+    new ResizeObserver(updateMarkerSizes).observe(svg);
+  } else {
+    window.addEventListener('resize', updateMarkerSizes);
+  }
   countrySelect.addEventListener('change', () => selectCountry(countrySelect.value));
 
   fetch(root.dataset.source).then(response => {
@@ -100,15 +119,12 @@
       option.value = country.code;
       countrySelect.append(option);
     });
-    // Keep small countries visible while preserving count ordering and the 16-unit maximum.
-    const maxCount = Math.max(...data.countries.map(c => c.collaborators.length));
-    const minRadius = 6;
-    const maxRadius = 16;
     // Large bubbles first so small European countries remain selectable above them.
     data.countries.slice().sort((a, b) => b.collaborators.length - a.collaborators.length).forEach(country => {
       const [x, y] = project(country);
       const group = document.createElementNS(ns, 'g');
       group.dataset.country = country.code;
+      group.dataset.count = country.collaborators.length;
       group.classList.add('collaboration-marker');
       group.setAttribute('role', 'button');
       group.setAttribute('tabindex', '0');
@@ -117,8 +133,7 @@
       const title = document.createElementNS(ns, 'title');
       title.textContent = `${country.name}: ${country.collaborators.length}`;
       group.append(title);
-      const radius = minRadius + (maxRadius - minRadius) *
-        Math.sqrt((country.collaborators.length - 1) / Math.max(1, maxCount - 1));
+      const radius = 9; // Initial value; updateView measures the actual display width before rendering.
       const hit = document.createElementNS(ns, 'circle');
       hit.setAttribute('cx', x); hit.setAttribute('cy', y); hit.setAttribute('r', Math.max(10, radius));
       hit.setAttribute('fill', 'transparent'); hit.classList.add('collaboration-marker-hit');

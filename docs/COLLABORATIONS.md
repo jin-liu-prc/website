@@ -32,4 +32,4 @@ Use the allowed public profile URL `https://scholar.google.com/citations?user=tn
 
 `updated` is the date of the last reviewed data change, not a promise that every attempted daily check succeeded. Keep the previous value when nothing changes. Notify Jin only after a meaningful published change or when user action is needed.
 
-Marker area continues to represent distinct coauthors, even though country details list root research organisations. The largest circle radius is capped at 16 SVG units using one common scale factor, preserving relative areas.
+Marker size continues to reflect distinct coauthor counts, even though country details list root research organisations. Radii range from 6 to 16 SVG units: a minimum makes small markers visible and a capped maximum keeps the largest markers restrained. The scale preserves count ordering, rather than exact area ratios.

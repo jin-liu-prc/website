@@ -119,9 +119,10 @@
       option.value = country.code;
       countrySelect.append(option);
     });
-    // Use a single scale factor so the largest radius stays at 16 SVG units and area ratios remain exact.
+    // Keep small countries visible while preserving count ordering and the 16-unit maximum.
     const maxCount = Math.max(...data.countries.map(c => c.collaborators.length));
-    const radiusScale = Math.min(5, 16 / Math.sqrt(maxCount));
+    const minRadius = 6;
+    const maxRadius = 16;
     // Large bubbles first so small European countries remain selectable above them.
     data.countries.slice().sort((a, b) => b.collaborators.length - a.collaborators.length).forEach(country => {
       const [x, y] = project(country);
@@ -135,7 +136,8 @@
       const title = document.createElementNS(ns, 'title');
       title.textContent = `${country.name}: ${country.collaborators.length}`;
       group.append(title);
-      const radius = radiusScale * Math.sqrt(country.collaborators.length);
+      const radius = minRadius + (maxRadius - minRadius) *
+        Math.sqrt((country.collaborators.length - 1) / Math.max(1, maxCount - 1));
       const hit = document.createElementNS(ns, 'circle');
       hit.setAttribute('cx', x); hit.setAttribute('cy', y); hit.setAttribute('r', Math.max(10, radius));
       hit.setAttribute('fill', 'transparent'); hit.classList.add('collaboration-marker-hit');

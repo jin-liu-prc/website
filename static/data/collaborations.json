@@ -1,0 +1,1203 @@
+{
+  "schemaVersion": 1,
+  "updated": "2026-11-01",
+  "profileUrl": "https://scholar.google.com/citations?user=tn1nAw0AAAAJ&hl=en",
+  "yearRange": [
+    2018,
+    2026
+  ],
+  "totals": {
+    "collaborators": 65,
+    "countryPairs": 68
+  },
+  "coverage": {
+    "inventoryRecords": 32,
+    "verifiedCoauthoredWorks": 28,
+    "unresolvedWorks": 2
+  },
+  "countries": [
+    {
+      "name": "Australia",
+      "longitude": 134.04972,
+      "latitude": -24.129522,
+      "code": "AU",
+      "collaborators": [
+        {
+          "id": "alberto-meucci",
+          "name": "Alberto Meucci",
+          "affiliations": [
+            "Climate Science Centre, CSIRO Environment, Aspendale, Australia",
+            "Climate Science Centre, CSIRO Environment, Aspendale, VIC, Australia",
+            "Department of Infrastructure Engineering University of Melbourne  Melbourne VIC Australia",
+            "Department of Infrastructure Engineering, The University of Melbourne, Melbourne, VIC, Australia",
+            "Department of Infrastructure Engineering, University of Melbourne, Melbourne, VIC, Australia",
+            "Department of Infrastructure Engineering, University of Melbourne, Melbourne, Victoria, Australia",
+            "Department of Infrastructure Engineering, University of Melbourne, Parkville, Melbourne, Victoria, Australia",
+            "University of Melbourne,",
+            "University of Melbourne, Australia",
+            "University of Melbourne, Melbourne School of Engineering, Department of Infrastructure Engineering, Australia",
+            "University of Melbourne, Parkville, Australia"
+          ],
+          "workIds": [
+            "0",
+            "3",
+            "4",
+            "5",
+            "6",
+            "10",
+            "12",
+            "21",
+            "23",
+            "28",
+            "29"
+          ]
+        },
+        {
+          "id": "alexander-v-babanin",
+          "name": "Alexander V. Babanin",
+          "affiliations": [
+            "Department of Infrastructure Engineering, University of Melbourne, Melbourne, Victoria, Australia",
+            "Department of infrastructure Engineering, University of Melbourne, Melbourne, Victoria, Australia",
+            "The University of Melbourne",
+            "University of Melbourne, Parkville, Australia"
+          ],
+          "workIds": [
+            "0",
+            "4",
+            "7",
+            "15",
+            "17",
+            "18",
+            "19",
+            "21"
+          ]
+        },
+        {
+          "id": "azam-dolatshah",
+          "name": "Azam Dolatshah",
+          "affiliations": [
+            "Swinburne University of Technology"
+          ],
+          "workIds": [
+            "2"
+          ]
+        },
+        {
+          "id": "blake-m-allan",
+          "name": "Blake M. Allan",
+          "affiliations": [
+            "Deakin University, Warrnambool, Australia",
+            "Department of Energy Environment and Climate Action, Melbourne, Victoria, Australia",
+            "Department of Energy, Environment and Climate Action, East Melbourne, Vic, 3002, Australia",
+            "School of Life and Environmental Sciences, Deakin University, Warrnambool, Vic, 3280, Australia"
+          ],
+          "workIds": [
+            "8",
+            "13",
+            "21",
+            "22"
+          ]
+        },
+        {
+          "id": "c-leach",
+          "name": "C. Leach",
+          "affiliations": [
+            "School of Geography, Earth & Atmospheric Sciences, The University of Melbourne, Parkville, Vic, 3010, Australia"
+          ],
+          "workIds": [
+            "13"
+          ]
+        },
+        {
+          "id": "claire-trenham",
+          "name": "Claire Trenham",
+          "affiliations": [
+            "Climate Science Centre, CSIRO Environment, Canberra, Australia"
+          ],
+          "workIds": [
+            "23"
+          ]
+        },
+        {
+          "id": "danial-khojasteh",
+          "name": "Danial Khojasteh",
+          "affiliations": [
+            "UNSW"
+          ],
+          "workIds": [
+            "2"
+          ]
+        },
+        {
+          "id": "daniel-ierodiaconou",
+          "name": "Daniel Ierodiaconou",
+          "affiliations": [
+            "Deakin University, Warrnambool, Australia",
+            "School of Life and Environmental Sciences, Deakin University, Warrnambool, VIC, Australia",
+            "School of Life and Environmental Sciences, Deakin University, Warrnambool, Vic, 3280, Australia",
+            "School of Life and Environmental Sciences, Deakin University, Warrnambool, Victoria, Australia"
+          ],
+          "workIds": [
+            "0",
+            "4",
+            "8",
+            "13",
+            "20",
+            "21",
+            "22"
+          ]
+        },
+        {
+          "id": "david-m-kennedy",
+          "name": "David M. Kennedy",
+          "affiliations": [
+            "School of Geography, Earth & Atmospheric Sciences, The University of Melbourne, Parkville, Vic, 3010, Australia",
+            "School of Geography, Earth & Atmospheric Sciences, University of Melbourne, Parkville, Vic, 3010, Australia",
+            "School of Geography, Earth and Atmospheric Sciences, The University of Melbourne, Parkville, VIC, Australia",
+            "School of Geography, Earth and Atmospheric Sciences, The University of Melbourne, Parkville, Victoria, Australia",
+            "University of Melbourne, Parkville, Australia"
+          ],
+          "workIds": [
+            "8",
+            "13",
+            "20",
+            "21",
+            "22"
+          ]
+        },
+        {
+          "id": "ebru-kirezci",
+          "name": "Ebru Kirezci",
+          "affiliations": [
+            "Department of Infrastructure Engineering, University of Melbourne, Melbourne, VIC 3010, Australia"
+          ],
+          "workIds": [
+            "11"
+          ]
+        },
+        {
+          "id": "elisa-zavadil",
+          "name": "Elisa Zavadil",
+          "affiliations": [
+            "Department of Energy Environment and Climate Action, Melbourne, Victoria, Australia"
+          ],
+          "workIds": [
+            "22"
+          ]
+        },
+        {
+          "id": "huy-quang-tran",
+          "name": "Huy Quang Tran",
+          "affiliations": [
+            "University of Melbourne, Parkville, Australia"
+          ],
+          "workIds": [
+            "21"
+          ]
+        },
+        {
+          "id": "ian-r-young",
+          "name": "Ian R. Young",
+          "affiliations": [
+            "Department of Infrastructure Engineering University of Melbourne  Melbourne VIC Australia",
+            "Department of Infrastructure Engineering, The University of Melbourne, Melbourne, VIC, Australia",
+            "Department of Infrastructure Engineering, University of Melbourne, Melbourne, VIC 3010, Australia",
+            "Department of Infrastructure Engineering, University of Melbourne, Melbourne, VIC, Australia",
+            "Department of Infrastructure Engineering, University of Melbourne, Melbourne, Victoria, Australia",
+            "Department of Infrastructure Engineering, University of Melbourne, Parkville, Melbourne, Victoria, Australia",
+            "University of Melbourne,",
+            "University of Melbourne, Australia",
+            "University of Melbourne, Melbourne School of Engineering, Department of Infrastructure Engineering, Australia",
+            "University of Melbourne, Parkville, Australia"
+          ],
+          "workIds": [
+            "0",
+            "3",
+            "4",
+            "5",
+            "6",
+            "10",
+            "11",
+            "12",
+            "21",
+            "23",
+            "28",
+            "29"
+          ]
+        },
+        {
+          "id": "jak-mccarroll",
+          "name": "Jak McCarroll",
+          "affiliations": [
+            "Department of Energy, Environment and Climate Action, East Melbourne, Vic, 3002, Australia",
+            "Department of Energy, Environment and Climate Action, Victoria State Government, Australia",
+            "Department of Environment, Land, Water and Planning, Melbourne, Australia",
+            "Regional Coastal Adaptation and Planning, Department of Energy, Environment, and Climate Action, East Melbourne, VIC, Australia",
+            "School of Geography, Earth & Atmospheric Sciences, University of Melbourne, Parkville, Vic, 3010, Australia",
+            "School of Geography, Earth and Atmospheric Sciences, The University of Melbourne, Parkville, Victoria, Australia"
+          ],
+          "workIds": [
+            "8",
+            "20",
+            "21",
+            "22",
+            "24",
+            "25"
+          ]
+        },
+        {
+          "id": "joey-voermans",
+          "name": "Joey Voermans",
+          "affiliations": [
+            "Department of infrastructure Engineering, University of Melbourne, Melbourne, Victoria, Australia"
+          ],
+          "workIds": [
+            "15"
+          ]
+        },
+        {
+          "id": "jozef-syktus",
+          "name": "Jozef Syktus",
+          "affiliations": [
+            "School of the Environment, The University of Queensland, Brisbane, QLD, Australia",
+            "The University of Queensland, School of the Environment, Brisbane, Australia"
+          ],
+          "workIds": [
+            "12",
+            "23"
+          ]
+        },
+        {
+          "id": "karina-j-sorrell",
+          "name": "Karina J. Sorrell",
+          "affiliations": [
+            "School of Geography, Earth & Atmospheric Sciences, The University of Melbourne, Parkville, Vic, 3010, Australia"
+          ],
+          "workIds": [
+            "13"
+          ]
+        },
+        {
+          "id": "mandana-ghanavati",
+          "name": "Mandana Ghanavati",
+          "affiliations": [
+            "Department of Infrastructure Engineering, University of Melbourne, Melbourne, VIC 3010, Australia"
+          ],
+          "workIds": [
+            "11"
+          ]
+        },
+        {
+          "id": "marcus-thatcher",
+          "name": "Marcus Thatcher",
+          "affiliations": [
+            "Climate Science Centre, CSIRO Environment, Aspendale, VIC, Australia"
+          ],
+          "workIds": [
+            "12"
+          ]
+        },
+        {
+          "id": "nicolas-pucino",
+          "name": "Nicolas Pucino",
+          "affiliations": [
+            "Deakin University, Warrnambool, Australia",
+            "School of Life and Environmental Sciences, Deakin University, Warrnambool, Vic, 3280, Australia"
+          ],
+          "workIds": [
+            "13",
+            "21"
+          ]
+        },
+        {
+          "id": "qingxiang-liu",
+          "name": "Qingxiang Liu",
+          "affiliations": [
+            "Department of Energy, Environment and Climate Action, Melbourne, Victoria, Australia",
+            "Department of Infrastructure Engineering, University of Melbourne, Melbourne, Victoria, Australia",
+            "Department of infrastructure Engineering, University of Melbourne, Melbourne, Victoria, Australia",
+            "Ocean University of China",
+            "Physical Oceanography Laboratory, Ocean University of China, Qingdao, China",
+            "The University of Melbourne"
+          ],
+          "workIds": [
+            "0",
+            "4",
+            "15",
+            "19"
+          ]
+        },
+        {
+          "id": "rafael-c-carvalho",
+          "name": "Rafael C. Carvalho",
+          "affiliations": [
+            "Monash University, Clayton, Australia",
+            "School of Life and Environmental Sciences, Deakin University, Warrnambool, Vic, 3280, Australia"
+          ],
+          "workIds": [
+            "13",
+            "21"
+          ]
+        },
+        {
+          "id": "robbi-bishop-taylor",
+          "name": "Robbi Bishop-Taylor",
+          "affiliations": [
+            "Geoscience Australia, Symonston, Australia"
+          ],
+          "workIds": [
+            "21"
+          ]
+        },
+        {
+          "id": "ron-hoeke",
+          "name": "Ron Hoeke",
+          "affiliations": [
+            "Climate Science Centre, CSIRO Environment, Aspendale, Australia"
+          ],
+          "workIds": [
+            "23"
+          ]
+        },
+        {
+          "id": "rui-li",
+          "name": "Rui Li",
+          "affiliations": [
+            "Department of Infrastructure Engineering, University of Melbourne, Melbourne, Victoria, Australia",
+            "Ocean University of China",
+            "Physical Oceanography Laboratory, Ocean University of China, Qingdao, Shandong, China",
+            "The University of Melbourne",
+            "University of Melbourne"
+          ],
+          "workIds": [
+            "3",
+            "7",
+            "17",
+            "18",
+            "19"
+          ]
+        },
+        {
+          "id": "runjie-yuan",
+          "name": "Runjie Yuan",
+          "affiliations": [
+            "School of Geography, Earth and Atmospheric Sciences, The University of Melbourne, Parkville, VIC, Australia"
+          ],
+          "workIds": [
+            "20"
+          ]
+        },
+        {
+          "id": "sasan-tavakoli",
+          "name": "Sasan Tavakoli",
+          "affiliations": [
+            "Australian Maritime College, University of Tasmania",
+            "University of Melbourne"
+          ],
+          "workIds": [
+            "2"
+          ]
+        },
+        {
+          "id": "shuo-li",
+          "name": "Shuo Li",
+          "affiliations": [
+            "Department of Infrastructure Engineering, University of Melbourne, Melbourne, Victoria, Australia",
+            "The University of Melbourne"
+          ],
+          "workIds": [
+            "3",
+            "7"
+          ]
+        },
+        {
+          "id": "stephanie-doumtsis",
+          "name": "Stephanie Doumtsis",
+          "affiliations": [
+            "School of Geography, Earth & Atmospheric Sciences, The University of Melbourne, Parkville, Vic, 3010, Australia"
+          ],
+          "workIds": [
+            "13"
+          ]
+        },
+        {
+          "id": "vanessa-hernaman",
+          "name": "Vanessa Hernaman",
+          "affiliations": [
+            "Climate Science Centre, CSIRO Environment, Aspendale, Australia"
+          ],
+          "workIds": [
+            "23"
+          ]
+        },
+        {
+          "id": "xingkun-xu",
+          "name": "Xingkun Xu",
+          "affiliations": [
+            "Department of Infrastructure Engineering, University of Melbourne, Melbourne, Victoria, Australia"
+          ],
+          "workIds": [
+            "4"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "China",
+      "longitude": 106.337289,
+      "latitude": 32.498178,
+      "code": "CN",
+      "collaborators": [
+        {
+          "id": "dongfeng-xu",
+          "name": "Dongfeng Xu",
+          "affiliations": [
+            "Ministry of Natural Resources",
+            "Second Institute of Oceanography",
+            "State Key Laboratory of Satellite Ocean Environment Dynamics",
+            "State Oceanic Administration"
+          ],
+          "workIds": [
+            "9",
+            "14"
+          ]
+        },
+        {
+          "id": "fei-chai",
+          "name": "Fei Chai",
+          "affiliations": [
+            "Ministry of Natural Resources",
+            "Second Institute of Oceanography",
+            "State Key Laboratory of Satellite Ocean Environment Dynamics"
+          ],
+          "workIds": [
+            "1"
+          ]
+        },
+        {
+          "id": "hailong-liu",
+          "name": "Hailong Liu",
+          "affiliations": [
+            "Institute of Atmospheric Physics",
+            "State Key Laboratory of Numerical Modeling for Atmospheric Sciences and Geophysical Fluid Dynamics"
+          ],
+          "workIds": [
+            "1"
+          ]
+        },
+        {
+          "id": "jian-sun",
+          "name": "Jian Sun",
+          "affiliations": [
+            "Ocean University of China"
+          ],
+          "workIds": [
+            "19"
+          ]
+        },
+        {
+          "id": "juanjuan-dai",
+          "name": "Juanjuan Dai",
+          "affiliations": [
+            "Zhejiang University"
+          ],
+          "workIds": [
+            "9"
+          ]
+        },
+        {
+          "id": "jun-wang",
+          "name": "Jun Wang",
+          "affiliations": [
+            "Second Institute of Oceanography",
+            "State Key Laboratory of Satellite Ocean Environment Dynamics",
+            "State Oceanic Administration"
+          ],
+          "workIds": [
+            "9"
+          ]
+        },
+        {
+          "id": "kejian-wu",
+          "name": "Kejian Wu",
+          "affiliations": [
+            "Ocean University of China"
+          ],
+          "workIds": [
+            "7",
+            "17",
+            "18",
+            "19"
+          ]
+        },
+        {
+          "id": "liang-zhao",
+          "name": "Liang Zhao",
+          "affiliations": [
+            "Zhejiang University"
+          ],
+          "workIds": [
+            "16"
+          ]
+        },
+        {
+          "id": "lingyun-lv",
+          "name": "Lingyun Lv",
+          "affiliations": [
+            "Ocean University of China"
+          ],
+          "workIds": [
+            "7"
+          ]
+        },
+        {
+          "id": "pengfei-lin",
+          "name": "Pengfei Lin",
+          "affiliations": [
+            "Institute of Atmospheric Physics",
+            "State Key Laboratory of Numerical Modeling for Atmospheric Sciences and Geophysical Fluid Dynamics"
+          ],
+          "workIds": [
+            "1"
+          ]
+        },
+        {
+          "id": "qingxiang-liu",
+          "name": "Qingxiang Liu",
+          "affiliations": [
+            "Department of Infrastructure Engineering, University of Melbourne, Melbourne, Victoria, Australia",
+            "Ocean University of China",
+            "Physical Oceanography Laboratory, Ocean University of China, Qingdao, China",
+            "The University of Melbourne"
+          ],
+          "workIds": [
+            "0",
+            "4",
+            "19"
+          ]
+        },
+        {
+          "id": "rui-li",
+          "name": "Rui Li",
+          "affiliations": [
+            "College of Oceanic and Atmospheric Sciences, Ocean University of China, Qingdao, China",
+            "Department of Infrastructure Engineering, University of Melbourne, Melbourne, Victoria, Australia",
+            "Ocean University of China",
+            "Physical Oceanography Laboratory, Ocean University of China, Qingdao, Shandong, China",
+            "The University of Melbourne"
+          ],
+          "workIds": [
+            "3",
+            "7",
+            "15",
+            "17",
+            "19"
+          ]
+        },
+        {
+          "id": "ruyan-zhang",
+          "name": "Ruyan Zhang",
+          "affiliations": [
+            "Henan University"
+          ],
+          "workIds": [
+            "17"
+          ]
+        },
+        {
+          "id": "shang-min-long",
+          "name": "Shang-Min Long",
+          "affiliations": [
+            "Hohai University"
+          ],
+          "workIds": [
+            "19"
+          ]
+        },
+        {
+          "id": "shuai-zhang",
+          "name": "Shuai Zhang",
+          "affiliations": [
+            "Gongyi Yellow River Bureau, Operational Observation Section, China"
+          ],
+          "workIds": [
+            "17"
+          ]
+        },
+        {
+          "id": "shuo-li",
+          "name": "Shuo Li",
+          "affiliations": [
+            "College of Oceanic and Atmospheric Sciences, Ocean University of China, Qingdao, China"
+          ],
+          "workIds": [
+            "15"
+          ]
+        },
+        {
+          "id": "wenqing-zhang",
+          "name": "Wenqing Zhang",
+          "affiliations": [
+            "Ocean University of China"
+          ],
+          "workIds": [
+            "7"
+          ]
+        },
+        {
+          "id": "xianghui-dong",
+          "name": "Xianghui Dong",
+          "affiliations": [
+            "Ocean University of China"
+          ],
+          "workIds": [
+            "7"
+          ]
+        },
+        {
+          "id": "xin-zhang",
+          "name": "Xin Zhang",
+          "affiliations": [
+            "Ocean University of China"
+          ],
+          "workIds": [
+            "17"
+          ]
+        },
+        {
+          "id": "yafei-lv",
+          "name": "Yafei Lv",
+          "affiliations": [
+            "Zhejiang University"
+          ],
+          "workIds": [
+            "16"
+          ]
+        },
+        {
+          "id": "yajie-wu",
+          "name": "Yajie Wu",
+          "affiliations": [
+            "Ocean University of China"
+          ],
+          "workIds": [
+            "18"
+          ]
+        },
+        {
+          "id": "yeping-yuan",
+          "name": "Yeping Yuan",
+          "affiliations": [
+            "Ministry of Natural Resources",
+            "Second Institute of Oceanography",
+            "State Key Laboratory of Satellite Ocean Environment Dynamics",
+            "State Oceanic Administration",
+            "Zhejiang University"
+          ],
+          "workIds": [
+            "1",
+            "9",
+            "14",
+            "16"
+          ]
+        },
+        {
+          "id": "yuntao-wang",
+          "name": "Yuntao Wang",
+          "affiliations": [
+            "Ministry of Natural Resources",
+            "Second Institute of Oceanography",
+            "State Key Laboratory of Satellite Ocean Environment Dynamics"
+          ],
+          "workIds": [
+            "1",
+            "14"
+          ]
+        },
+        {
+          "id": "zhiguo-he",
+          "name": "Zhiguo He",
+          "affiliations": [
+            "Second Institute of Oceanography",
+            "State Key Laboratory of Satellite Ocean Environment Dynamics",
+            "State Oceanic Administration",
+            "Zhejiang University"
+          ],
+          "workIds": [
+            "16"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Denmark",
+      "longitude": 9.018163,
+      "latitude": 55.966965,
+      "code": "DK",
+      "collaborators": [
+        {
+          "id": "yanlin-shao",
+          "name": "Yanlin Shao",
+          "affiliations": [
+            "Technical University of Denmark"
+          ],
+          "workIds": [
+            "2"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Germany",
+      "longitude": 9.678348,
+      "latitude": 50.961733,
+      "code": "DE",
+      "collaborators": [
+        {
+          "id": "mansi-singh",
+          "name": "Mansi Singh",
+          "affiliations": [
+            "Katholische Universität Eichstätt-Ingolstadt"
+          ],
+          "workIds": [
+            "2"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Greece",
+      "longitude": 21.72568,
+      "latitude": 39.492763,
+      "code": "GR",
+      "collaborators": [
+        {
+          "id": "spyros-hirdaris",
+          "name": "Spyros Hirdaris",
+          "affiliations": [
+            "Global Ship Systems Centre, American Bureau of Shipping, Athens"
+          ],
+          "workIds": [
+            "2"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Italy",
+      "longitude": 11.076907,
+      "latitude": 44.732482,
+      "code": "IT",
+      "collaborators": [
+        {
+          "id": "matteo-lorenzo",
+          "name": "Matteo Lorenzo",
+          "affiliations": [
+            "Department of Physics and INFN, University of Turin, Turin, Italy",
+            "Institute of Atmospheric Sciences and Climate, National Research Council, Turin, Italy"
+          ],
+          "workIds": [
+            "12",
+            "23"
+          ]
+        },
+        {
+          "id": "miguel-onorato",
+          "name": "Miguel Onorato",
+          "affiliations": [
+            "Department of Physics and INFN, University of Turin, Turin, Italy"
+          ],
+          "workIds": [
+            "23"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Netherlands",
+      "longitude": 5.61144,
+      "latitude": 52.422211,
+      "code": "NL",
+      "collaborators": [
+        {
+          "id": "apostolos-grammatikopoulos",
+          "name": "Apostolos Grammatikopoulos",
+          "affiliations": [
+            "Delft University of Technology"
+          ],
+          "workIds": [
+            "2"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "New Zealand",
+      "longitude": 172.787,
+      "latitude": -39.759,
+      "code": "NZ",
+      "collaborators": [
+        {
+          "id": "eddie-beetham",
+          "name": "Eddie Beetham",
+          "affiliations": [
+            "Tonkin and Taylor Ltd., Auckland, New Zealand"
+          ],
+          "workIds": [
+            "20"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Norway",
+      "longitude": 9.679975,
+      "latitude": 61.357092,
+      "code": "NO",
+      "collaborators": [
+        {
+          "id": "hui-cheng",
+          "name": "Hui Cheng",
+          "affiliations": [
+            "AKVA Group ASA, Bergen"
+          ],
+          "workIds": [
+            "2"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Portugal",
+      "longitude": -8.271754,
+      "latitude": 39.606675,
+      "code": "PT",
+      "collaborators": [
+        {
+          "id": "shan-wang",
+          "name": "Shan Wang",
+          "affiliations": [
+            "Instituto Superior Técnico, Universidade de Lisboa"
+          ],
+          "workIds": [
+            "2"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Singapore",
+      "longitude": 103.82,
+      "latitude": 1.35,
+      "code": "SG",
+      "collaborators": [
+        {
+          "id": "yuzhu-pearl-li",
+          "name": "Yuzhu Pearl Li",
+          "affiliations": [
+            "National University of Singapore"
+          ],
+          "workIds": [
+            "2"
+          ]
+        },
+        {
+          "id": "zhengyu-hu",
+          "name": "Zhengyu Hu",
+          "affiliations": [
+            "National University of Singapore"
+          ],
+          "workIds": [
+            "2"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "United Kingdom",
+      "longitude": -2.116346,
+      "latitude": 54.402739,
+      "code": "GB",
+      "collaborators": [
+        {
+          "id": "luofeng-huang",
+          "name": "Luofeng Huang",
+          "affiliations": [
+            "Cranfield University"
+          ],
+          "workIds": [
+            "2"
+          ]
+        },
+        {
+          "id": "saeed-hosseinzadeh",
+          "name": "Saeed Hosseinzadeh",
+          "affiliations": [
+            "University of Southampton"
+          ],
+          "workIds": [
+            "2"
+          ]
+        }
+      ]
+    }
+  ],
+  "works": [
+    {
+      "id": "22",
+      "title": "A framework to combine beach monitoring data with modular erosion risk modelling to inform operational coastal management",
+      "year": 2026,
+      "url": "https://doi.org/https://doi.org/10.1016/j.ocecoaman.2025.107972",
+      "scholarUrl": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=tn1nAw0AAAAJ&pagesize=100&citation_for_view=tn1nAw0AAAAJ:-f6ydRqryjwC",
+      "note": ""
+    },
+    {
+      "id": "18",
+      "title": "Long-term trends and climate-mode controls on offshore wind power density off Australia",
+      "year": 2026,
+      "url": "https://doi.org/https://doi.org/10.1016/j.apor.2026.104991",
+      "scholarUrl": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=tn1nAw0AAAAJ&pagesize=100&citation_for_view=tn1nAw0AAAAJ:hFOr9nPyWt4C",
+      "note": ""
+    },
+    {
+      "id": "2",
+      "title": "A review of flexible fluid-structure interactions in the ocean: Progress, challenges, and future directions",
+      "year": 2025,
+      "url": "https://doi.org/10.1016/j.oceaneng.2025.122545",
+      "scholarUrl": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=tn1nAw0AAAAJ&pagesize=100&citation_for_view=tn1nAw0AAAAJ:mB3voiENLucC",
+      "note": ""
+    },
+    {
+      "id": "15",
+      "title": "Effect of ocean surface waves on sea ice using coupled wave–ice–ocean modelling",
+      "year": 2025,
+      "url": "https://doi.org/https://doi.org/10.1016/j.ocemod.2025.102540",
+      "scholarUrl": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=tn1nAw0AAAAJ&pagesize=100&citation_for_view=tn1nAw0AAAAJ:IWHjjKOFINEC",
+      "note": ""
+    },
+    {
+      "id": "12",
+      "title": "From global to regional-scale CMIP6-derived wind wave extremes: a single-GCM HighResMIP and CORDEX downscaling experiment in South-East Australia: M. Lorenzo et al.",
+      "year": 2025,
+      "url": "https://doi.org/https://doi.org/10.1007/s00382-024-07504-8",
+      "scholarUrl": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=tn1nAw0AAAAJ&pagesize=100&citation_for_view=tn1nAw0AAAAJ:ZeXyd9-uunAC",
+      "note": ""
+    },
+    {
+      "id": "20",
+      "title": "Shoreline dynamics of an urbanised estuarine beach under the influence of changing sediment budgets",
+      "year": 2025,
+      "url": "https://doi.org/https://doi.org/10.3389/feart.2025.1607126",
+      "scholarUrl": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=tn1nAw0AAAAJ&pagesize=100&citation_for_view=tn1nAw0AAAAJ:qUcmZB5y_30C",
+      "note": ""
+    },
+    {
+      "id": "19",
+      "title": "The wave-induced heat transport in the global ocean",
+      "year": 2025,
+      "url": "https://doi.org/https://doi.org/10.1016/j.ocemod.2025.102649",
+      "scholarUrl": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=tn1nAw0AAAAJ&pagesize=100&citation_for_view=tn1nAw0AAAAJ:hC7cP41nSMkC",
+      "note": ""
+    },
+    {
+      "id": "23",
+      "title": "Assessment of different CMIP6 regional wind wave climate downscaling approaches-From a global to a local perspective",
+      "year": 2024,
+      "url": "https://doi.org/https://doi.org/10.5194/egusphere-egu24-3679",
+      "scholarUrl": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=tn1nAw0AAAAJ&pagesize=100&citation_for_view=tn1nAw0AAAAJ:9ZlFYXVOiuMC",
+      "note": ""
+    },
+    {
+      "id": "8",
+      "title": "Design and application of coastal erosion indicators using satellite and drone data for a regional monitoring program",
+      "year": 2024,
+      "url": "https://doi.org/https://doi.org/10.1016/j.ocecoaman.2024.107146",
+      "scholarUrl": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=tn1nAw0AAAAJ&pagesize=100&citation_for_view=tn1nAw0AAAAJ:dhFuZR0502QC",
+      "note": ""
+    },
+    {
+      "id": "3",
+      "title": "Increasing wave power due to global climate change and intensification of Antarctic Oscillation",
+      "year": 2024,
+      "url": "https://doi.org/https://doi.org/10.1016/j.apenergy.2023.122572",
+      "scholarUrl": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=tn1nAw0AAAAJ&pagesize=100&citation_for_view=tn1nAw0AAAAJ:4TOpqqG69KYC",
+      "note": ""
+    },
+    {
+      "id": "11",
+      "title": "The impact of long-term changes in ocean waves and storm surge on coastal shoreline change: a case study of Bass Strait and south-east Australia",
+      "year": 2024,
+      "url": "https://doi.org/https://doi.org/10.5194/nhess-24-2175-2024",
+      "scholarUrl": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=tn1nAw0AAAAJ&pagesize=100&citation_for_view=tn1nAw0AAAAJ:4DMP91E08xMC",
+      "note": ""
+    },
+    {
+      "id": "24",
+      "title": "VCMP sites data product",
+      "year": 2024,
+      "url": "https://www.marineandcoasts.vic.gov.au/__data/assets/pdf_file/0041/688397/VCMP_Sites_MetadataReport_Mar2024.pdf",
+      "scholarUrl": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=tn1nAw0AAAAJ&pagesize=100&citation_for_view=tn1nAw0AAAAJ:TQgYirikUcIC",
+      "note": ""
+    },
+    {
+      "id": "5",
+      "title": "A comparison of multiple approaches to study the modulation of ocean waves due to climate variability",
+      "year": 2023,
+      "url": "https://doi.org/https://doi.org/10.1029/2023jc019843",
+      "scholarUrl": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=tn1nAw0AAAAJ&pagesize=100&citation_for_view=tn1nAw0AAAAJ:YOwf2qJgpHMC",
+      "note": ""
+    },
+    {
+      "id": "4",
+      "title": "A high-resolution wave energy assessment of south-east Australia based on a 40-year hindcast",
+      "year": 2023,
+      "url": "https://doi.org/https://doi.org/10.1016/j.renene.2023.118943",
+      "scholarUrl": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=tn1nAw0AAAAJ&pagesize=100&citation_for_view=tn1nAw0AAAAJ:Zph67rFs4hoC",
+      "note": ""
+    },
+    {
+      "id": "21",
+      "title": "A multi-method database for quantification of coastal behaviour from regional to compartment scale",
+      "year": 2023,
+      "url": "https://doi.org/https://doi.org/10.1142/9789811275135_0119",
+      "scholarUrl": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=tn1nAw0AAAAJ&pagesize=100&citation_for_view=tn1nAw0AAAAJ:Wp0gIr-vW9MC",
+      "note": ""
+    },
+    {
+      "id": "7",
+      "title": "Analysis of the 20-year variability of ocean wave hazards in the Northwest Pacific",
+      "year": 2023,
+      "url": "https://doi.org/https://doi.org/10.3390/rs15112768",
+      "scholarUrl": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=tn1nAw0AAAAJ&pagesize=100&citation_for_view=tn1nAw0AAAAJ:_FxGoFyzp5QC",
+      "note": ""
+    },
+    {
+      "id": "26",
+      "title": "Design and application of coastal erosion indicators using satellite and drone data for a regional monitoring program",
+      "year": 2023,
+      "url": "https://doi.org/https://doi.org/10.1016/j.ocecoaman.2024.107146",
+      "scholarUrl": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=tn1nAw0AAAAJ&pagesize=100&citation_for_view=tn1nAw0AAAAJ:7PzlFSSx8tAC",
+      "note": "Duplicate preprint of inventory work 8; not counted separately."
+    },
+    {
+      "id": "13",
+      "title": "Measuring drivers of shoreline and subaerial beach change using limited datasets in a temperate, wave-dominated sandy system: Inverloch, Australia",
+      "year": 2023,
+      "url": "https://doi.org/https://doi.org/10.1016/j.ocecoaman.2023.106641",
+      "scholarUrl": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=tn1nAw0AAAAJ&pagesize=100&citation_for_view=tn1nAw0AAAAJ:ufrVoPGSRksC",
+      "note": ""
+    },
+    {
+      "id": "10",
+      "title": "Projected 21st century wind‐wave climate of Bass Strait and south‐east Australia: Comparison of EC‐Earth3 and ACCESS‐CM2 climate model forcing",
+      "year": 2023,
+      "url": "https://doi.org/https://doi.org/10.1029/2022jc018996",
+      "scholarUrl": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=tn1nAw0AAAAJ&pagesize=100&citation_for_view=tn1nAw0AAAAJ:WF5omc3nYNoC",
+      "note": ""
+    },
+    {
+      "id": "17",
+      "title": "Relationship between large-scale variability of North Pacific waves and El Niño-Southern Oscillation",
+      "year": 2023,
+      "url": "https://doi.org/https://doi.org/10.3390/jmse11101848",
+      "scholarUrl": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=tn1nAw0AAAAJ&pagesize=100&citation_for_view=tn1nAw0AAAAJ:_kc_bZDykSQC",
+      "note": ""
+    },
+    {
+      "id": "25",
+      "title": "Victorian coastline longshore sediment transport modelling",
+      "year": 2023,
+      "url": "https://www.marineandcoasts.vic.gov.au/__data/assets/pdf_file/0034/675448/Victorian_Coastline_Longshore_Sediment_Transport_Modelling-compressed2.pdf",
+      "scholarUrl": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=tn1nAw0AAAAJ&pagesize=100&citation_for_view=tn1nAw0AAAAJ:HDshCWvjkbEC",
+      "note": ""
+    },
+    {
+      "id": "27",
+      "title": "Wave variability of Bass Strait and south-east Australia",
+      "year": 2023,
+      "url": "https://api.openalex.org/works/W7198611404",
+      "scholarUrl": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=tn1nAw0AAAAJ&pagesize=100&citation_for_view=tn1nAw0AAAAJ:ULOm3_A8WrAC",
+      "note": "Single-author thesis, no collaborators.; Single-author work"
+    },
+    {
+      "id": "28",
+      "title": "Climate impacts on ocean waves",
+      "year": 2022,
+      "url": "https://www.amsa.asn.au/wp-content/uploads/2019/04/AMSA-Bulletin_2091.pdf",
+      "scholarUrl": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=tn1nAw0AAAAJ&pagesize=100&citation_for_view=tn1nAw0AAAAJ:R3hNpaxXUhUC",
+      "note": ""
+    },
+    {
+      "id": "6",
+      "title": "Projected wave climate of Bass Strait and south-east Australia by the end of the twenty-first century",
+      "year": 2022,
+      "url": "https://doi.org/https://doi.org/10.1007/s00382-022-06310-4",
+      "scholarUrl": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=tn1nAw0AAAAJ&pagesize=100&citation_for_view=tn1nAw0AAAAJ:W7OEmFMy1HYC",
+      "note": ""
+    },
+    {
+      "id": "0",
+      "title": "The wave climate of Bass Strait and south-east Australia",
+      "year": 2022,
+      "url": "https://doi.org/https://doi.org/10.1016/j.ocemod.2022.101980",
+      "scholarUrl": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=tn1nAw0AAAAJ&pagesize=100&citation_for_view=tn1nAw0AAAAJ:Y0pCki6q_DkC",
+      "note": ""
+    },
+    {
+      "id": "29",
+      "title": "The wave climate of south-east Australia and future wave projection by the end of 21st century",
+      "year": 2022,
+      "url": "https://doi.org/https://doi.org/10.9753/icce.v37.waves.1",
+      "scholarUrl": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=tn1nAw0AAAAJ&pagesize=100&citation_for_view=tn1nAw0AAAAJ:mVmsd5A6BfQC",
+      "note": ""
+    },
+    {
+      "id": "1",
+      "title": "Seasonal and interannual variability in the sea surface temperature front in the eastern Pacific Ocean",
+      "year": 2021,
+      "url": "https://doi.org/https://doi.org/10.1029/2020jc016356",
+      "scholarUrl": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=tn1nAw0AAAAJ&pagesize=100&citation_for_view=tn1nAw0AAAAJ:qjMakFHDy7sC",
+      "note": ""
+    },
+    {
+      "id": "14",
+      "title": "The response of surface chlorophyll to mesoscale eddies generated in the eastern South China Sea",
+      "year": 2020,
+      "url": "https://doi.org/https://doi.org/10.1007/s10872-020-00540-y",
+      "scholarUrl": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=tn1nAw0AAAAJ&pagesize=100&citation_for_view=tn1nAw0AAAAJ:2osOgNQ5qMEC",
+      "note": ""
+    },
+    {
+      "id": "30",
+      "title": "Variability of SST frontal activity in eastern Pacific Ocean and its relationship with large-scale oscillation",
+      "year": 2020,
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=tn1nAw0AAAAJ&pagesize=100&citation_for_view=tn1nAw0AAAAJ:d1gkVwhDpl0C",
+      "scholarUrl": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=tn1nAw0AAAAJ&pagesize=100&citation_for_view=tn1nAw0AAAAJ:d1gkVwhDpl0C",
+      "note": "Some affiliations await verification; unverified affiliations are not counted"
+    },
+    {
+      "id": "16",
+      "title": "Front propagation of gravity currents on inclined bottoms in linearly stratified fluids",
+      "year": 2019,
+      "url": "https://doi.org/https://doi.org/10.1007/s10652-018-9610-z",
+      "scholarUrl": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=tn1nAw0AAAAJ&pagesize=100&citation_for_view=tn1nAw0AAAAJ:u-x6o8ySG0sC",
+      "note": ""
+    },
+    {
+      "id": "31",
+      "title": "The response of chlorophyll to mesoscale eddies in the eastern South China Sea",
+      "year": 2019,
+      "url": "https://api.openalex.org/works/W3002922790",
+      "scholarUrl": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=tn1nAw0AAAAJ&pagesize=100&citation_for_view=tn1nAw0AAAAJ:9yKSN-GCB0IC",
+      "note": "Some affiliations await verification; unverified affiliations are not counted"
+    },
+    {
+      "id": "9",
+      "title": "Seasonal and interannual variability in coastal circulations in the northern South China Sea",
+      "year": 2018,
+      "url": "https://doi.org/https://doi.org/10.3390/w10040520",
+      "scholarUrl": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=tn1nAw0AAAAJ&pagesize=100&citation_for_view=tn1nAw0AAAAJ:u5HHmVD_uO8C",
+      "note": ""
+    }
+  ]
+}

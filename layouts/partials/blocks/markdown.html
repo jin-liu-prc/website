@@ -1,0 +1,21 @@
+{{/* Wowchemy Blocks: Markdown */}}
+{{/* Documentation: https://wowchemy.com/blocks/ */}}
+{{/* License: https://github.com/wowchemy/wowchemy-hugo-themes/blob/main/LICENSE.md */}}
+
+{{/* Initialise */}}
+{{ $page := .wcPage }}
+{{ $block := .wcBlock }}
+{{ $columns := $block.design.columns | default "1" }}
+{{ $text := $block.content.text | emojify | $page.RenderString }}
+
+{{ if ne $columns "1" }}
+  <div class="col-12 col-lg-8">
+    {{ $text }}
+    {{ if eq $block.id "publications" }}{{ partial "components/collaboration-map" . }}{{ end }}
+  </div>
+{{ else }}
+  <div class="col-12">
+    {{ $text }}
+    {{ if eq $block.id "publications" }}{{ partial "components/collaboration-map" . }}{{ end }}
+  </div>
+{{ end }}

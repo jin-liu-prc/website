@@ -1,0 +1,4276 @@
+{
+  "updated": "2026-11-01",
+  "profileUrl": "https://scholar.google.com/citations?user=tn1nAw0AAAAJ&hl=en",
+  "yearRange": [
+    2018,
+    2026
+  ],
+  "works": [
+    {
+      "inventoryIndex": 0,
+      "title": "The wave climate of Bass Strait and south-east Australia",
+      "year": 2022,
+      "doi": "https://doi.org/10.1016/j.ocemod.2022.101980",
+      "sourceUrls": [
+        "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=tn1nAw0AAAAJ&pagesize=100&citation_for_view=tn1nAw0AAAAJ:Y0pCki6q_DkC",
+        "https://api.openalex.org/works/W4220697980",
+        "https://doi.org/10.1016/j.ocemod.2022.101980"
+      ],
+      "unknowns": [],
+      "scholarUrl": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=tn1nAw0AAAAJ&pagesize=100&citation_for_view=tn1nAw0AAAAJ:Y0pCki6q_DkC",
+      "countingEligible": true,
+      "countingNote": "Distinct collaborator-country pairs deduplicated across all verified work affiliations.",
+      "authors": [
+        {
+          "name": "Jin Liu",
+          "canonicalName": "Jin Liu",
+          "authorId": "https://openalex.org/A5023719440",
+          "orcid": "https://orcid.org/0000-0001-7415-3729",
+          "countries": [
+            "AU"
+          ],
+          "sourceUrls": [
+            "https://api.openalex.org/works/W4220697980",
+            "https://doi.org/10.1016/j.ocemod.2022.101980",
+            "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=tn1nAw0AAAAJ&pagesize=100&citation_for_view=tn1nAw0AAAAJ:Y0pCki6q_DkC"
+          ],
+          "personId": "jin-liu",
+          "self": true,
+          "identityStatus": "identified",
+          "affiliations": [
+            "Department of Infrastructure Engineering, University of Melbourne, Melbourne, Victoria, Australia"
+          ]
+        },
+        {
+          "name": "Alberto Meucci",
+          "canonicalName": "Alberto Meucci",
+          "authorId": "https://openalex.org/A5035006455",
+          "orcid": "https://orcid.org/0000-0002-0278-756X",
+          "countries": [
+            "AU"
+          ],
+          "sourceUrls": [
+            "https://api.openalex.org/works/W4220697980",
+            "https://doi.org/10.1016/j.ocemod.2022.101980",
+            "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=tn1nAw0AAAAJ&pagesize=100&citation_for_view=tn1nAw0AAAAJ:Y0pCki6q_DkC"
+          ],
+          "personId": "alberto-meucci",
+          "self": false,
+          "identityStatus": "identified",
+          "affiliations": [
+            "Department of Infrastructure Engineering, University of Melbourne, Melbourne, Victoria, Australia"
+          ]
+        },
+        {
+          "name": "Qingxiang Liu",
+          "canonicalName": "Qingxiang Liu",
+          "authorId": "https://openalex.org/A5100689187",
+          "orcid": "https://orcid.org/0000-0001-6100-0221",
+          "countries": [
+            "AU",
+            "CN"
+          ],
+          "sourceUrls": [
+            "https://api.openalex.org/works/W4220697980",
+            "https://doi.org/10.1016/j.ocemod.2022.101980",
+            "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=tn1nAw0AAAAJ&pagesize=100&citation_for_view=tn1nAw0AAAAJ:Y0pCki6q_DkC"
+          ],
+          "personId": "qingxiang-liu",
+          "self": false,
+          "identityStatus": "identified",
+          "affiliations": [
+            "Department of Infrastructure Engineering, University of Melbourne, Melbourne, Victoria, Australia",
+            "Physical Oceanography Laboratory, Ocean University of China, Qingdao, China"
+          ]
+        },
+        {
+          "name": "Alexander V. Babanin",
+          "canonicalName": "Alexander V. Babanin",
+          "authorId": "https://openalex.org/A5006825958",
+          "orcid": "https://orcid.org/0000-0002-8595-8204",
+          "countries": [
+            "AU"
+          ],
+          "sourceUrls": [
+            "https://api.openalex.org/works/W4220697980",
+            "https://doi.org/10.1016/j.ocemod.2022.101980",
+            "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=tn1nAw0AAAAJ&pagesize=100&citation_for_view=tn1nAw0AAAAJ:Y0pCki6q_DkC"
+          ],
+          "personId": "alexander-v-babanin",
+          "self": false,
+          "identityStatus": "identified",
+          "affiliations": [
+            "Department of Infrastructure Engineering, University of Melbourne, Melbourne, Victoria, Australia"
+          ]
+        },
+        {
+          "name": "Daniel A. Ierodiaconou",
+          "canonicalName": "Daniel Ierodiaconou",
+          "authorId": "https://openalex.org/A5075734722",
+          "orcid": "https://orcid.org/0000-0002-7832-4801",
+          "countries": [
+            "AU"
+          ],
+          "sourceUrls": [
+            "https://api.openalex.org/works/W4220697980",
+            "https://doi.org/10.1016/j.ocemod.2022.101980",
+            "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=tn1nAw0AAAAJ&pagesize=100&citation_for_view=tn1nAw0AAAAJ:Y0pCki6q_DkC"
+          ],
+          "personId": "daniel-ierodiaconou",
+          "self": false,
+          "identityStatus": "identified",
+          "affiliations": [
+            "School of Life and Environmental Sciences, Deakin University, Warrnambool, Victoria, Australia"
+          ]
+        },
+        {
+          "name": "Ian Robert Young",
+          "canonicalName": "Ian R. Young",
+          "authorId": "https://openalex.org/A5017415027",
+          "orcid": "https://orcid.org/0000-0003-2233-9227",
+          "countries": [
+            "AU"
+          ],
+          "sourceUrls": [
+            "https://api.openalex.org/works/W4220697980",
+            "https://doi.org/10.1016/j.ocemod.2022.101980",
+            "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=tn1nAw0AAAAJ&pagesize=100&citation_for_view=tn1nAw0AAAAJ:Y0pCki6q_DkC"
+          ],
+          "personId": "ian-r-young",
+          "self": false,
+          "identityStatus": "identified",
+          "affiliations": [
+            "Department of Infrastructure Engineering, University of Melbourne, Melbourne, Victoria, Australia"
+          ]
+        }
+      ]
+    },
+    {
+      "inventoryIndex": 1,
+      "title": "Seasonal and interannual variability in the sea surface temperature front in the eastern Pacific Ocean",
+      "year": 2021,
+      "doi": "https://doi.org/10.1029/2020jc016356",
+      "sourceUrls": [
+        "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=tn1nAw0AAAAJ&pagesize=100&citation_for_view=tn1nAw0AAAAJ:qjMakFHDy7sC",
+        "https://doi.org/10.1029/2020jc016356",
+        "https://api.crossref.org/works/10.1029%2F2020jc016356",
+        "https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2020JC016356"
+      ],
+      "unknowns": [],
+      "scholarUrl": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=tn1nAw0AAAAJ&pagesize=100&citation_for_view=tn1nAw0AAAAJ:qjMakFHDy7sC",
+      "countingEligible": true,
+      "countingNote": "Distinct collaborator-country pairs deduplicated across all verified work affiliations.",
+      "authors": [
+        {
+          "name": "Yuntao Wang",
+          "canonicalName": "Yuntao Wang",
+          "countries": [
+            "CN"
+          ],
+          "sourceUrls": [
+            "https://doi.org/10.1029/2020jc016356",
+            "https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2020JC016356",
+            "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=tn1nAw0AAAAJ&pagesize=100&citation_for_view=tn1nAw0AAAAJ:qjMakFHDy7sC",
+            "https://api.crossref.org/works/10.1029%2F2020jc016356"
+          ],
+          "self": false,
+          "personId": "yuntao-wang",
+          "identityStatus": "identified",
+          "affiliations": [
+            "Ministry of Natural Resources",
+            "Second Institute of Oceanography",
+            "State Key Laboratory of Satellite Ocean Environment Dynamics"
+          ]
+        },
+        {
+          "name": "Jin Liu",
+          "canonicalName": "Jin Liu",
+          "countries": [
+            "AU",
+            "CN"
+          ],
+          "sourceUrls": [
+            "https://doi.org/10.1029/2020jc016356",
+            "https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2020JC016356",
+            "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=tn1nAw0AAAAJ&pagesize=100&citation_for_view=tn1nAw0AAAAJ:qjMakFHDy7sC",
+            "https://api.crossref.org/works/10.1029%2F2020jc016356"
+          ],
+          "self": true,
+          "personId": "jin-liu",
+          "identityStatus": "identified",
+          "affiliations": [
+            "The University of Melbourne",
+            "Zhejiang University"
+          ]
+        },
+        {
+          "name": "Hailong Liu",
+          "canonicalName": "Hailong Liu",
+          "countries": [
+            "CN"
+          ],
+          "sourceUrls": [
+            "https://doi.org/10.1029/2020jc016356",
+            "https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2020JC016356",
+            "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=tn1nAw0AAAAJ&pagesize=100&citation_for_view=tn1nAw0AAAAJ:qjMakFHDy7sC",
+            "https://api.crossref.org/works/10.1029%2F2020jc016356"
+          ],
+          "self": false,
+          "personId": "hailong-liu",
+          "identityStatus": "identified",
+          "affiliations": [
+            "Institute of Atmospheric Physics",
+            "State Key Laboratory of Numerical Modeling for Atmospheric Sciences and Geophysical Fluid Dynamics"
+          ]
+        },
+        {
+          "name": "Pengfei Lin",
+          "canonicalName": "Pengfei Lin",
+          "countries": [
+            "CN"
+          ],
+          "sourceUrls": [
+            "https://doi.org/10.1029/2020jc016356",
+            "https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2020JC016356",
+            "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=tn1nAw0AAAAJ&pagesize=100&citation_for_view=tn1nAw0AAAAJ:qjMakFHDy7sC",
+            "https://api.crossref.org/works/10.1029%2F2020jc016356"
+          ],
+          "self": false,
+          "personId": "pengfei-lin",
+          "identityStatus": "identified",
+          "affiliations": [
+            "Institute of Atmospheric Physics",
+            "State Key Laboratory of Numerical Modeling for Atmospheric Sciences and Geophysical Fluid Dynamics"
+          ]
+        },
+        {
+          "name": "Yeping Yuan",
+          "canonicalName": "Yeping Yuan",
+          "countries": [
+            "CN"
+          ],
+          "sourceUrls": [
+            "https://doi.org/10.1029/2020jc016356",
+            "https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2020JC016356",
+            "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=tn1nAw0AAAAJ&pagesize=100&citation_for_view=tn1nAw0AAAAJ:qjMakFHDy7sC",
+            "https://api.crossref.org/works/10.1029%2F2020jc016356"
+          ],
+          "self": false,
+          "personId": "yeping-yuan",
+          "identityStatus": "identified",
+          "affiliations": [
+            "Ministry of Natural Resources",
+            "Second Institute of Oceanography",
+            "State Key Laboratory of Satellite Ocean Environment Dynamics",
+            "Zhejiang University"
+          ]
+        },
+        {
+          "name": "Fei Chai",
+          "canonicalName": "Fei Chai",
+          "countries": [
+            "CN"
+          ],
+          "sourceUrls": [
+            "https://doi.org/10.1029/2020jc016356",
+            "https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2020JC016356",
+            "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=tn1nAw0AAAAJ&pagesize=100&citation_for_view=tn1nAw0AAAAJ:qjMakFHDy7sC",
+            "https://api.crossref.org/works/10.1029%2F2020jc016356"
+          ],
+          "self": false,
+          "personId": "fei-chai",
+          "identityStatus": "identified",
+          "affiliations": [
+            "Ministry of Natural Resources",
+            "Second Institute of Oceanography",
+            "State Key Laboratory of Satellite Ocean Environment Dynamics"
+          ]
+        }
+      ]
+    },
+    {
+      "inventoryIndex": 2,
+      "title": "A review of flexible fluid-structure interactions in the ocean: Progress, challenges, and future directions",
+      "year": 2025,
+      "doi": "10.1016/j.oceaneng.2025.122545",
+      "sourceUrls": [
+        "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=tn1nAw0AAAAJ&pagesize=100&citation_for_view=tn1nAw0AAAAJ:mB3voiENLucC",
+        "https://doi.org/10.1016/j.oceaneng.2025.122545",
+        "https://eprints.soton.ac.uk/506307/1/1-s2.0-S0029801825022280-main.pdf",
+        "https://eprints.soton.ac.uk/506307/",
+        "https://backend.orbit.dtu.dk/ws/portalfiles/portal/413943875/1-s2.0-S0029801825022280-main.pdf"
+      ],
+      "unknowns": [],
+      "scholarUrl": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=tn1nAw0AAAAJ&pagesize=100&citation_for_view=tn1nAw0AAAAJ:mB3voiENLucC",
+      "countingEligible": true,
+      "countingNote": "Distinct collaborator-country pairs deduplicated across all verified work affiliations.",
+      "authors": [
+        {
+          "name": "Sasan Tavakoli",
+          "canonicalName": "Sasan Tavakoli",
+          "countries": [
+            "AU"
+          ],
+          "sourceUrls": [
+            "https://eprints.soton.ac.uk/506307/1/1-s2.0-S0029801825022280-main.pdf",
+            "https://doi.org/10.1016/j.oceaneng.2025.122545",
+            "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=tn1nAw0AAAAJ&pagesize=100&citation_for_view=tn1nAw0AAAAJ:mB3voiENLucC",
+            "https://eprints.soton.ac.uk/506307/",
+            "https://backend.orbit.dtu.dk/ws/portalfiles/portal/413943875/1-s2.0-S0029801825022280-main.pdf"
+          ],
+          "personId": "sasan-tavakoli",
+          "self": false,
+          "identityStatus": "identified",
+          "affiliations": [
+            "Australian Maritime College, University of Tasmania",
+            "University of Melbourne"
+          ]
+        },
+        {
+          "name": "Mansi Singh",
+          "canonicalName": "Mansi Singh",
+          "countries": [
+            "DE"
+          ],
+          "sourceUrls": [
+            "https://eprints.soton.ac.uk/506307/1/1-s2.0-S0029801825022280-main.pdf",
+            "https://doi.org/10.1016/j.oceaneng.2025.122545",
+            "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=tn1nAw0AAAAJ&pagesize=100&citation_for_view=tn1nAw0AAAAJ:mB3voiENLucC",
+            "https://eprints.soton.ac.uk/506307/",
+            "https://backend.orbit.dtu.dk/ws/portalfiles/portal/413943875/1-s2.0-S0029801825022280-main.pdf"
+          ],
+          "personId": "mansi-singh",
+          "self": false,
+          "identityStatus": "identified",
+          "affiliations": [
+            "Katholische Universität Eichstätt-Ingolstadt"
+          ]
+        },
+        {
+          "name": "Saeed Hosseinzadeh",
+          "canonicalName": "Saeed Hosseinzadeh",
+          "countries": [
+            "GB"
+          ],
+          "sourceUrls": [
+            "https://eprints.soton.ac.uk/506307/1/1-s2.0-S0029801825022280-main.pdf",
+            "https://doi.org/10.1016/j.oceaneng.2025.122545",
+            "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=tn1nAw0AAAAJ&pagesize=100&citation_for_view=tn1nAw0AAAAJ:mB3voiENLucC",
+            "https://eprints.soton.ac.uk/506307/",
+            "https://backend.orbit.dtu.dk/ws/portalfiles/portal/413943875/1-s2.0-S0029801825022280-main.pdf"
+          ],
+          "personId": "saeed-hosseinzadeh",
+          "self": false,
+          "identityStatus": "identified",
+          "affiliations": [
+            "University of Southampton"
+          ]
+        },
+        {
+          "name": "Zhengyu Hu",
+          "canonicalName": "Zhengyu Hu",
+          "countries": [
+            "SG"
+          ],
+          "sourceUrls": [
+            "https://eprints.soton.ac.uk/506307/1/1-s2.0-S0029801825022280-main.pdf",
+            "https://doi.org/10.1016/j.oceaneng.2025.122545",
+            "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=tn1nAw0AAAAJ&pagesize=100&citation_for_view=tn1nAw0AAAAJ:mB3voiENLucC",
+            "https://eprints.soton.ac.uk/506307/",
+            "https://backend.orbit.dtu.dk/ws/portalfiles/portal/413943875/1-s2.0-S0029801825022280-main.pdf"
+          ],
+          "personId": "zhengyu-hu",
+          "self": false,
+          "identityStatus": "identified",
+          "affiliations": [
+            "National University of Singapore"
+          ]
+        },
+        {
+          "name": "Yaniln Shao",
+          "canonicalName": "Yanlin Shao",
+          "countries": [
+            "DK"
+          ],
+          "sourceUrls": [
+            "https://eprints.soton.ac.uk/506307/1/1-s2.0-S0029801825022280-main.pdf",
+            "https://doi.org/10.1016/j.oceaneng.2025.122545",
+            "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=tn1nAw0AAAAJ&pagesize=100&citation_for_view=tn1nAw0AAAAJ:mB3voiENLucC",
+            "https://eprints.soton.ac.uk/506307/",
+            "https://backend.orbit.dtu.dk/ws/portalfiles/portal/413943875/1-s2.0-S0029801825022280-main.pdf"
+          ],
+          "personId": "yanlin-shao",
+          "self": false,
+          "identityStatus": "identified",
+          "affiliations": [
+            "Technical University of Denmark"
+          ]
+        },
+        {
+          "name": "Shan Wang",
+          "canonicalName": "Shan Wang",
+          "countries": [
+            "PT"
+          ],
+          "sourceUrls": [
+            "https://eprints.soton.ac.uk/506307/1/1-s2.0-S0029801825022280-main.pdf",
+            "https://doi.org/10.1016/j.oceaneng.2025.122545",
+            "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=tn1nAw0AAAAJ&pagesize=100&citation_for_view=tn1nAw0AAAAJ:mB3voiENLucC",
+            "https://eprints.soton.ac.uk/506307/",
+            "https://backend.orbit.dtu.dk/ws/portalfiles/portal/413943875/1-s2.0-S0029801825022280-main.pdf"
+          ],
+          "personId": "shan-wang",
+          "self": false,
+          "identityStatus": "identified",
+          "affiliations": [
+            "Instituto Superior Técnico, Universidade de Lisboa"
+          ]
+        },
+        {
+          "name": "Luofeng Huang",
+          "canonicalName": "Luofeng Huang",
+          "countries": [
+            "GB"
+          ],
+          "sourceUrls": [
+            "https://eprints.soton.ac.uk/506307/1/1-s2.0-S0029801825022280-main.pdf",
+            "https://doi.org/10.1016/j.oceaneng.2025.122545",
+            "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=tn1nAw0AAAAJ&pagesize=100&citation_for_view=tn1nAw0AAAAJ:mB3voiENLucC",
+            "https://eprints.soton.ac.uk/506307/",
+            "https://backend.orbit.dtu.dk/ws/portalfiles/portal/413943875/1-s2.0-S0029801825022280-main.pdf"
+          ],
+          "personId": "luofeng-huang",
+          "self": false,
+          "identityStatus": "identified",
+          "affiliations": [
+            "Cranfield University"
+          ]
+        },
+        {
+          "name": "Apostolos Grammatikopoulos",
+          "canonicalName": "Apostolos Grammatikopoulos",
+          "countries": [
+            "NL"
+          ],
+          "sourceUrls": [
+            "https://eprints.soton.ac.uk/506307/1/1-s2.0-S0029801825022280-main.pdf",
+            "https://doi.org/10.1016/j.oceaneng.2025.122545",
+            "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=tn1nAw0AAAAJ&pagesize=100&citation_for_view=tn1nAw0AAAAJ:mB3voiENLucC",
+            "https://eprints.soton.ac.uk/506307/",
+            "https://backend.orbit.dtu.dk/ws/portalfiles/portal/413943875/1-s2.0-S0029801825022280-main.pdf"
+          ],
+          "personId": "apostolos-grammatikopoulos",
+          "self": false,
+          "identityStatus": "identified",
+          "affiliations": [
+            "Delft University of Technology"
+          ]
+        },
+        {
+          "name": "Yuzhu Pearl Li",
+          "canonicalName": "Yuzhu Pearl Li",
+          "countries": [
+            "SG"
+          ],
+          "sourceUrls": [
+            "https://eprints.soton.ac.uk/506307/1/1-s2.0-S0029801825022280-main.pdf",
+            "https://doi.org/10.1016/j.oceaneng.2025.122545",
+            "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=tn1nAw0AAAAJ&pagesize=100&citation_for_view=tn1nAw0AAAAJ:mB3voiENLucC",
+            "https://eprints.soton.ac.uk/506307/",
+            "https://backend.orbit.dtu.dk/ws/portalfiles/portal/413943875/1-s2.0-S0029801825022280-main.pdf"
+          ],
+          "personId": "yuzhu-pearl-li",
+          "self": false,
+          "identityStatus": "identified",
+          "affiliations": [
+            "National University of Singapore"
+          ]
+        },
+        {
+          "name": "Danial Khojasteh",
+          "canonicalName": "Danial Khojasteh",
+          "countries": [
+            "AU"
+          ],
+          "sourceUrls": [
+            "https://eprints.soton.ac.uk/506307/1/1-s2.0-S0029801825022280-main.pdf",
+            "https://doi.org/10.1016/j.oceaneng.2025.122545",
+            "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=tn1nAw0AAAAJ&pagesize=100&citation_for_view=tn1nAw0AAAAJ:mB3voiENLucC",
+            "https://eprints.soton.ac.uk/506307/",
+            "https://backend.orbit.dtu.dk/ws/portalfiles/portal/413943875/1-s2.0-S0029801825022280-main.pdf"
+          ],
+          "personId": "danial-khojasteh",
+          "self": false,
+          "identityStatus": "identified",
+          "affiliations": [
+            "UNSW"
+          ]
+        },
+        {
+          "name": "Jin Liu",
+          "canonicalName": "Jin Liu",
+          "countries": [
+            "AU"
+          ],
+          "sourceUrls": [
+            "https://eprints.soton.ac.uk/506307/1/1-s2.0-S0029801825022280-main.pdf",
+            "https://doi.org/10.1016/j.oceaneng.2025.122545",
+            "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=tn1nAw0AAAAJ&pagesize=100&citation_for_view=tn1nAw0AAAAJ:mB3voiENLucC",
+            "https://eprints.soton.ac.uk/506307/",
+            "https://backend.orbit.dtu.dk/ws/portalfiles/portal/413943875/1-s2.0-S0029801825022280-main.pdf"
+          ],
+          "personId": "jin-liu",
+          "self": true,
+          "identityStatus": "identified",
+          "affiliations": [
+            "School of BioSciences, University of Melbourne"
+          ]
+        },
+        {
+          "name": "Azam Dolatshah",
+          "canonicalName": "Azam Dolatshah",
+          "countries": [
+            "AU"
+          ],
+          "sourceUrls": [
+            "https://eprints.soton.ac.uk/506307/1/1-s2.0-S0029801825022280-main.pdf",
+            "https://doi.org/10.1016/j.oceaneng.2025.122545",
+            "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=tn1nAw0AAAAJ&pagesize=100&citation_for_view=tn1nAw0AAAAJ:mB3voiENLucC",
+            "https://eprints.soton.ac.uk/506307/",
+            "https://backend.orbit.dtu.dk/ws/portalfiles/portal/413943875/1-s2.0-S0029801825022280-main.pdf"
+          ],
+          "personId": "azam-dolatshah",
+          "self": false,
+          "identityStatus": "identified",
+          "affiliations": [
+            "Swinburne University of Technology"
+          ]
+        },
+        {
+          "name": "Hui Cheng",
+          "canonicalName": "Hui Cheng",
+          "countries": [
+            "NO"
+          ],
+          "sourceUrls": [
+            "https://eprints.soton.ac.uk/506307/1/1-s2.0-S0029801825022280-main.pdf",
+            "https://doi.org/10.1016/j.oceaneng.2025.122545",
+            "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=tn1nAw0AAAAJ&pagesize=100&citation_for_view=tn1nAw0AAAAJ:mB3voiENLucC",
+            "https://eprints.soton.ac.uk/506307/",
+            "https://backend.orbit.dtu.dk/ws/portalfiles/portal/413943875/1-s2.0-S0029801825022280-main.pdf"
+          ],
+          "personId": "hui-cheng",
+          "self": false,
+          "identityStatus": "identified",
+          "affiliations": [
+            "AKVA Group ASA, Bergen"
+          ]
+        },
+        {
+          "name": "Spyros Hirdaris",
+          "canonicalName": "Spyros Hirdaris",
+          "countries": [
+            "GR"
+          ],
+          "sourceUrls": [
+            "https://eprints.soton.ac.uk/506307/1/1-s2.0-S0029801825022280-main.pdf",
+            "https://doi.org/10.1016/j.oceaneng.2025.122545",
+            "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=tn1nAw0AAAAJ&pagesize=100&citation_for_view=tn1nAw0AAAAJ:mB3voiENLucC",
+            "https://eprints.soton.ac.uk/506307/",
+            "https://backend.orbit.dtu.dk/ws/portalfiles/portal/413943875/1-s2.0-S0029801825022280-main.pdf"
+          ],
+          "personId": "spyros-hirdaris",
+          "self": false,
+          "identityStatus": "identified",
+          "affiliations": [
+            "Global Ship Systems Centre, American Bureau of Shipping, Athens"
+          ]
+        }
+      ]
+    },
+    {
+      "inventoryIndex": 3,
+      "title": "Increasing wave power due to global climate change and intensification of Antarctic Oscillation",
+      "year": 2024,
+      "doi": "https://doi.org/10.1016/j.apenergy.2023.122572",
+      "sourceUrls": [
+        "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=tn1nAw0AAAAJ&pagesize=100&citation_for_view=tn1nAw0AAAAJ:4TOpqqG69KYC",
+        "https://api.openalex.org/works/W4390473219",
+        "https://doi.org/10.1016/j.apenergy.2023.122572"
+      ],
+      "unknowns": [],
+      "scholarUrl": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=tn1nAw0AAAAJ&pagesize=100&citation_for_view=tn1nAw0AAAAJ:4TOpqqG69KYC",
+      "countingEligible": true,
+      "countingNote": "Distinct collaborator-country pairs deduplicated across all verified work affiliations.",
+      "authors": [
+        {
+          "name": "Jin Liu",
+          "canonicalName": "Jin Liu",
+          "authorId": "https://openalex.org/A5023719440",
+          "orcid": "https://orcid.org/0000-0001-7415-3729",
+          "countries": [
+            "AU"
+          ],
+          "sourceUrls": [
+            "https://api.openalex.org/works/W4390473219",
+            "https://doi.org/10.1016/j.apenergy.2023.122572",
+            "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=tn1nAw0AAAAJ&pagesize=100&citation_for_view=tn1nAw0AAAAJ:4TOpqqG69KYC"
+          ],
+          "personId": "jin-liu",
+          "self": true,
+          "identityStatus": "identified",
+          "affiliations": [
+            "Department of Energy, Environment and Climate Action, Melbourne, Victoria, Australia",
+            "Department of Infrastructure Engineering, University of Melbourne, Melbourne, Victoria, Australia"
+          ]
+        },
+        {
+          "name": "Rui Li",
+          "canonicalName": "Rui Li",
+          "authorId": "https://openalex.org/A5038987380",
+          "orcid": "https://orcid.org/0000-0003-2042-7813",
+          "countries": [
+            "AU",
+            "CN"
+          ],
+          "sourceUrls": [
+            "https://api.openalex.org/works/W4390473219",
+            "https://doi.org/10.1016/j.apenergy.2023.122572",
+            "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=tn1nAw0AAAAJ&pagesize=100&citation_for_view=tn1nAw0AAAAJ:4TOpqqG69KYC"
+          ],
+          "personId": "rui-li",
+          "self": false,
+          "identityStatus": "identified",
+          "affiliations": [
+            "Department of Infrastructure Engineering, University of Melbourne, Melbourne, Victoria, Australia",
+            "Physical Oceanography Laboratory, Ocean University of China, Qingdao, Shandong, China"
+          ]
+        },
+        {
+          "name": "Shuo Li",
+          "canonicalName": "Shuo Li",
+          "authorId": "https://openalex.org/A5100386643",
+          "orcid": "https://orcid.org/0000-0002-9425-1040",
+          "countries": [
+            "AU"
+          ],
+          "sourceUrls": [
+            "https://api.openalex.org/works/W4390473219",
+            "https://doi.org/10.1016/j.apenergy.2023.122572",
+            "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=tn1nAw0AAAAJ&pagesize=100&citation_for_view=tn1nAw0AAAAJ:4TOpqqG69KYC"
+          ],
+          "personId": "shuo-li",
+          "self": false,
+          "identityStatus": "identified",
+          "affiliations": [
+            "Department of Infrastructure Engineering, University of Melbourne, Melbourne, Victoria, Australia"
+          ]
+        },
+        {
+          "name": "Alberto Meucci",
+          "canonicalName": "Alberto Meucci",
+          "authorId": "https://openalex.org/A5035006455",
+          "orcid": "https://orcid.org/0000-0002-0278-756X",
+          "countries": [
+            "AU"
+          ],
+          "sourceUrls": [
+            "https://api.openalex.org/works/W4390473219",
+            "https://doi.org/10.1016/j.apenergy.2023.122572",
+            "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=tn1nAw0AAAAJ&pagesize=100&citation_for_view=tn1nAw0AAAAJ:4TOpqqG69KYC"
+          ],
+          "personId": "alberto-meucci",
+          "self": false,
+          "identityStatus": "identified",
+          "affiliations": [
+            "Department of Infrastructure Engineering, University of Melbourne, Melbourne, Victoria, Australia"
+          ]
+        },
+        {
+          "name": "Ian Robert Young",
+          "canonicalName": "Ian R. Young",
+          "authorId": "https://openalex.org/A5017415027",
+          "orcid": "https://orcid.org/0000-0003-2233-9227",
+          "countries": [
+            "AU"
+          ],
+          "sourceUrls": [
+            "https://api.openalex.org/works/W4390473219",
+            "https://doi.org/10.1016/j.apenergy.2023.122572",
+            "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=tn1nAw0AAAAJ&pagesize=100&citation_for_view=tn1nAw0AAAAJ:4TOpqqG69KYC"
+          ],
+          "personId": "ian-r-young",
+          "self": false,
+          "identityStatus": "identified",
+          "affiliations": [
+            "Department of Infrastructure Engineering, University of Melbourne, Melbourne, Victoria, Australia"
+          ]
+        }
+      ]
+    },
+    {
+      "inventoryIndex": 4,
+      "title": "A high-resolution wave energy assessment of south-east Australia based on a 40-year hindcast",
+      "year": 2023,
+      "doi": "https://doi.org/10.1016/j.renene.2023.118943",
+      "sourceUrls": [
+        "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=tn1nAw0AAAAJ&pagesize=100&citation_for_view=tn1nAw0AAAAJ:Zph67rFs4hoC",
+        "https://api.openalex.org/works/W4381427648",
+        "https://doi.org/10.1016/j.renene.2023.118943"
+      ],
+      "unknowns": [],
+      "scholarUrl": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=tn1nAw0AAAAJ&pagesize=100&citation_for_view=tn1nAw0AAAAJ:Zph67rFs4hoC",
+      "countingEligible": true,
+      "countingNote": "Distinct collaborator-country pairs deduplicated across all verified work affiliations.",
+      "authors": [
+        {
+          "name": "Jin Liu",
+          "canonicalName": "Jin Liu",
+          "authorId": "https://openalex.org/A5023719440",
+          "orcid": "https://orcid.org/0000-0001-7415-3729",
+          "countries": [
+            "AU"
+          ],
+          "sourceUrls": [
+            "https://api.openalex.org/works/W4381427648",
+            "https://doi.org/10.1016/j.renene.2023.118943",
+            "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=tn1nAw0AAAAJ&pagesize=100&citation_for_view=tn1nAw0AAAAJ:Zph67rFs4hoC"
+          ],
+          "personId": "jin-liu",
+          "self": true,
+          "identityStatus": "identified",
+          "affiliations": [
+            "Department of Infrastructure Engineering, University of Melbourne, Melbourne, Victoria, Australia"
+          ]
+        },
+        {
+          "name": "Alberto Meucci",
+          "canonicalName": "Alberto Meucci",
+          "authorId": "https://openalex.org/A5035006455",
+          "orcid": "https://orcid.org/0000-0002-0278-756X",
+          "countries": [
+            "AU"
+          ],
+          "sourceUrls": [
+            "https://api.openalex.org/works/W4381427648",
+            "https://doi.org/10.1016/j.renene.2023.118943",
+            "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=tn1nAw0AAAAJ&pagesize=100&citation_for_view=tn1nAw0AAAAJ:Zph67rFs4hoC"
+          ],
+          "personId": "alberto-meucci",
+          "self": false,
+          "identityStatus": "identified",
+          "affiliations": [
+            "Department of Infrastructure Engineering, University of Melbourne, Melbourne, Victoria, Australia"
+          ]
+        },
+        {
+          "name": "Qingxiang Liu",
+          "canonicalName": "Qingxiang Liu",
+          "authorId": "https://openalex.org/A5100689187",
+          "orcid": "https://orcid.org/0000-0001-6100-0221",
+          "countries": [
+            "AU",
+            "CN"
+          ],
+          "sourceUrls": [
+            "https://api.openalex.org/works/W4381427648",
+            "https://doi.org/10.1016/j.renene.2023.118943",
+            "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=tn1nAw0AAAAJ&pagesize=100&citation_for_view=tn1nAw0AAAAJ:Zph67rFs4hoC"
+          ],
+          "personId": "qingxiang-liu",
+          "self": false,
+          "identityStatus": "identified",
+          "affiliations": [
+            "Department of Infrastructure Engineering, University of Melbourne, Melbourne, Victoria, Australia",
+            "Physical Oceanography Laboratory, Ocean University of China, Qingdao, China"
+          ]
+        },
+        {
+          "name": "Alexander V. Babanin",
+          "canonicalName": "Alexander V. Babanin",
+          "authorId": "https://openalex.org/A5006825958",
+          "orcid": "https://orcid.org/0000-0002-8595-8204",
+          "countries": [
+            "AU"
+          ],
+          "sourceUrls": [
+            "https://api.openalex.org/works/W4381427648",
+            "https://doi.org/10.1016/j.renene.2023.118943",
+            "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=tn1nAw0AAAAJ&pagesize=100&citation_for_view=tn1nAw0AAAAJ:Zph67rFs4hoC"
+          ],
+          "personId": "alexander-v-babanin",
+          "self": false,
+          "identityStatus": "identified",
+          "affiliations": [
+            "Department of Infrastructure Engineering, University of Melbourne, Melbourne, Victoria, Australia"
+          ]
+        },
+        {
+          "name": "Daniel A. Ierodiaconou",
+          "canonicalName": "Daniel Ierodiaconou",
+          "authorId": "https://openalex.org/A5075734722",
+          "orcid": "https://orcid.org/0000-0002-7832-4801",
+          "countries": [
+            "AU"
+          ],
+          "sourceUrls": [
+            "https://api.openalex.org/works/W4381427648",
+            "https://doi.org/10.1016/j.renene.2023.118943",
+            "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=tn1nAw0AAAAJ&pagesize=100&citation_for_view=tn1nAw0AAAAJ:Zph67rFs4hoC"
+          ],
+          "personId": "daniel-ierodiaconou",
+          "self": false,
+          "identityStatus": "identified",
+          "affiliations": [
+            "School of Life and Environmental Sciences, Deakin University, Warrnambool, Victoria, Australia"
+          ]
+        },
+        {
+          "name": "Xingkun Xu",
+          "canonicalName": "Xingkun Xu",
+          "authorId": "https://openalex.org/A5026363983",
+          "orcid": "https://orcid.org/0000-0002-0692-8147",
+          "countries": [
+            "AU"
+          ],
+          "sourceUrls": [
+            "https://api.openalex.org/works/W4381427648",
+            "https://doi.org/10.1016/j.renene.2023.118943",
+            "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=tn1nAw0AAAAJ&pagesize=100&citation_for_view=tn1nAw0AAAAJ:Zph67rFs4hoC"
+          ],
+          "personId": "xingkun-xu",
+          "self": false,
+          "identityStatus": "identified",
+          "affiliations": [
+            "Department of Infrastructure Engineering, University of Melbourne, Melbourne, Victoria, Australia"
+          ]
+        },
+        {
+          "name": "Ian Robert Young",
+          "canonicalName": "Ian R. Young",
+          "authorId": "https://openalex.org/A5017415027",
+          "orcid": "https://orcid.org/0000-0003-2233-9227",
+          "countries": [
+            "AU"
+          ],
+          "sourceUrls": [
+            "https://api.openalex.org/works/W4381427648",
+            "https://doi.org/10.1016/j.renene.2023.118943",
+            "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=tn1nAw0AAAAJ&pagesize=100&citation_for_view=tn1nAw0AAAAJ:Zph67rFs4hoC"
+          ],
+          "personId": "ian-r-young",
+          "self": false,
+          "identityStatus": "identified",
+          "affiliations": [
+            "Department of Infrastructure Engineering, University of Melbourne, Melbourne, Victoria, Australia"
+          ]
+        }
+      ]
+    },
+    {
+      "inventoryIndex": 5,
+      "title": "A comparison of multiple approaches to study the modulation of ocean waves due to climate variability",
+      "year": 2023,
+      "doi": "https://doi.org/10.1029/2023jc019843",
+      "sourceUrls": [
+        "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=tn1nAw0AAAAJ&pagesize=100&citation_for_view=tn1nAw0AAAAJ:YOwf2qJgpHMC",
+        "https://api.openalex.org/works/W4386544408",
+        "https://doi.org/10.1029/2023jc019843",
+        "https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2023JC019843"
+      ],
+      "unknowns": [],
+      "scholarUrl": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=tn1nAw0AAAAJ&pagesize=100&citation_for_view=tn1nAw0AAAAJ:YOwf2qJgpHMC",
+      "countingEligible": true,
+      "countingNote": "Distinct collaborator-country pairs deduplicated across all verified work affiliations.",
+      "authors": [
+        {
+          "name": "Jin Liu",
+          "canonicalName": "Jin Liu",
+          "authorId": "https://openalex.org/A5023719440",
+          "orcid": "https://orcid.org/0000-0001-7415-3729",
+          "countries": [
+            "AU"
+          ],
+          "sourceUrls": [
+            "https://api.openalex.org/works/W4386544408",
+            "https://doi.org/10.1029/2023jc019843",
+            "https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2023JC019843",
+            "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=tn1nAw0AAAAJ&pagesize=100&citation_for_view=tn1nAw0AAAAJ:YOwf2qJgpHMC"
+          ],
+          "personId": "jin-liu",
+          "self": true,
+          "identityStatus": "identified",
+          "affiliations": [
+            "Department of Infrastructure Engineering University of Melbourne  Melbourne VIC Australia",
+            "Department of Infrastructure Engineering, University of Melbourne, Parkville, Melbourne, Victoria, Australia"
+          ]
+        },
+        {
+          "name": "Alberto Meucci",
+          "canonicalName": "Alberto Meucci",
+          "authorId": "https://openalex.org/A5035006455",
+          "orcid": "https://orcid.org/0000-0002-0278-756X",
+          "countries": [
+            "AU"
+          ],
+          "sourceUrls": [
+            "https://api.openalex.org/works/W4386544408",
+            "https://doi.org/10.1029/2023jc019843",
+            "https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2023JC019843",
+            "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=tn1nAw0AAAAJ&pagesize=100&citation_for_view=tn1nAw0AAAAJ:YOwf2qJgpHMC"
+          ],
+          "personId": "alberto-meucci",
+          "self": false,
+          "identityStatus": "identified",
+          "affiliations": [
+            "Department of Infrastructure Engineering University of Melbourne  Melbourne VIC Australia",
+            "Department of Infrastructure Engineering, University of Melbourne, Parkville, Melbourne, Victoria, Australia"
+          ]
+        },
+        {
+          "name": "Ian Robert Young",
+          "canonicalName": "Ian R. Young",
+          "authorId": "https://openalex.org/A5017415027",
+          "orcid": "https://orcid.org/0000-0003-2233-9227",
+          "countries": [
+            "AU"
+          ],
+          "sourceUrls": [
+            "https://api.openalex.org/works/W4386544408",
+            "https://doi.org/10.1029/2023jc019843",
+            "https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2023JC019843",
+            "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=tn1nAw0AAAAJ&pagesize=100&citation_for_view=tn1nAw0AAAAJ:YOwf2qJgpHMC"
+          ],
+          "personId": "ian-r-young",
+          "self": false,
+          "identityStatus": "identified",
+          "affiliations": [
+            "Department of Infrastructure Engineering University of Melbourne  Melbourne VIC Australia",
+            "Department of Infrastructure Engineering, University of Melbourne, Parkville, Melbourne, Victoria, Australia"
+          ]
+        }
+      ]
+    },
+    {
+      "inventoryIndex": 6,
+      "title": "Projected wave climate of Bass Strait and south-east Australia by the end of the twenty-first century",
+      "year": 2022,
+      "doi": "https://doi.org/10.1007/s00382-022-06310-4",
+      "sourceUrls": [
+        "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=tn1nAw0AAAAJ&pagesize=100&citation_for_view=tn1nAw0AAAAJ:W7OEmFMy1HYC",
+        "https://api.openalex.org/works/W4281385381",
+        "https://doi.org/10.1007/s00382-022-06310-4"
+      ],
+      "unknowns": [],
+      "scholarUrl": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=tn1nAw0AAAAJ&pagesize=100&citation_for_view=tn1nAw0AAAAJ:W7OEmFMy1HYC",
+      "countingEligible": true,
+      "countingNote": "Distinct collaborator-country pairs deduplicated across all verified work affiliations.",
+      "authors": [
+        {
+          "name": "Jin Liu",
+          "canonicalName": "Jin Liu",
+          "authorId": "https://openalex.org/A5023719440",
+          "orcid": "https://orcid.org/0000-0001-7415-3729",
+          "countries": [
+            "AU"
+          ],
+          "sourceUrls": [
+            "https://api.openalex.org/works/W4281385381",
+            "https://doi.org/10.1007/s00382-022-06310-4",
+            "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=tn1nAw0AAAAJ&pagesize=100&citation_for_view=tn1nAw0AAAAJ:W7OEmFMy1HYC"
+          ],
+          "personId": "jin-liu",
+          "self": true,
+          "identityStatus": "identified",
+          "affiliations": [
+            "Department of Infrastructure Engineering, University of Melbourne, Melbourne, VIC, Australia"
+          ]
+        },
+        {
+          "name": "Alberto Meucci",
+          "canonicalName": "Alberto Meucci",
+          "authorId": "https://openalex.org/A5035006455",
+          "orcid": "https://orcid.org/0000-0002-0278-756X",
+          "countries": [
+            "AU"
+          ],
+          "sourceUrls": [
+            "https://api.openalex.org/works/W4281385381",
+            "https://doi.org/10.1007/s00382-022-06310-4",
+            "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=tn1nAw0AAAAJ&pagesize=100&citation_for_view=tn1nAw0AAAAJ:W7OEmFMy1HYC"
+          ],
+          "personId": "alberto-meucci",
+          "self": false,
+          "identityStatus": "identified",
+          "affiliations": [
+            "Department of Infrastructure Engineering, University of Melbourne, Melbourne, VIC, Australia"
+          ]
+        },
+        {
+          "name": "Ian Robert Young",
+          "canonicalName": "Ian R. Young",
+          "authorId": "https://openalex.org/A5017415027",
+          "orcid": "https://orcid.org/0000-0003-2233-9227",
+          "countries": [
+            "AU"
+          ],
+          "sourceUrls": [
+            "https://api.openalex.org/works/W4281385381",
+            "https://doi.org/10.1007/s00382-022-06310-4",
+            "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=tn1nAw0AAAAJ&pagesize=100&citation_for_view=tn1nAw0AAAAJ:W7OEmFMy1HYC"
+          ],
+          "personId": "ian-r-young",
+          "self": false,
+          "identityStatus": "identified",
+          "affiliations": [
+            "Department of Infrastructure Engineering, University of Melbourne, Melbourne, VIC, Australia"
+          ]
+        }
+      ]
+    },
+    {
+      "inventoryIndex": 7,
+      "title": "Analysis of the 20-year variability of ocean wave hazards in the Northwest Pacific",
+      "year": 2023,
+      "doi": "https://doi.org/10.3390/rs15112768",
+      "sourceUrls": [
+        "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=tn1nAw0AAAAJ&pagesize=100&citation_for_view=tn1nAw0AAAAJ:_FxGoFyzp5QC",
+        "https://doi.org/10.3390/rs15112768",
+        "https://api.crossref.org/works/10.3390%2Frs15112768"
+      ],
+      "unknowns": [],
+      "scholarUrl": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=tn1nAw0AAAAJ&pagesize=100&citation_for_view=tn1nAw0AAAAJ:_FxGoFyzp5QC",
+      "countingEligible": true,
+      "countingNote": "Distinct collaborator-country pairs deduplicated across all verified work affiliations.",
+      "authors": [
+        {
+          "name": "Rui Li",
+          "canonicalName": "Rui Li",
+          "countries": [
+            "AU",
+            "CN"
+          ],
+          "sourceUrls": [
+            "https://doi.org/10.3390/rs15112768",
+            "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=tn1nAw0AAAAJ&pagesize=100&citation_for_view=tn1nAw0AAAAJ:_FxGoFyzp5QC",
+            "https://api.crossref.org/works/10.3390%2Frs15112768"
+          ],
+          "self": false,
+          "personId": "rui-li",
+          "identityStatus": "identified",
+          "affiliations": [
+            "The University of Melbourne",
+            "Ocean University of China"
+          ]
+        },
+        {
+          "name": "Kejian Wu",
+          "canonicalName": "Kejian Wu",
+          "countries": [
+            "CN"
+          ],
+          "sourceUrls": [
+            "https://doi.org/10.3390/rs15112768",
+            "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=tn1nAw0AAAAJ&pagesize=100&citation_for_view=tn1nAw0AAAAJ:_FxGoFyzp5QC",
+            "https://api.crossref.org/works/10.3390%2Frs15112768"
+          ],
+          "self": false,
+          "personId": "kejian-wu",
+          "identityStatus": "identified",
+          "affiliations": [
+            "Ocean University of China"
+          ]
+        },
+        {
+          "name": "Wenqing Zhang",
+          "canonicalName": "Wenqing Zhang",
+          "countries": [
+            "CN"
+          ],
+          "sourceUrls": [
+            "https://doi.org/10.3390/rs15112768",
+            "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=tn1nAw0AAAAJ&pagesize=100&citation_for_view=tn1nAw0AAAAJ:_FxGoFyzp5QC",
+            "https://api.crossref.org/works/10.3390%2Frs15112768"
+          ],
+          "self": false,
+          "personId": "wenqing-zhang",
+          "identityStatus": "identified",
+          "affiliations": [
+            "Ocean University of China"
+          ]
+        },
+        {
+          "name": "Xianghui Dong",
+          "canonicalName": "Xianghui Dong",
+          "countries": [
+            "CN"
+          ],
+          "sourceUrls": [
+            "https://doi.org/10.3390/rs15112768",
+            "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=tn1nAw0AAAAJ&pagesize=100&citation_for_view=tn1nAw0AAAAJ:_FxGoFyzp5QC",
+            "https://api.crossref.org/works/10.3390%2Frs15112768"
+          ],
+          "self": false,
+          "personId": "xianghui-dong",
+          "identityStatus": "identified",
+          "affiliations": [
+            "Ocean University of China"
+          ]
+        },
+        {
+          "name": "Lingyun Lv",
+          "canonicalName": "Lingyun Lv",
+          "countries": [
+            "CN"
+          ],
+          "sourceUrls": [
+            "https://doi.org/10.3390/rs15112768",
+            "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=tn1nAw0AAAAJ&pagesize=100&citation_for_view=tn1nAw0AAAAJ:_FxGoFyzp5QC",
+            "https://api.crossref.org/works/10.3390%2Frs15112768"
+          ],
+          "self": false,
+          "personId": "lingyun-lv",
+          "identityStatus": "identified",
+          "affiliations": [
+            "Ocean University of China"
+          ]
+        },
+        {
+          "name": "Shuo Li",
+          "canonicalName": "Shuo Li",
+          "countries": [
+            "AU"
+          ],
+          "sourceUrls": [
+            "https://doi.org/10.3390/rs15112768",
+            "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=tn1nAw0AAAAJ&pagesize=100&citation_for_view=tn1nAw0AAAAJ:_FxGoFyzp5QC",
+            "https://api.crossref.org/works/10.3390%2Frs15112768"
+          ],
+          "self": false,
+          "personId": "shuo-li",
+          "identityStatus": "identified",
+          "affiliations": [
+            "The University of Melbourne"
+          ]
+        },
+        {
+          "name": "Jin Liu",
+          "canonicalName": "Jin Liu",
+          "countries": [
+            "AU"
+          ],
+          "sourceUrls": [
+            "https://doi.org/10.3390/rs15112768",
+            "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=tn1nAw0AAAAJ&pagesize=100&citation_for_view=tn1nAw0AAAAJ:_FxGoFyzp5QC",
+            "https://api.crossref.org/works/10.3390%2Frs15112768"
+          ],
+          "self": true,
+          "personId": "jin-liu",
+          "identityStatus": "identified",
+          "affiliations": [
+            "The University of Melbourne"
+          ]
+        },
+        {
+          "name": "Alexander V. Babanin",
+          "canonicalName": "Alexander V. Babanin",
+          "countries": [
+            "AU"
+          ],
+          "sourceUrls": [
+            "https://doi.org/10.3390/rs15112768",
+            "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=tn1nAw0AAAAJ&pagesize=100&citation_for_view=tn1nAw0AAAAJ:_FxGoFyzp5QC",
+            "https://api.crossref.org/works/10.3390%2Frs15112768"
+          ],
+          "self": false,
+          "personId": "alexander-v-babanin",
+          "identityStatus": "identified",
+          "affiliations": [
+            "The University of Melbourne"
+          ]
+        }
+      ]
+    },
+    {
+      "inventoryIndex": 8,
+      "title": "Design and application of coastal erosion indicators using satellite and drone data for a regional monitoring program",
+      "year": 2024,
+      "doi": "https://doi.org/10.1016/j.ocecoaman.2024.107146",
+      "sourceUrls": [
+        "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=tn1nAw0AAAAJ&pagesize=100&citation_for_view=tn1nAw0AAAAJ:dhFuZR0502QC",
+        "https://api.openalex.org/works/W4394843587",
+        "https://doi.org/10.1016/j.ocecoaman.2024.107146"
+      ],
+      "unknowns": [],
+      "scholarUrl": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=tn1nAw0AAAAJ&pagesize=100&citation_for_view=tn1nAw0AAAAJ:dhFuZR0502QC",
+      "countingEligible": true,
+      "countingNote": "Distinct collaborator-country pairs deduplicated across all verified work affiliations.",
+      "authors": [
+        {
+          "name": "Robert Jak McCarroll",
+          "canonicalName": "Jak McCarroll",
+          "authorId": "https://openalex.org/A5083308336",
+          "orcid": "https://orcid.org/0000-0003-1862-747X",
+          "countries": [
+            "AU"
+          ],
+          "sourceUrls": [
+            "https://api.openalex.org/works/W4394843587",
+            "https://doi.org/10.1016/j.ocecoaman.2024.107146",
+            "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=tn1nAw0AAAAJ&pagesize=100&citation_for_view=tn1nAw0AAAAJ:dhFuZR0502QC"
+          ],
+          "personId": "jak-mccarroll",
+          "self": false,
+          "identityStatus": "identified",
+          "affiliations": [
+            "Department of Energy, Environment and Climate Action, East Melbourne, Vic, 3002, Australia",
+            "School of Geography, Earth & Atmospheric Sciences, University of Melbourne, Parkville, Vic, 3010, Australia"
+          ]
+        },
+        {
+          "name": "David M. Kennedy",
+          "canonicalName": "David M. Kennedy",
+          "authorId": "https://openalex.org/A5004476767",
+          "orcid": "https://orcid.org/0000-0002-4878-7717",
+          "countries": [
+            "AU"
+          ],
+          "sourceUrls": [
+            "https://api.openalex.org/works/W4394843587",
+            "https://doi.org/10.1016/j.ocecoaman.2024.107146",
+            "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=tn1nAw0AAAAJ&pagesize=100&citation_for_view=tn1nAw0AAAAJ:dhFuZR0502QC"
+          ],
+          "personId": "david-m-kennedy",
+          "self": false,
+          "identityStatus": "identified",
+          "affiliations": [
+            "School of Geography, Earth & Atmospheric Sciences, University of Melbourne, Parkville, Vic, 3010, Australia"
+          ]
+        },
+        {
+          "name": "Jin Liu",
+          "canonicalName": "Jin Liu",
+          "authorId": "https://openalex.org/A5023719440",
+          "orcid": "https://orcid.org/0000-0001-7415-3729",
+          "countries": [
+            "AU"
+          ],
+          "sourceUrls": [
+            "https://api.openalex.org/works/W4394843587",
+            "https://doi.org/10.1016/j.ocecoaman.2024.107146",
+            "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=tn1nAw0AAAAJ&pagesize=100&citation_for_view=tn1nAw0AAAAJ:dhFuZR0502QC"
+          ],
+          "personId": "jin-liu",
+          "self": true,
+          "identityStatus": "identified",
+          "affiliations": [
+            "Department of Energy, Environment and Climate Action, East Melbourne, Vic, 3002, Australia",
+            "Department of Infrastructure Engineering, University of Melbourne, Parkville, Vic, 3010, Australia"
+          ]
+        },
+        {
+          "name": "Blake M. Allan",
+          "canonicalName": "Blake M. Allan",
+          "authorId": "https://openalex.org/A5025790072",
+          "orcid": "https://orcid.org/0000-0003-0101-3412",
+          "countries": [
+            "AU"
+          ],
+          "sourceUrls": [
+            "https://api.openalex.org/works/W4394843587",
+            "https://doi.org/10.1016/j.ocecoaman.2024.107146",
+            "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=tn1nAw0AAAAJ&pagesize=100&citation_for_view=tn1nAw0AAAAJ:dhFuZR0502QC"
+          ],
+          "personId": "blake-m-allan",
+          "self": false,
+          "identityStatus": "identified",
+          "affiliations": [
+            "Department of Energy, Environment and Climate Action, East Melbourne, Vic, 3002, Australia"
+          ]
+        },
+        {
+          "name": "Daniel A. Ierodiaconou",
+          "canonicalName": "Daniel Ierodiaconou",
+          "authorId": "https://openalex.org/A5075734722",
+          "orcid": "https://orcid.org/0000-0002-7832-4801",
+          "countries": [
+            "AU"
+          ],
+          "sourceUrls": [
+            "https://api.openalex.org/works/W4394843587",
+            "https://doi.org/10.1016/j.ocecoaman.2024.107146",
+            "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=tn1nAw0AAAAJ&pagesize=100&citation_for_view=tn1nAw0AAAAJ:dhFuZR0502QC"
+          ],
+          "personId": "daniel-ierodiaconou",
+          "self": false,
+          "identityStatus": "identified",
+          "affiliations": [
+            "School of Life and Environmental Sciences, Deakin University, Warrnambool, Vic, 3280, Australia"
+          ]
+        }
+      ]
+    },
+    {
+      "inventoryIndex": 9,
+      "title": "Seasonal and interannual variability in coastal circulations in the northern South China Sea",
+      "year": 2018,
+      "doi": "https://doi.org/10.3390/w10040520",
+      "sourceUrls": [
+        "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=tn1nAw0AAAAJ&pagesize=100&citation_for_view=tn1nAw0AAAAJ:u5HHmVD_uO8C",
+        "https://doi.org/10.3390/w10040520",
+        "https://api.crossref.org/works/10.3390%2Fw10040520"
+      ],
+      "unknowns": [],
+      "scholarUrl": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=tn1nAw0AAAAJ&pagesize=100&citation_for_view=tn1nAw0AAAAJ:u5HHmVD_uO8C",
+      "countingEligible": true,
+      "countingNote": "Distinct collaborator-country pairs deduplicated across all verified work affiliations.",
+      "authors": [
+        {
+          "name": "Jin Liu",
+          "canonicalName": "Jin Liu",
+          "countries": [
+            "CN"
+          ],
+          "sourceUrls": [
+            "https://doi.org/10.3390/w10040520",
+            "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=tn1nAw0AAAAJ&pagesize=100&citation_for_view=tn1nAw0AAAAJ:u5HHmVD_uO8C",
+            "https://api.crossref.org/works/10.3390%2Fw10040520"
+          ],
+          "self": true,
+          "personId": "jin-liu",
+          "identityStatus": "identified",
+          "affiliations": [
+            "Zhejiang University"
+          ]
+        },
+        {
+          "name": "Juanjuan Dai",
+          "canonicalName": "Juanjuan Dai",
+          "countries": [
+            "CN"
+          ],
+          "sourceUrls": [
+            "https://doi.org/10.3390/w10040520",
+            "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=tn1nAw0AAAAJ&pagesize=100&citation_for_view=tn1nAw0AAAAJ:u5HHmVD_uO8C",
+            "https://api.crossref.org/works/10.3390%2Fw10040520"
+          ],
+          "self": false,
+          "personId": "juanjuan-dai",
+          "identityStatus": "identified",
+          "affiliations": [
+            "Zhejiang University"
+          ]
+        },
+        {
+          "name": "Dongfeng Xu",
+          "canonicalName": "Dongfeng Xu",
+          "countries": [
+            "CN"
+          ],
+          "sourceUrls": [
+            "https://doi.org/10.3390/w10040520",
+            "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=tn1nAw0AAAAJ&pagesize=100&citation_for_view=tn1nAw0AAAAJ:u5HHmVD_uO8C",
+            "https://api.crossref.org/works/10.3390%2Fw10040520"
+          ],
+          "self": false,
+          "personId": "dongfeng-xu",
+          "identityStatus": "identified",
+          "affiliations": [
+            "Second Institute of Oceanography",
+            "State Oceanic Administration",
+            "State Key Laboratory of Satellite Ocean Environment Dynamics"
+          ]
+        },
+        {
+          "name": "Jun Wang",
+          "canonicalName": "Jun Wang",
+          "countries": [
+            "CN"
+          ],
+          "sourceUrls": [
+            "https://doi.org/10.3390/w10040520",
+            "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=tn1nAw0AAAAJ&pagesize=100&citation_for_view=tn1nAw0AAAAJ:u5HHmVD_uO8C",
+            "https://api.crossref.org/works/10.3390%2Fw10040520"
+          ],
+          "self": false,
+          "personId": "jun-wang",
+          "identityStatus": "identified",
+          "affiliations": [
+            "Second Institute of Oceanography",
+            "State Oceanic Administration",
+            "State Key Laboratory of Satellite Ocean Environment Dynamics"
+          ]
+        },
+        {
+          "name": "Yeping Yuan",
+          "canonicalName": "Yeping Yuan",
+          "countries": [
+            "CN"
+          ],
+          "sourceUrls": [
+            "https://doi.org/10.3390/w10040520",
+            "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=tn1nAw0AAAAJ&pagesize=100&citation_for_view=tn1nAw0AAAAJ:u5HHmVD_uO8C",
+            "https://api.crossref.org/works/10.3390%2Fw10040520"
+          ],
+          "self": false,
+          "personId": "yeping-yuan",
+          "identityStatus": "identified",
+          "affiliations": [
+            "Second Institute of Oceanography",
+            "State Oceanic Administration",
+            "State Key Laboratory of Satellite Ocean Environment Dynamics",
+            "Zhejiang University"
+          ]
+        }
+      ]
+    },
+    {
+      "inventoryIndex": 10,
+      "title": "Projected 21st century wind‐wave climate of Bass Strait and south‐east Australia: Comparison of EC‐Earth3 and ACCESS‐CM2 climate model forcing",
+      "year": 2023,
+      "doi": "https://doi.org/10.1029/2022jc018996",
+      "sourceUrls": [
+        "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=tn1nAw0AAAAJ&pagesize=100&citation_for_view=tn1nAw0AAAAJ:WF5omc3nYNoC",
+        "https://api.openalex.org/works/W4365516181",
+        "https://doi.org/10.1029/2022jc018996"
+      ],
+      "unknowns": [],
+      "scholarUrl": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=tn1nAw0AAAAJ&pagesize=100&citation_for_view=tn1nAw0AAAAJ:WF5omc3nYNoC",
+      "countingEligible": true,
+      "countingNote": "Distinct collaborator-country pairs deduplicated across all verified work affiliations.",
+      "authors": [
+        {
+          "name": "Jin Liu",
+          "canonicalName": "Jin Liu",
+          "authorId": "https://openalex.org/A5023719440",
+          "orcid": "https://orcid.org/0000-0001-7415-3729",
+          "countries": [
+            "AU"
+          ],
+          "sourceUrls": [
+            "https://api.openalex.org/works/W4365516181",
+            "https://doi.org/10.1029/2022jc018996",
+            "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=tn1nAw0AAAAJ&pagesize=100&citation_for_view=tn1nAw0AAAAJ:WF5omc3nYNoC"
+          ],
+          "personId": "jin-liu",
+          "self": true,
+          "identityStatus": "identified",
+          "affiliations": [
+            "Department of Infrastructure Engineering University of Melbourne  Melbourne VIC Australia",
+            "Department of Infrastructure Engineering, University of Melbourne, Parkville, Melbourne, Victoria, Australia"
+          ]
+        },
+        {
+          "name": "Alberto Meucci",
+          "canonicalName": "Alberto Meucci",
+          "authorId": "https://openalex.org/A5035006455",
+          "orcid": "https://orcid.org/0000-0002-0278-756X",
+          "countries": [
+            "AU"
+          ],
+          "sourceUrls": [
+            "https://api.openalex.org/works/W4365516181",
+            "https://doi.org/10.1029/2022jc018996",
+            "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=tn1nAw0AAAAJ&pagesize=100&citation_for_view=tn1nAw0AAAAJ:WF5omc3nYNoC"
+          ],
+          "personId": "alberto-meucci",
+          "self": false,
+          "identityStatus": "identified",
+          "affiliations": [
+            "Department of Infrastructure Engineering University of Melbourne  Melbourne VIC Australia",
+            "Department of Infrastructure Engineering, University of Melbourne, Parkville, Melbourne, Victoria, Australia"
+          ]
+        },
+        {
+          "name": "Ian Robert Young",
+          "canonicalName": "Ian R. Young",
+          "authorId": "https://openalex.org/A5017415027",
+          "orcid": "https://orcid.org/0000-0003-2233-9227",
+          "countries": [
+            "AU"
+          ],
+          "sourceUrls": [
+            "https://api.openalex.org/works/W4365516181",
+            "https://doi.org/10.1029/2022jc018996",
+            "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=tn1nAw0AAAAJ&pagesize=100&citation_for_view=tn1nAw0AAAAJ:WF5omc3nYNoC"
+          ],
+          "personId": "ian-r-young",
+          "self": false,
+          "identityStatus": "identified",
+          "affiliations": [
+            "Department of Infrastructure Engineering University of Melbourne  Melbourne VIC Australia",
+            "Department of Infrastructure Engineering, University of Melbourne, Parkville, Melbourne, Victoria, Australia"
+          ]
+        }
+      ]
+    },
+    {
+      "inventoryIndex": 11,
+      "title": "The impact of long-term changes in ocean waves and storm surge on coastal shoreline change: a case study of Bass Strait and south-east Australia",
+      "year": 2024,
+      "doi": "https://doi.org/10.5194/nhess-24-2175-2024",
+      "sourceUrls": [
+        "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=tn1nAw0AAAAJ&pagesize=100&citation_for_view=tn1nAw0AAAAJ:4DMP91E08xMC",
+        "https://api.openalex.org/works/W4400217820",
+        "https://doi.org/10.5194/nhess-24-2175-2024",
+        "https://nhess.copernicus.org/articles/24/2175/2024/index.html"
+      ],
+      "unknowns": [],
+      "scholarUrl": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=tn1nAw0AAAAJ&pagesize=100&citation_for_view=tn1nAw0AAAAJ:4DMP91E08xMC",
+      "countingEligible": true,
+      "countingNote": "Distinct collaborator-country pairs deduplicated across all verified work affiliations.",
+      "authors": [
+        {
+          "name": "Mandana Ghanavati",
+          "canonicalName": "Mandana Ghanavati",
+          "authorId": "https://openalex.org/A5006205995",
+          "orcid": null,
+          "countries": [
+            "AU"
+          ],
+          "sourceUrls": [
+            "https://api.openalex.org/works/W4400217820",
+            "https://doi.org/10.5194/nhess-24-2175-2024",
+            "https://nhess.copernicus.org/articles/24/2175/2024/index.html",
+            "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=tn1nAw0AAAAJ&pagesize=100&citation_for_view=tn1nAw0AAAAJ:4DMP91E08xMC"
+          ],
+          "personId": "mandana-ghanavati",
+          "self": false,
+          "identityStatus": "identified",
+          "affiliations": [
+            "Department of Infrastructure Engineering, University of Melbourne, Melbourne, VIC 3010, Australia"
+          ]
+        },
+        {
+          "name": "Ian Robert Young",
+          "canonicalName": "Ian R. Young",
+          "authorId": "https://openalex.org/A5017415027",
+          "orcid": "https://orcid.org/0000-0003-2233-9227",
+          "countries": [
+            "AU"
+          ],
+          "sourceUrls": [
+            "https://api.openalex.org/works/W4400217820",
+            "https://doi.org/10.5194/nhess-24-2175-2024",
+            "https://nhess.copernicus.org/articles/24/2175/2024/index.html",
+            "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=tn1nAw0AAAAJ&pagesize=100&citation_for_view=tn1nAw0AAAAJ:4DMP91E08xMC"
+          ],
+          "personId": "ian-r-young",
+          "self": false,
+          "identityStatus": "identified",
+          "affiliations": [
+            "Department of Infrastructure Engineering, University of Melbourne, Melbourne, VIC 3010, Australia"
+          ]
+        },
+        {
+          "name": "Ebru Kirezci",
+          "canonicalName": "Ebru Kirezci",
+          "authorId": "https://openalex.org/A5069355416",
+          "orcid": "https://orcid.org/0000-0002-2319-7235",
+          "countries": [
+            "AU"
+          ],
+          "sourceUrls": [
+            "https://api.openalex.org/works/W4400217820",
+            "https://doi.org/10.5194/nhess-24-2175-2024",
+            "https://nhess.copernicus.org/articles/24/2175/2024/index.html",
+            "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=tn1nAw0AAAAJ&pagesize=100&citation_for_view=tn1nAw0AAAAJ:4DMP91E08xMC"
+          ],
+          "personId": "ebru-kirezci",
+          "self": false,
+          "identityStatus": "identified",
+          "affiliations": [
+            "Department of Infrastructure Engineering, University of Melbourne, Melbourne, VIC 3010, Australia"
+          ]
+        },
+        {
+          "name": "Jin Liu",
+          "canonicalName": "Jin Liu",
+          "authorId": "https://openalex.org/A5023719440",
+          "orcid": "https://orcid.org/0000-0001-7415-3729",
+          "countries": [
+            "AU"
+          ],
+          "sourceUrls": [
+            "https://api.openalex.org/works/W4400217820",
+            "https://doi.org/10.5194/nhess-24-2175-2024",
+            "https://nhess.copernicus.org/articles/24/2175/2024/index.html",
+            "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=tn1nAw0AAAAJ&pagesize=100&citation_for_view=tn1nAw0AAAAJ:4DMP91E08xMC"
+          ],
+          "personId": "jin-liu",
+          "self": true,
+          "identityStatus": "identified",
+          "affiliations": [
+            "Department of Infrastructure Engineering, University of Melbourne, Melbourne, VIC 3010, Australia"
+          ]
+        }
+      ]
+    },
+    {
+      "inventoryIndex": 12,
+      "title": "From global to regional-scale CMIP6-derived wind wave extremes: a single-GCM HighResMIP and CORDEX downscaling experiment in South-East Australia: M. Lorenzo et al.",
+      "year": 2025,
+      "doi": "https://doi.org/10.1007/s00382-024-07504-8",
+      "sourceUrls": [
+        "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=tn1nAw0AAAAJ&pagesize=100&citation_for_view=tn1nAw0AAAAJ:ZeXyd9-uunAC",
+        "https://api.openalex.org/works/W4406698877",
+        "https://doi.org/10.1007/s00382-024-07504-8",
+        "https://link.springer.com/article/10.1007/s00382-024-07504-8"
+      ],
+      "unknowns": [],
+      "scholarUrl": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=tn1nAw0AAAAJ&pagesize=100&citation_for_view=tn1nAw0AAAAJ:ZeXyd9-uunAC",
+      "countingEligible": true,
+      "countingNote": "Distinct collaborator-country pairs deduplicated across all verified work affiliations.",
+      "authors": [
+        {
+          "name": "Matteo Lorenzo",
+          "canonicalName": "Matteo Lorenzo",
+          "authorId": "https://openalex.org/A5085372549",
+          "orcid": "https://orcid.org/0000-0001-8330-2327",
+          "countries": [
+            "IT"
+          ],
+          "sourceUrls": [
+            "https://api.openalex.org/works/W4406698877",
+            "https://doi.org/10.1007/s00382-024-07504-8",
+            "https://link.springer.com/article/10.1007/s00382-024-07504-8",
+            "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=tn1nAw0AAAAJ&pagesize=100&citation_for_view=tn1nAw0AAAAJ:ZeXyd9-uunAC"
+          ],
+          "personId": "matteo-lorenzo",
+          "self": false,
+          "identityStatus": "identified",
+          "affiliations": [
+            "Department of Physics and INFN, University of Turin, Turin, Italy",
+            "Institute of Atmospheric Sciences and Climate, National Research Council, Turin, Italy"
+          ]
+        },
+        {
+          "name": "Alberto Meucci",
+          "canonicalName": "Alberto Meucci",
+          "authorId": "https://openalex.org/A5035006455",
+          "orcid": "https://orcid.org/0000-0002-0278-756X",
+          "countries": [
+            "AU"
+          ],
+          "sourceUrls": [
+            "https://api.openalex.org/works/W4406698877",
+            "https://doi.org/10.1007/s00382-024-07504-8",
+            "https://link.springer.com/article/10.1007/s00382-024-07504-8",
+            "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=tn1nAw0AAAAJ&pagesize=100&citation_for_view=tn1nAw0AAAAJ:ZeXyd9-uunAC"
+          ],
+          "personId": "alberto-meucci",
+          "self": false,
+          "identityStatus": "identified",
+          "affiliations": [
+            "Climate Science Centre, CSIRO Environment, Aspendale, VIC, Australia",
+            "Department of Infrastructure Engineering, The University of Melbourne, Melbourne, VIC, Australia"
+          ]
+        },
+        {
+          "name": "Jin Liu",
+          "canonicalName": "Jin Liu",
+          "authorId": "https://openalex.org/A5023719440",
+          "orcid": "https://orcid.org/0000-0001-7415-3729",
+          "countries": [
+            "AU"
+          ],
+          "sourceUrls": [
+            "https://api.openalex.org/works/W4406698877",
+            "https://doi.org/10.1007/s00382-024-07504-8",
+            "https://link.springer.com/article/10.1007/s00382-024-07504-8",
+            "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=tn1nAw0AAAAJ&pagesize=100&citation_for_view=tn1nAw0AAAAJ:ZeXyd9-uunAC"
+          ],
+          "personId": "jin-liu",
+          "self": true,
+          "identityStatus": "identified",
+          "affiliations": [
+            "Department of Infrastructure Engineering, The University of Melbourne, Melbourne, VIC, Australia"
+          ]
+        },
+        {
+          "name": "Jozef I. Syktus",
+          "canonicalName": "Jozef Syktus",
+          "authorId": "https://openalex.org/A5041437291",
+          "orcid": "https://orcid.org/0000-0003-1782-3073",
+          "countries": [
+            "AU"
+          ],
+          "sourceUrls": [
+            "https://api.openalex.org/works/W4406698877",
+            "https://doi.org/10.1007/s00382-024-07504-8",
+            "https://link.springer.com/article/10.1007/s00382-024-07504-8",
+            "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=tn1nAw0AAAAJ&pagesize=100&citation_for_view=tn1nAw0AAAAJ:ZeXyd9-uunAC"
+          ],
+          "personId": "jozef-syktus",
+          "self": false,
+          "identityStatus": "identified",
+          "affiliations": [
+            "School of the Environment, The University of Queensland, Brisbane, QLD, Australia"
+          ]
+        },
+        {
+          "name": "Marcus Thatcher",
+          "canonicalName": "Marcus Thatcher",
+          "authorId": "https://openalex.org/A5065430072",
+          "orcid": "https://orcid.org/0000-0003-4139-5515",
+          "countries": [
+            "AU"
+          ],
+          "sourceUrls": [
+            "https://api.openalex.org/works/W4406698877",
+            "https://doi.org/10.1007/s00382-024-07504-8",
+            "https://link.springer.com/article/10.1007/s00382-024-07504-8",
+            "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=tn1nAw0AAAAJ&pagesize=100&citation_for_view=tn1nAw0AAAAJ:ZeXyd9-uunAC"
+          ],
+          "personId": "marcus-thatcher",
+          "self": false,
+          "identityStatus": "identified",
+          "affiliations": [
+            "Climate Science Centre, CSIRO Environment, Aspendale, VIC, Australia"
+          ]
+        },
+        {
+          "name": "Ian Robert Young",
+          "canonicalName": "Ian R. Young",
+          "authorId": "https://openalex.org/A5017415027",
+          "orcid": "https://orcid.org/0000-0003-2233-9227",
+          "countries": [
+            "AU"
+          ],
+          "sourceUrls": [
+            "https://api.openalex.org/works/W4406698877",
+            "https://doi.org/10.1007/s00382-024-07504-8",
+            "https://link.springer.com/article/10.1007/s00382-024-07504-8",
+            "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=tn1nAw0AAAAJ&pagesize=100&citation_for_view=tn1nAw0AAAAJ:ZeXyd9-uunAC"
+          ],
+          "personId": "ian-r-young",
+          "self": false,
+          "identityStatus": "identified",
+          "affiliations": [
+            "Department of Infrastructure Engineering, The University of Melbourne, Melbourne, VIC, Australia"
+          ]
+        }
+      ]
+    },
+    {
+      "inventoryIndex": 13,
+      "title": "Measuring drivers of shoreline and subaerial beach change using limited datasets in a temperate, wave-dominated sandy system: Inverloch, Australia",
+      "year": 2023,
+      "doi": "https://doi.org/10.1016/j.ocecoaman.2023.106641",
+      "sourceUrls": [
+        "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=tn1nAw0AAAAJ&pagesize=100&citation_for_view=tn1nAw0AAAAJ:ufrVoPGSRksC",
+        "https://api.openalex.org/works/W4376126737",
+        "https://doi.org/10.1016/j.ocecoaman.2023.106641",
+        "https://www.sciencedirect.com/science/article/pii/S0964569123001667"
+      ],
+      "unknowns": [],
+      "scholarUrl": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=tn1nAw0AAAAJ&pagesize=100&citation_for_view=tn1nAw0AAAAJ:ufrVoPGSRksC",
+      "countingEligible": true,
+      "countingNote": "Distinct collaborator-country pairs deduplicated across all verified work affiliations.",
+      "authors": [
+        {
+          "name": "C. Leach",
+          "canonicalName": "C. Leach",
+          "authorId": null,
+          "orcid": null,
+          "countries": [
+            "AU"
+          ],
+          "sourceUrls": [
+            "https://api.openalex.org/works/W4376126737",
+            "https://doi.org/10.1016/j.ocecoaman.2023.106641",
+            "https://www.sciencedirect.com/science/article/pii/S0964569123001667",
+            "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=tn1nAw0AAAAJ&pagesize=100&citation_for_view=tn1nAw0AAAAJ:ufrVoPGSRksC"
+          ],
+          "personId": "c-leach",
+          "self": false,
+          "identityStatus": "published-initials",
+          "affiliations": [
+            "School of Geography, Earth & Atmospheric Sciences, The University of Melbourne, Parkville, Vic, 3010, Australia"
+          ]
+        },
+        {
+          "name": "David M. Kennedy",
+          "canonicalName": "David M. Kennedy",
+          "authorId": "https://openalex.org/A5004476767",
+          "orcid": "https://orcid.org/0000-0002-4878-7717",
+          "countries": [
+            "AU"
+          ],
+          "sourceUrls": [
+            "https://api.openalex.org/works/W4376126737",
+            "https://doi.org/10.1016/j.ocecoaman.2023.106641",
+            "https://www.sciencedirect.com/science/article/pii/S0964569123001667",
+            "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=tn1nAw0AAAAJ&pagesize=100&citation_for_view=tn1nAw0AAAAJ:ufrVoPGSRksC"
+          ],
+          "personId": "david-m-kennedy",
+          "self": false,
+          "identityStatus": "identified",
+          "affiliations": [
+            "School of Geography, Earth & Atmospheric Sciences, The University of Melbourne, Parkville, Vic, 3010, Australia"
+          ]
+        },
+        {
+          "name": "Nicolas Pucino",
+          "canonicalName": "Nicolas Pucino",
+          "authorId": "https://openalex.org/A5015242253",
+          "orcid": "https://orcid.org/0000-0001-6260-6647",
+          "countries": [
+            "AU"
+          ],
+          "sourceUrls": [
+            "https://api.openalex.org/works/W4376126737",
+            "https://doi.org/10.1016/j.ocecoaman.2023.106641",
+            "https://www.sciencedirect.com/science/article/pii/S0964569123001667",
+            "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=tn1nAw0AAAAJ&pagesize=100&citation_for_view=tn1nAw0AAAAJ:ufrVoPGSRksC"
+          ],
+          "personId": "nicolas-pucino",
+          "self": false,
+          "identityStatus": "identified",
+          "affiliations": [
+            "School of Life and Environmental Sciences, Deakin University, Warrnambool, Vic, 3280, Australia"
+          ]
+        },
+        {
+          "name": "Stephanie Doumtsis",
+          "canonicalName": "Stephanie Doumtsis",
+          "authorId": "https://openalex.org/A5080967347",
+          "orcid": null,
+          "countries": [
+            "AU"
+          ],
+          "sourceUrls": [
+            "https://api.openalex.org/works/W4376126737",
+            "https://doi.org/10.1016/j.ocecoaman.2023.106641",
+            "https://www.sciencedirect.com/science/article/pii/S0964569123001667",
+            "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=tn1nAw0AAAAJ&pagesize=100&citation_for_view=tn1nAw0AAAAJ:ufrVoPGSRksC"
+          ],
+          "personId": "stephanie-doumtsis",
+          "self": false,
+          "identityStatus": "identified",
+          "affiliations": [
+            "School of Geography, Earth & Atmospheric Sciences, The University of Melbourne, Parkville, Vic, 3010, Australia"
+          ]
+        },
+        {
+          "name": "Karina J. Sorrell",
+          "canonicalName": "Karina J. Sorrell",
+          "authorId": "https://openalex.org/A5067030694",
+          "orcid": "https://orcid.org/0000-0001-7494-4221",
+          "countries": [
+            "AU"
+          ],
+          "sourceUrls": [
+            "https://api.openalex.org/works/W4376126737",
+            "https://doi.org/10.1016/j.ocecoaman.2023.106641",
+            "https://www.sciencedirect.com/science/article/pii/S0964569123001667",
+            "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=tn1nAw0AAAAJ&pagesize=100&citation_for_view=tn1nAw0AAAAJ:ufrVoPGSRksC"
+          ],
+          "personId": "karina-j-sorrell",
+          "self": false,
+          "identityStatus": "identified",
+          "affiliations": [
+            "School of Geography, Earth & Atmospheric Sciences, The University of Melbourne, Parkville, Vic, 3010, Australia"
+          ]
+        },
+        {
+          "name": "B. Allan",
+          "canonicalName": "Blake M. Allan",
+          "authorId": null,
+          "orcid": null,
+          "countries": [
+            "AU"
+          ],
+          "sourceUrls": [
+            "https://api.openalex.org/works/W4376126737",
+            "https://doi.org/10.1016/j.ocecoaman.2023.106641",
+            "https://www.sciencedirect.com/science/article/pii/S0964569123001667",
+            "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=tn1nAw0AAAAJ&pagesize=100&citation_for_view=tn1nAw0AAAAJ:ufrVoPGSRksC"
+          ],
+          "personId": "blake-m-allan",
+          "self": false,
+          "identityStatus": "identified",
+          "affiliations": [
+            "School of Life and Environmental Sciences, Deakin University, Warrnambool, Vic, 3280, Australia"
+          ]
+        },
+        {
+          "name": "Rafael C. Carvalho",
+          "canonicalName": "Rafael C. Carvalho",
+          "authorId": "https://openalex.org/A5044950287",
+          "orcid": "https://orcid.org/0000-0003-0790-5614",
+          "countries": [
+            "AU"
+          ],
+          "sourceUrls": [
+            "https://api.openalex.org/works/W4376126737",
+            "https://doi.org/10.1016/j.ocecoaman.2023.106641",
+            "https://www.sciencedirect.com/science/article/pii/S0964569123001667",
+            "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=tn1nAw0AAAAJ&pagesize=100&citation_for_view=tn1nAw0AAAAJ:ufrVoPGSRksC"
+          ],
+          "personId": "rafael-c-carvalho",
+          "self": false,
+          "identityStatus": "identified",
+          "affiliations": [
+            "School of Life and Environmental Sciences, Deakin University, Warrnambool, Vic, 3280, Australia"
+          ]
+        },
+        {
+          "name": "Jin Liu",
+          "canonicalName": "Jin Liu",
+          "authorId": "https://openalex.org/A5023719440",
+          "orcid": "https://orcid.org/0000-0001-7415-3729",
+          "countries": [
+            "AU"
+          ],
+          "sourceUrls": [
+            "https://api.openalex.org/works/W4376126737",
+            "https://doi.org/10.1016/j.ocecoaman.2023.106641",
+            "https://www.sciencedirect.com/science/article/pii/S0964569123001667",
+            "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=tn1nAw0AAAAJ&pagesize=100&citation_for_view=tn1nAw0AAAAJ:ufrVoPGSRksC"
+          ],
+          "personId": "jin-liu",
+          "self": true,
+          "identityStatus": "identified",
+          "affiliations": [
+            "Biodiversity Division, Department of Energy, Environment, and Climate Action, East Melbourne, Victoria, 3002, Australia"
+          ]
+        },
+        {
+          "name": "Daniel A. Ierodiaconou",
+          "canonicalName": "Daniel Ierodiaconou",
+          "authorId": "https://openalex.org/A5075734722",
+          "orcid": "https://orcid.org/0000-0002-7832-4801",
+          "countries": [
+            "AU"
+          ],
+          "sourceUrls": [
+            "https://api.openalex.org/works/W4376126737",
+            "https://doi.org/10.1016/j.ocecoaman.2023.106641",
+            "https://www.sciencedirect.com/science/article/pii/S0964569123001667",
+            "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=tn1nAw0AAAAJ&pagesize=100&citation_for_view=tn1nAw0AAAAJ:ufrVoPGSRksC"
+          ],
+          "personId": "daniel-ierodiaconou",
+          "self": false,
+          "identityStatus": "identified",
+          "affiliations": [
+            "School of Life and Environmental Sciences, Deakin University, Warrnambool, Vic, 3280, Australia"
+          ]
+        }
+      ]
+    },
+    {
+      "inventoryIndex": 14,
+      "title": "The response of surface chlorophyll to mesoscale eddies generated in the eastern South China Sea",
+      "year": 2020,
+      "doi": "https://doi.org/10.1007/s10872-020-00540-y",
+      "sourceUrls": [
+        "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=tn1nAw0AAAAJ&pagesize=100&citation_for_view=tn1nAw0AAAAJ:2osOgNQ5qMEC",
+        "https://doi.org/10.1007/s10872-020-00540-y",
+        "https://api.crossref.org/works/10.1007%2Fs10872-020-00540-y",
+        "https://link.springer.com/article/10.1007/s10872-020-00540-y",
+        "https://api.openalex.org/works/W3005367727"
+      ],
+      "unknowns": [],
+      "scholarUrl": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=tn1nAw0AAAAJ&pagesize=100&citation_for_view=tn1nAw0AAAAJ:2osOgNQ5qMEC",
+      "countingEligible": true,
+      "countingNote": "Distinct collaborator-country pairs deduplicated across all verified work affiliations.",
+      "authors": [
+        {
+          "name": "Jin Liu",
+          "canonicalName": "Jin Liu",
+          "countries": [
+            "CN"
+          ],
+          "sourceUrls": [
+            "https://doi.org/10.1007/s10872-020-00540-y",
+            "https://link.springer.com/article/10.1007/s10872-020-00540-y",
+            "https://api.openalex.org/works/W3005367727",
+            "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=tn1nAw0AAAAJ&pagesize=100&citation_for_view=tn1nAw0AAAAJ:2osOgNQ5qMEC",
+            "https://api.crossref.org/works/10.1007%2Fs10872-020-00540-y"
+          ],
+          "self": true,
+          "personId": "jin-liu",
+          "identityStatus": "identified",
+          "affiliations": [
+            "Zhejiang University"
+          ]
+        },
+        {
+          "name": "Yuntao Wang",
+          "canonicalName": "Yuntao Wang",
+          "countries": [
+            "CN"
+          ],
+          "sourceUrls": [
+            "https://doi.org/10.1007/s10872-020-00540-y",
+            "https://link.springer.com/article/10.1007/s10872-020-00540-y",
+            "https://api.openalex.org/works/W3005367727",
+            "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=tn1nAw0AAAAJ&pagesize=100&citation_for_view=tn1nAw0AAAAJ:2osOgNQ5qMEC",
+            "https://api.crossref.org/works/10.1007%2Fs10872-020-00540-y"
+          ],
+          "self": false,
+          "personId": "yuntao-wang",
+          "identityStatus": "identified",
+          "affiliations": [
+            "Ministry of Natural Resources",
+            "Second Institute of Oceanography",
+            "State Key Laboratory of Satellite Ocean Environment Dynamics"
+          ]
+        },
+        {
+          "name": "Yeping Yuan",
+          "canonicalName": "Yeping Yuan",
+          "countries": [
+            "CN"
+          ],
+          "sourceUrls": [
+            "https://doi.org/10.1007/s10872-020-00540-y",
+            "https://link.springer.com/article/10.1007/s10872-020-00540-y",
+            "https://api.openalex.org/works/W3005367727",
+            "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=tn1nAw0AAAAJ&pagesize=100&citation_for_view=tn1nAw0AAAAJ:2osOgNQ5qMEC",
+            "https://api.crossref.org/works/10.1007%2Fs10872-020-00540-y"
+          ],
+          "self": false,
+          "personId": "yeping-yuan",
+          "identityStatus": "identified",
+          "affiliations": [
+            "Ministry of Natural Resources",
+            "Second Institute of Oceanography",
+            "State Key Laboratory of Satellite Ocean Environment Dynamics",
+            "Zhejiang University"
+          ]
+        },
+        {
+          "name": "Dongfeng Xu",
+          "canonicalName": "Dongfeng Xu",
+          "countries": [
+            "CN"
+          ],
+          "sourceUrls": [
+            "https://doi.org/10.1007/s10872-020-00540-y",
+            "https://link.springer.com/article/10.1007/s10872-020-00540-y",
+            "https://api.openalex.org/works/W3005367727",
+            "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=tn1nAw0AAAAJ&pagesize=100&citation_for_view=tn1nAw0AAAAJ:2osOgNQ5qMEC",
+            "https://api.crossref.org/works/10.1007%2Fs10872-020-00540-y"
+          ],
+          "self": false,
+          "personId": "dongfeng-xu",
+          "identityStatus": "identified",
+          "affiliations": [
+            "Ministry of Natural Resources",
+            "Second Institute of Oceanography",
+            "State Key Laboratory of Satellite Ocean Environment Dynamics"
+          ]
+        }
+      ]
+    },
+    {
+      "inventoryIndex": 15,
+      "title": "Effect of ocean surface waves on sea ice using coupled wave–ice–ocean modelling",
+      "year": 2025,
+      "doi": "https://doi.org/10.1016/j.ocemod.2025.102540",
+      "sourceUrls": [
+        "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=tn1nAw0AAAAJ&pagesize=100&citation_for_view=tn1nAw0AAAAJ:IWHjjKOFINEC",
+        "https://api.openalex.org/works/W4409157102",
+        "https://doi.org/10.1016/j.ocemod.2025.102540"
+      ],
+      "unknowns": [],
+      "scholarUrl": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=tn1nAw0AAAAJ&pagesize=100&citation_for_view=tn1nAw0AAAAJ:IWHjjKOFINEC",
+      "countingEligible": true,
+      "countingNote": "Distinct collaborator-country pairs deduplicated across all verified work affiliations.",
+      "authors": [
+        {
+          "name": "Shuo Li",
+          "canonicalName": "Shuo Li",
+          "authorId": "https://openalex.org/A5100386643",
+          "orcid": "https://orcid.org/0000-0002-9425-1040",
+          "countries": [
+            "CN"
+          ],
+          "sourceUrls": [
+            "https://api.openalex.org/works/W4409157102",
+            "https://doi.org/10.1016/j.ocemod.2025.102540",
+            "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=tn1nAw0AAAAJ&pagesize=100&citation_for_view=tn1nAw0AAAAJ:IWHjjKOFINEC"
+          ],
+          "personId": "shuo-li",
+          "self": false,
+          "identityStatus": "identified",
+          "affiliations": [
+            "College of Oceanic and Atmospheric Sciences, Ocean University of China, Qingdao, China"
+          ]
+        },
+        {
+          "name": "Alexander V. Babanin",
+          "canonicalName": "Alexander V. Babanin",
+          "authorId": "https://openalex.org/A5006825958",
+          "orcid": "https://orcid.org/0000-0002-8595-8204",
+          "countries": [
+            "AU"
+          ],
+          "sourceUrls": [
+            "https://api.openalex.org/works/W4409157102",
+            "https://doi.org/10.1016/j.ocemod.2025.102540",
+            "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=tn1nAw0AAAAJ&pagesize=100&citation_for_view=tn1nAw0AAAAJ:IWHjjKOFINEC"
+          ],
+          "personId": "alexander-v-babanin",
+          "self": false,
+          "identityStatus": "identified",
+          "affiliations": [
+            "Department of infrastructure Engineering, University of Melbourne, Melbourne, Victoria, Australia"
+          ]
+        },
+        {
+          "name": "Qingxiang Liu",
+          "canonicalName": "Qingxiang Liu",
+          "authorId": "https://openalex.org/A5100689187",
+          "orcid": "https://orcid.org/0000-0001-6100-0221",
+          "countries": [
+            "AU"
+          ],
+          "sourceUrls": [
+            "https://api.openalex.org/works/W4409157102",
+            "https://doi.org/10.1016/j.ocemod.2025.102540",
+            "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=tn1nAw0AAAAJ&pagesize=100&citation_for_view=tn1nAw0AAAAJ:IWHjjKOFINEC"
+          ],
+          "personId": "qingxiang-liu",
+          "self": false,
+          "identityStatus": "identified",
+          "affiliations": [
+            "Department of Energy, Environment and Climate Action, Melbourne, Victoria, Australia",
+            "Department of infrastructure Engineering, University of Melbourne, Melbourne, Victoria, Australia"
+          ]
+        },
+        {
+          "name": "Jin Liu",
+          "canonicalName": "Jin Liu",
+          "authorId": "https://openalex.org/A5023719440",
+          "orcid": "https://orcid.org/0000-0001-7415-3729",
+          "countries": [
+            "AU"
+          ],
+          "sourceUrls": [
+            "https://api.openalex.org/works/W4409157102",
+            "https://doi.org/10.1016/j.ocemod.2025.102540",
+            "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=tn1nAw0AAAAJ&pagesize=100&citation_for_view=tn1nAw0AAAAJ:IWHjjKOFINEC"
+          ],
+          "personId": "jin-liu",
+          "self": true,
+          "identityStatus": "identified",
+          "affiliations": [
+            "Department of Energy, Environment and Climate Action, Melbourne, Victoria, Australia",
+            "Department of infrastructure Engineering, University of Melbourne, Melbourne, Victoria, Australia"
+          ]
+        },
+        {
+          "name": "Rui Li",
+          "canonicalName": "Rui Li",
+          "authorId": "https://openalex.org/A5038987380",
+          "orcid": "https://orcid.org/0000-0003-2042-7813",
+          "countries": [
+            "CN"
+          ],
+          "sourceUrls": [
+            "https://api.openalex.org/works/W4409157102",
+            "https://doi.org/10.1016/j.ocemod.2025.102540",
+            "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=tn1nAw0AAAAJ&pagesize=100&citation_for_view=tn1nAw0AAAAJ:IWHjjKOFINEC"
+          ],
+          "personId": "rui-li",
+          "self": false,
+          "identityStatus": "identified",
+          "affiliations": [
+            "College of Oceanic and Atmospheric Sciences, Ocean University of China, Qingdao, China"
+          ]
+        },
+        {
+          "name": "Joey Voermans",
+          "canonicalName": "Joey Voermans",
+          "authorId": "https://openalex.org/A5050621728",
+          "orcid": "https://orcid.org/0000-0002-2963-3763",
+          "countries": [
+            "AU"
+          ],
+          "sourceUrls": [
+            "https://api.openalex.org/works/W4409157102",
+            "https://doi.org/10.1016/j.ocemod.2025.102540",
+            "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=tn1nAw0AAAAJ&pagesize=100&citation_for_view=tn1nAw0AAAAJ:IWHjjKOFINEC"
+          ],
+          "personId": "joey-voermans",
+          "self": false,
+          "identityStatus": "identified",
+          "affiliations": [
+            "Department of infrastructure Engineering, University of Melbourne, Melbourne, Victoria, Australia"
+          ]
+        }
+      ]
+    },
+    {
+      "inventoryIndex": 16,
+      "title": "Front propagation of gravity currents on inclined bottoms in linearly stratified fluids",
+      "year": 2019,
+      "doi": "https://doi.org/10.1007/s10652-018-9610-z",
+      "sourceUrls": [
+        "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=tn1nAw0AAAAJ&pagesize=100&citation_for_view=tn1nAw0AAAAJ:u-x6o8ySG0sC",
+        "https://doi.org/10.1007/s10652-018-9610-z",
+        "https://api.crossref.org/works/10.1007%2Fs10652-018-9610-z",
+        "https://link.springer.com/article/10.1007/s10652-018-9610-z",
+        "https://api.openalex.org/works/W2810739295"
+      ],
+      "unknowns": [],
+      "scholarUrl": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=tn1nAw0AAAAJ&pagesize=100&citation_for_view=tn1nAw0AAAAJ:u-x6o8ySG0sC",
+      "countingEligible": true,
+      "countingNote": "Distinct collaborator-country pairs deduplicated across all verified work affiliations.",
+      "authors": [
+        {
+          "name": "Zhiguo He",
+          "canonicalName": "Zhiguo He",
+          "countries": [
+            "CN"
+          ],
+          "sourceUrls": [
+            "https://doi.org/10.1007/s10652-018-9610-z",
+            "https://link.springer.com/article/10.1007/s10652-018-9610-z",
+            "https://api.openalex.org/works/W2810739295",
+            "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=tn1nAw0AAAAJ&pagesize=100&citation_for_view=tn1nAw0AAAAJ:u-x6o8ySG0sC",
+            "https://api.crossref.org/works/10.1007%2Fs10652-018-9610-z"
+          ],
+          "self": false,
+          "personId": "zhiguo-he",
+          "identityStatus": "identified",
+          "affiliations": [
+            "Second Institute of Oceanography",
+            "State Oceanic Administration",
+            "State Key Laboratory of Satellite Ocean Environment Dynamics",
+            "Zhejiang University"
+          ]
+        },
+        {
+          "name": "Yafei Lv",
+          "canonicalName": "Yafei Lv",
+          "countries": [
+            "CN"
+          ],
+          "sourceUrls": [
+            "https://doi.org/10.1007/s10652-018-9610-z",
+            "https://link.springer.com/article/10.1007/s10652-018-9610-z",
+            "https://api.openalex.org/works/W2810739295",
+            "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=tn1nAw0AAAAJ&pagesize=100&citation_for_view=tn1nAw0AAAAJ:u-x6o8ySG0sC",
+            "https://api.crossref.org/works/10.1007%2Fs10652-018-9610-z"
+          ],
+          "self": false,
+          "personId": "yafei-lv",
+          "identityStatus": "identified",
+          "affiliations": [
+            "Zhejiang University"
+          ]
+        },
+        {
+          "name": "Yeping Yuan",
+          "canonicalName": "Yeping Yuan",
+          "countries": [
+            "CN"
+          ],
+          "sourceUrls": [
+            "https://doi.org/10.1007/s10652-018-9610-z",
+            "https://link.springer.com/article/10.1007/s10652-018-9610-z",
+            "https://api.openalex.org/works/W2810739295",
+            "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=tn1nAw0AAAAJ&pagesize=100&citation_for_view=tn1nAw0AAAAJ:u-x6o8ySG0sC",
+            "https://api.crossref.org/works/10.1007%2Fs10652-018-9610-z"
+          ],
+          "self": false,
+          "personId": "yeping-yuan",
+          "identityStatus": "identified",
+          "affiliations": [
+            "Second Institute of Oceanography",
+            "State Oceanic Administration",
+            "State Key Laboratory of Satellite Ocean Environment Dynamics",
+            "Zhejiang University"
+          ]
+        },
+        {
+          "name": "Jin Liu",
+          "canonicalName": "Jin Liu",
+          "countries": [
+            "CN"
+          ],
+          "sourceUrls": [
+            "https://doi.org/10.1007/s10652-018-9610-z",
+            "https://link.springer.com/article/10.1007/s10652-018-9610-z",
+            "https://api.openalex.org/works/W2810739295",
+            "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=tn1nAw0AAAAJ&pagesize=100&citation_for_view=tn1nAw0AAAAJ:u-x6o8ySG0sC",
+            "https://api.crossref.org/works/10.1007%2Fs10652-018-9610-z"
+          ],
+          "self": true,
+          "personId": "jin-liu",
+          "identityStatus": "identified",
+          "affiliations": [
+            "Zhejiang University"
+          ]
+        },
+        {
+          "name": "Liang Zhao",
+          "canonicalName": "Liang Zhao",
+          "countries": [
+            "CN"
+          ],
+          "sourceUrls": [
+            "https://doi.org/10.1007/s10652-018-9610-z",
+            "https://link.springer.com/article/10.1007/s10652-018-9610-z",
+            "https://api.openalex.org/works/W2810739295",
+            "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=tn1nAw0AAAAJ&pagesize=100&citation_for_view=tn1nAw0AAAAJ:u-x6o8ySG0sC",
+            "https://api.crossref.org/works/10.1007%2Fs10652-018-9610-z"
+          ],
+          "self": false,
+          "personId": "liang-zhao",
+          "identityStatus": "identified",
+          "affiliations": [
+            "Zhejiang University"
+          ]
+        }
+      ]
+    },
+    {
+      "inventoryIndex": 17,
+      "title": "Relationship between large-scale variability of North Pacific waves and El Niño-Southern Oscillation",
+      "year": 2023,
+      "doi": "https://doi.org/10.3390/jmse11101848",
+      "sourceUrls": [
+        "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=tn1nAw0AAAAJ&pagesize=100&citation_for_view=tn1nAw0AAAAJ:_kc_bZDykSQC",
+        "https://doi.org/10.3390/jmse11101848",
+        "https://api.crossref.org/works/10.3390%2Fjmse11101848"
+      ],
+      "unknowns": [],
+      "scholarUrl": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=tn1nAw0AAAAJ&pagesize=100&citation_for_view=tn1nAw0AAAAJ:_kc_bZDykSQC",
+      "countingEligible": true,
+      "countingNote": "Distinct collaborator-country pairs deduplicated across all verified work affiliations.",
+      "authors": [
+        {
+          "name": "Xin Zhang",
+          "canonicalName": "Xin Zhang",
+          "countries": [
+            "CN"
+          ],
+          "sourceUrls": [
+            "https://doi.org/10.3390/jmse11101848",
+            "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=tn1nAw0AAAAJ&pagesize=100&citation_for_view=tn1nAw0AAAAJ:_kc_bZDykSQC",
+            "https://api.crossref.org/works/10.3390%2Fjmse11101848"
+          ],
+          "self": false,
+          "personId": "xin-zhang",
+          "identityStatus": "identified",
+          "affiliations": [
+            "Ocean University of China"
+          ]
+        },
+        {
+          "name": "Kejian Wu",
+          "canonicalName": "Kejian Wu",
+          "countries": [
+            "CN"
+          ],
+          "sourceUrls": [
+            "https://doi.org/10.3390/jmse11101848",
+            "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=tn1nAw0AAAAJ&pagesize=100&citation_for_view=tn1nAw0AAAAJ:_kc_bZDykSQC",
+            "https://api.crossref.org/works/10.3390%2Fjmse11101848"
+          ],
+          "self": false,
+          "personId": "kejian-wu",
+          "identityStatus": "identified",
+          "affiliations": [
+            "Ocean University of China"
+          ]
+        },
+        {
+          "name": "Rui Li",
+          "canonicalName": "Rui Li",
+          "countries": [
+            "AU",
+            "CN"
+          ],
+          "sourceUrls": [
+            "https://doi.org/10.3390/jmse11101848",
+            "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=tn1nAw0AAAAJ&pagesize=100&citation_for_view=tn1nAw0AAAAJ:_kc_bZDykSQC",
+            "https://api.crossref.org/works/10.3390%2Fjmse11101848"
+          ],
+          "self": false,
+          "personId": "rui-li",
+          "identityStatus": "identified",
+          "affiliations": [
+            "The University of Melbourne",
+            "Ocean University of China"
+          ]
+        },
+        {
+          "name": "Shuai Zhang",
+          "canonicalName": "Shuai Zhang",
+          "countries": [
+            "CN"
+          ],
+          "sourceUrls": [
+            "https://doi.org/10.3390/jmse11101848",
+            "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=tn1nAw0AAAAJ&pagesize=100&citation_for_view=tn1nAw0AAAAJ:_kc_bZDykSQC",
+            "https://api.crossref.org/works/10.3390%2Fjmse11101848"
+          ],
+          "self": false,
+          "personId": "shuai-zhang",
+          "identityStatus": "identified",
+          "affiliations": [
+            "Gongyi Yellow River Bureau, Operational Observation Section, China"
+          ]
+        },
+        {
+          "name": "Ruyan Zhang",
+          "canonicalName": "Ruyan Zhang",
+          "countries": [
+            "CN"
+          ],
+          "sourceUrls": [
+            "https://doi.org/10.3390/jmse11101848",
+            "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=tn1nAw0AAAAJ&pagesize=100&citation_for_view=tn1nAw0AAAAJ:_kc_bZDykSQC",
+            "https://api.crossref.org/works/10.3390%2Fjmse11101848"
+          ],
+          "self": false,
+          "personId": "ruyan-zhang",
+          "identityStatus": "identified",
+          "affiliations": [
+            "Henan University"
+          ]
+        },
+        {
+          "name": "Jin Liu",
+          "canonicalName": "Jin Liu",
+          "countries": [
+            "AU"
+          ],
+          "sourceUrls": [
+            "https://doi.org/10.3390/jmse11101848",
+            "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=tn1nAw0AAAAJ&pagesize=100&citation_for_view=tn1nAw0AAAAJ:_kc_bZDykSQC",
+            "https://api.crossref.org/works/10.3390%2Fjmse11101848"
+          ],
+          "self": true,
+          "personId": "jin-liu",
+          "identityStatus": "identified",
+          "affiliations": [
+            "The University of Melbourne"
+          ]
+        },
+        {
+          "name": "Alexander V. Babanin",
+          "canonicalName": "Alexander V. Babanin",
+          "countries": [
+            "AU"
+          ],
+          "sourceUrls": [
+            "https://doi.org/10.3390/jmse11101848",
+            "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=tn1nAw0AAAAJ&pagesize=100&citation_for_view=tn1nAw0AAAAJ:_kc_bZDykSQC",
+            "https://api.crossref.org/works/10.3390%2Fjmse11101848"
+          ],
+          "self": false,
+          "personId": "alexander-v-babanin",
+          "identityStatus": "identified",
+          "affiliations": [
+            "The University of Melbourne"
+          ]
+        }
+      ]
+    },
+    {
+      "inventoryIndex": 18,
+      "title": "Long-term trends and climate-mode controls on offshore wind power density off Australia",
+      "year": 2026,
+      "doi": "https://doi.org/10.1016/j.apor.2026.104991",
+      "sourceUrls": [
+        "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=tn1nAw0AAAAJ&pagesize=100&citation_for_view=tn1nAw0AAAAJ:hFOr9nPyWt4C",
+        "https://doi.org/10.1016/j.apor.2026.104991",
+        "https://api.crossref.org/works/10.1016%2Fj.apor.2026.104991",
+        "https://www.sciencedirect.com/science/article/pii/S014111872600074X",
+        "https://jglobal.jst.go.jp/en/detail?JGLOBAL_ID=202602237739548349",
+        "https://api.openalex.org/works/W7136604002"
+      ],
+      "unknowns": [],
+      "scholarUrl": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=tn1nAw0AAAAJ&pagesize=100&citation_for_view=tn1nAw0AAAAJ:hFOr9nPyWt4C",
+      "countingEligible": true,
+      "countingNote": "Distinct collaborator-country pairs deduplicated across all verified work affiliations.",
+      "authors": [
+        {
+          "name": "Rui Li",
+          "canonicalName": "Rui Li",
+          "countries": [
+            "AU"
+          ],
+          "sourceUrls": [
+            "https://doi.org/10.1016/j.apor.2026.104991",
+            "https://www.sciencedirect.com/science/article/pii/S014111872600074X",
+            "https://jglobal.jst.go.jp/en/detail?JGLOBAL_ID=202602237739548349",
+            "https://api.openalex.org/works/W7136604002",
+            "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=tn1nAw0AAAAJ&pagesize=100&citation_for_view=tn1nAw0AAAAJ:hFOr9nPyWt4C",
+            "https://api.crossref.org/works/10.1016%2Fj.apor.2026.104991"
+          ],
+          "self": false,
+          "personId": "rui-li",
+          "identityStatus": "identified",
+          "affiliations": [
+            "University of Melbourne"
+          ]
+        },
+        {
+          "name": "Alexander V. Babanin",
+          "canonicalName": "Alexander V. Babanin",
+          "countries": [
+            "AU"
+          ],
+          "sourceUrls": [
+            "https://doi.org/10.1016/j.apor.2026.104991",
+            "https://www.sciencedirect.com/science/article/pii/S014111872600074X",
+            "https://jglobal.jst.go.jp/en/detail?JGLOBAL_ID=202602237739548349",
+            "https://api.openalex.org/works/W7136604002",
+            "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=tn1nAw0AAAAJ&pagesize=100&citation_for_view=tn1nAw0AAAAJ:hFOr9nPyWt4C",
+            "https://api.crossref.org/works/10.1016%2Fj.apor.2026.104991"
+          ],
+          "self": false,
+          "personId": "alexander-v-babanin",
+          "identityStatus": "identified",
+          "affiliations": [
+            "The University of Melbourne"
+          ]
+        },
+        {
+          "name": "Jin Liu",
+          "canonicalName": "Jin Liu",
+          "countries": [
+            "AU"
+          ],
+          "sourceUrls": [
+            "https://doi.org/10.1016/j.apor.2026.104991",
+            "https://www.sciencedirect.com/science/article/pii/S014111872600074X",
+            "https://jglobal.jst.go.jp/en/detail?JGLOBAL_ID=202602237739548349",
+            "https://api.openalex.org/works/W7136604002",
+            "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=tn1nAw0AAAAJ&pagesize=100&citation_for_view=tn1nAw0AAAAJ:hFOr9nPyWt4C",
+            "https://api.crossref.org/works/10.1016%2Fj.apor.2026.104991"
+          ],
+          "self": true,
+          "personId": "jin-liu",
+          "identityStatus": "identified",
+          "affiliations": [
+            "The University of Melbourne"
+          ]
+        },
+        {
+          "name": "Kejian Wu",
+          "canonicalName": "Kejian Wu",
+          "countries": [
+            "CN"
+          ],
+          "sourceUrls": [
+            "https://doi.org/10.1016/j.apor.2026.104991",
+            "https://www.sciencedirect.com/science/article/pii/S014111872600074X",
+            "https://jglobal.jst.go.jp/en/detail?JGLOBAL_ID=202602237739548349",
+            "https://api.openalex.org/works/W7136604002",
+            "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=tn1nAw0AAAAJ&pagesize=100&citation_for_view=tn1nAw0AAAAJ:hFOr9nPyWt4C",
+            "https://api.crossref.org/works/10.1016%2Fj.apor.2026.104991"
+          ],
+          "self": false,
+          "personId": "kejian-wu",
+          "identityStatus": "identified",
+          "affiliations": [
+            "Ocean University of China"
+          ]
+        },
+        {
+          "name": "Yajie Wu",
+          "canonicalName": "Yajie Wu",
+          "countries": [
+            "CN"
+          ],
+          "sourceUrls": [
+            "https://doi.org/10.1016/j.apor.2026.104991",
+            "https://www.sciencedirect.com/science/article/pii/S014111872600074X",
+            "https://jglobal.jst.go.jp/en/detail?JGLOBAL_ID=202602237739548349",
+            "https://api.openalex.org/works/W7136604002",
+            "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=tn1nAw0AAAAJ&pagesize=100&citation_for_view=tn1nAw0AAAAJ:hFOr9nPyWt4C",
+            "https://api.crossref.org/works/10.1016%2Fj.apor.2026.104991"
+          ],
+          "self": false,
+          "personId": "yajie-wu",
+          "identityStatus": "identified",
+          "affiliations": [
+            "Ocean University of China"
+          ]
+        }
+      ]
+    },
+    {
+      "inventoryIndex": 19,
+      "title": "The wave-induced heat transport in the global ocean",
+      "year": 2025,
+      "doi": "https://doi.org/10.1016/j.ocemod.2025.102649",
+      "sourceUrls": [
+        "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=tn1nAw0AAAAJ&pagesize=100&citation_for_view=tn1nAw0AAAAJ:hC7cP41nSMkC",
+        "https://doi.org/10.1016/j.ocemod.2025.102649",
+        "https://api.crossref.org/works/10.1016%2Fj.ocemod.2025.102649",
+        "https://jglobal.jst.go.jp/detail?JGLOBAL_ID=202602262766717588",
+        "https://api.openalex.org/works/W4415748272"
+      ],
+      "unknowns": [],
+      "scholarUrl": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=tn1nAw0AAAAJ&pagesize=100&citation_for_view=tn1nAw0AAAAJ:hC7cP41nSMkC",
+      "countingEligible": true,
+      "countingNote": "Distinct collaborator-country pairs deduplicated across all verified work affiliations.",
+      "authors": [
+        {
+          "name": "Rui Li",
+          "canonicalName": "Rui Li",
+          "countries": [
+            "AU",
+            "CN"
+          ],
+          "sourceUrls": [
+            "https://doi.org/10.1016/j.ocemod.2025.102649",
+            "https://jglobal.jst.go.jp/detail?JGLOBAL_ID=202602262766717588",
+            "https://api.openalex.org/works/W4415748272",
+            "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=tn1nAw0AAAAJ&pagesize=100&citation_for_view=tn1nAw0AAAAJ:hC7cP41nSMkC",
+            "https://api.crossref.org/works/10.1016%2Fj.ocemod.2025.102649"
+          ],
+          "self": false,
+          "personId": "rui-li",
+          "identityStatus": "identified",
+          "affiliations": [
+            "The University of Melbourne",
+            "Ocean University of China"
+          ]
+        },
+        {
+          "name": "Kejian Wu",
+          "canonicalName": "Kejian Wu",
+          "countries": [
+            "CN"
+          ],
+          "sourceUrls": [
+            "https://doi.org/10.1016/j.ocemod.2025.102649",
+            "https://jglobal.jst.go.jp/detail?JGLOBAL_ID=202602262766717588",
+            "https://api.openalex.org/works/W4415748272",
+            "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=tn1nAw0AAAAJ&pagesize=100&citation_for_view=tn1nAw0AAAAJ:hC7cP41nSMkC",
+            "https://api.crossref.org/works/10.1016%2Fj.ocemod.2025.102649"
+          ],
+          "self": false,
+          "personId": "kejian-wu",
+          "identityStatus": "identified",
+          "affiliations": [
+            "Ocean University of China"
+          ]
+        },
+        {
+          "name": "Qingxiang Liu",
+          "canonicalName": "Qingxiang Liu",
+          "countries": [
+            "AU",
+            "CN"
+          ],
+          "sourceUrls": [
+            "https://doi.org/10.1016/j.ocemod.2025.102649",
+            "https://jglobal.jst.go.jp/detail?JGLOBAL_ID=202602262766717588",
+            "https://api.openalex.org/works/W4415748272",
+            "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=tn1nAw0AAAAJ&pagesize=100&citation_for_view=tn1nAw0AAAAJ:hC7cP41nSMkC",
+            "https://api.crossref.org/works/10.1016%2Fj.ocemod.2025.102649"
+          ],
+          "self": false,
+          "personId": "qingxiang-liu",
+          "identityStatus": "identified",
+          "affiliations": [
+            "The University of Melbourne",
+            "Ocean University of China"
+          ]
+        },
+        {
+          "name": "Jin Liu",
+          "canonicalName": "Jin Liu",
+          "countries": [
+            "AU"
+          ],
+          "sourceUrls": [
+            "https://doi.org/10.1016/j.ocemod.2025.102649",
+            "https://jglobal.jst.go.jp/detail?JGLOBAL_ID=202602262766717588",
+            "https://api.openalex.org/works/W4415748272",
+            "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=tn1nAw0AAAAJ&pagesize=100&citation_for_view=tn1nAw0AAAAJ:hC7cP41nSMkC",
+            "https://api.crossref.org/works/10.1016%2Fj.ocemod.2025.102649"
+          ],
+          "self": true,
+          "personId": "jin-liu",
+          "identityStatus": "identified",
+          "affiliations": [
+            "The University of Melbourne"
+          ]
+        },
+        {
+          "name": "Shang-Min Long",
+          "canonicalName": "Shang-Min Long",
+          "countries": [
+            "CN"
+          ],
+          "sourceUrls": [
+            "https://doi.org/10.1016/j.ocemod.2025.102649",
+            "https://jglobal.jst.go.jp/detail?JGLOBAL_ID=202602262766717588",
+            "https://api.openalex.org/works/W4415748272",
+            "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=tn1nAw0AAAAJ&pagesize=100&citation_for_view=tn1nAw0AAAAJ:hC7cP41nSMkC",
+            "https://api.crossref.org/works/10.1016%2Fj.ocemod.2025.102649"
+          ],
+          "self": false,
+          "personId": "shang-min-long",
+          "identityStatus": "identified",
+          "affiliations": [
+            "Hohai University"
+          ]
+        },
+        {
+          "name": "Jian Sun",
+          "canonicalName": "Jian Sun",
+          "countries": [
+            "CN"
+          ],
+          "sourceUrls": [
+            "https://doi.org/10.1016/j.ocemod.2025.102649",
+            "https://jglobal.jst.go.jp/detail?JGLOBAL_ID=202602262766717588",
+            "https://api.openalex.org/works/W4415748272",
+            "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=tn1nAw0AAAAJ&pagesize=100&citation_for_view=tn1nAw0AAAAJ:hC7cP41nSMkC",
+            "https://api.crossref.org/works/10.1016%2Fj.ocemod.2025.102649"
+          ],
+          "self": false,
+          "personId": "jian-sun",
+          "identityStatus": "identified",
+          "affiliations": [
+            "Ocean University of China"
+          ]
+        },
+        {
+          "name": "Alexander V. Babanin",
+          "canonicalName": "Alexander V. Babanin",
+          "countries": [
+            "AU"
+          ],
+          "sourceUrls": [
+            "https://doi.org/10.1016/j.ocemod.2025.102649",
+            "https://jglobal.jst.go.jp/detail?JGLOBAL_ID=202602262766717588",
+            "https://api.openalex.org/works/W4415748272",
+            "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=tn1nAw0AAAAJ&pagesize=100&citation_for_view=tn1nAw0AAAAJ:hC7cP41nSMkC",
+            "https://api.crossref.org/works/10.1016%2Fj.ocemod.2025.102649"
+          ],
+          "self": false,
+          "personId": "alexander-v-babanin",
+          "identityStatus": "identified",
+          "affiliations": [
+            "The University of Melbourne"
+          ]
+        }
+      ]
+    },
+    {
+      "inventoryIndex": 20,
+      "title": "Shoreline dynamics of an urbanised estuarine beach under the influence of changing sediment budgets",
+      "year": 2025,
+      "doi": "https://doi.org/10.3389/feart.2025.1607126",
+      "sourceUrls": [
+        "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=tn1nAw0AAAAJ&pagesize=100&citation_for_view=tn1nAw0AAAAJ:qUcmZB5y_30C",
+        "https://api.openalex.org/works/W4413365690",
+        "https://doi.org/10.3389/feart.2025.1607126",
+        "https://www.frontiersin.org/journals/earth-science/articles/10.3389/feart.2025.1607126/full"
+      ],
+      "unknowns": [],
+      "scholarUrl": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=tn1nAw0AAAAJ&pagesize=100&citation_for_view=tn1nAw0AAAAJ:qUcmZB5y_30C",
+      "countingEligible": true,
+      "countingNote": "Distinct collaborator-country pairs deduplicated across all verified work affiliations.",
+      "authors": [
+        {
+          "name": "David M. Kennedy",
+          "canonicalName": "David M. Kennedy",
+          "authorId": "https://openalex.org/A5004476767",
+          "orcid": "https://orcid.org/0000-0002-4878-7717",
+          "countries": [
+            "AU"
+          ],
+          "sourceUrls": [
+            "https://api.openalex.org/works/W4413365690",
+            "https://doi.org/10.3389/feart.2025.1607126",
+            "https://www.frontiersin.org/journals/earth-science/articles/10.3389/feart.2025.1607126/full",
+            "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=tn1nAw0AAAAJ&pagesize=100&citation_for_view=tn1nAw0AAAAJ:qUcmZB5y_30C"
+          ],
+          "personId": "david-m-kennedy",
+          "self": false,
+          "identityStatus": "identified",
+          "affiliations": [
+            "School of Geography, Earth and Atmospheric Sciences, The University of Melbourne, Parkville, VIC, Australia"
+          ]
+        },
+        {
+          "name": "Runjie Yuan",
+          "canonicalName": "Runjie Yuan",
+          "authorId": "https://openalex.org/A5026471680",
+          "orcid": "https://orcid.org/0000-0002-3099-8970",
+          "countries": [
+            "AU"
+          ],
+          "sourceUrls": [
+            "https://api.openalex.org/works/W4413365690",
+            "https://doi.org/10.3389/feart.2025.1607126",
+            "https://www.frontiersin.org/journals/earth-science/articles/10.3389/feart.2025.1607126/full",
+            "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=tn1nAw0AAAAJ&pagesize=100&citation_for_view=tn1nAw0AAAAJ:qUcmZB5y_30C"
+          ],
+          "personId": "runjie-yuan",
+          "self": false,
+          "identityStatus": "identified",
+          "affiliations": [
+            "School of Geography, Earth and Atmospheric Sciences, The University of Melbourne, Parkville, VIC, Australia"
+          ]
+        },
+        {
+          "name": "Robert Jak McCarroll",
+          "canonicalName": "Jak McCarroll",
+          "authorId": "https://openalex.org/A5083308336",
+          "orcid": "https://orcid.org/0000-0003-1862-747X",
+          "countries": [
+            "AU"
+          ],
+          "sourceUrls": [
+            "https://api.openalex.org/works/W4413365690",
+            "https://doi.org/10.3389/feart.2025.1607126",
+            "https://www.frontiersin.org/journals/earth-science/articles/10.3389/feart.2025.1607126/full",
+            "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=tn1nAw0AAAAJ&pagesize=100&citation_for_view=tn1nAw0AAAAJ:qUcmZB5y_30C"
+          ],
+          "personId": "jak-mccarroll",
+          "self": false,
+          "identityStatus": "identified",
+          "affiliations": [
+            "Regional Coastal Adaptation and Planning, Department of Energy, Environment, and Climate Action, East Melbourne, VIC, Australia"
+          ]
+        },
+        {
+          "name": "Jin Liu",
+          "canonicalName": "Jin Liu",
+          "authorId": "https://openalex.org/A5023719440",
+          "orcid": "https://orcid.org/0000-0001-7415-3729",
+          "countries": [
+            "AU"
+          ],
+          "sourceUrls": [
+            "https://api.openalex.org/works/W4413365690",
+            "https://doi.org/10.3389/feart.2025.1607126",
+            "https://www.frontiersin.org/journals/earth-science/articles/10.3389/feart.2025.1607126/full",
+            "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=tn1nAw0AAAAJ&pagesize=100&citation_for_view=tn1nAw0AAAAJ:qUcmZB5y_30C"
+          ],
+          "personId": "jin-liu",
+          "self": true,
+          "identityStatus": "identified",
+          "affiliations": [
+            "Regional Coastal Adaptation and Planning, Department of Energy, Environment, and Climate Action, East Melbourne, VIC, Australia"
+          ]
+        },
+        {
+          "name": "Eddie Beetham",
+          "canonicalName": "Eddie Beetham",
+          "authorId": "https://openalex.org/A5008557876",
+          "orcid": "https://orcid.org/0000-0003-2978-426X",
+          "countries": [
+            "NZ"
+          ],
+          "sourceUrls": [
+            "https://api.openalex.org/works/W4413365690",
+            "https://doi.org/10.3389/feart.2025.1607126",
+            "https://www.frontiersin.org/journals/earth-science/articles/10.3389/feart.2025.1607126/full",
+            "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=tn1nAw0AAAAJ&pagesize=100&citation_for_view=tn1nAw0AAAAJ:qUcmZB5y_30C"
+          ],
+          "personId": "eddie-beetham",
+          "self": false,
+          "identityStatus": "identified",
+          "affiliations": [
+            "Tonkin and Taylor Ltd., Auckland, New Zealand"
+          ]
+        },
+        {
+          "name": "Daniel A. Ierodiaconou",
+          "canonicalName": "Daniel Ierodiaconou",
+          "authorId": "https://openalex.org/A5075734722",
+          "orcid": "https://orcid.org/0000-0002-7832-4801",
+          "countries": [
+            "AU"
+          ],
+          "sourceUrls": [
+            "https://api.openalex.org/works/W4413365690",
+            "https://doi.org/10.3389/feart.2025.1607126",
+            "https://www.frontiersin.org/journals/earth-science/articles/10.3389/feart.2025.1607126/full",
+            "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=tn1nAw0AAAAJ&pagesize=100&citation_for_view=tn1nAw0AAAAJ:qUcmZB5y_30C"
+          ],
+          "personId": "daniel-ierodiaconou",
+          "self": false,
+          "identityStatus": "identified",
+          "affiliations": [
+            "School of Life and Environmental Sciences, Deakin University, Warrnambool, VIC, Australia"
+          ]
+        }
+      ]
+    },
+    {
+      "inventoryIndex": 21,
+      "title": "A multi-method database for quantification of coastal behaviour from regional to compartment scale",
+      "year": 2023,
+      "doi": "https://doi.org/10.1142/9789811275135_0119",
+      "sourceUrls": [
+        "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=tn1nAw0AAAAJ&pagesize=100&citation_for_view=tn1nAw0AAAAJ:Wp0gIr-vW9MC",
+        "https://api.openalex.org/works/W4360867377",
+        "https://doi.org/10.1142/9789811275135_0119"
+      ],
+      "unknowns": [],
+      "scholarUrl": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=tn1nAw0AAAAJ&pagesize=100&citation_for_view=tn1nAw0AAAAJ:Wp0gIr-vW9MC",
+      "countingEligible": true,
+      "countingNote": "Distinct collaborator-country pairs deduplicated across all verified work affiliations.",
+      "authors": [
+        {
+          "name": "Robert Jak McCarroll",
+          "canonicalName": "Jak McCarroll",
+          "authorId": "https://openalex.org/A5083308336",
+          "orcid": "https://orcid.org/0000-0003-1862-747X",
+          "countries": [
+            "AU"
+          ],
+          "sourceUrls": [
+            "https://api.openalex.org/works/W4360867377",
+            "https://doi.org/10.1142/9789811275135_0119",
+            "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=tn1nAw0AAAAJ&pagesize=100&citation_for_view=tn1nAw0AAAAJ:Wp0gIr-vW9MC"
+          ],
+          "personId": "jak-mccarroll",
+          "self": false,
+          "identityStatus": "identified",
+          "affiliations": [
+            "Department of Environment, Land, Water and Planning, Melbourne, Australia"
+          ]
+        },
+        {
+          "name": "Daniel A. Ierodiaconou",
+          "canonicalName": "Daniel Ierodiaconou",
+          "authorId": "https://openalex.org/A5075734722",
+          "orcid": "https://orcid.org/0000-0002-7832-4801",
+          "countries": [
+            "AU"
+          ],
+          "sourceUrls": [
+            "https://api.openalex.org/works/W4360867377",
+            "https://doi.org/10.1142/9789811275135_0119",
+            "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=tn1nAw0AAAAJ&pagesize=100&citation_for_view=tn1nAw0AAAAJ:Wp0gIr-vW9MC"
+          ],
+          "personId": "daniel-ierodiaconou",
+          "self": false,
+          "identityStatus": "identified",
+          "affiliations": [
+            "Deakin University, Warrnambool, Australia"
+          ]
+        },
+        {
+          "name": "David M. Kennedy",
+          "canonicalName": "David M. Kennedy",
+          "authorId": "https://openalex.org/A5004476767",
+          "orcid": "https://orcid.org/0000-0002-4878-7717",
+          "countries": [
+            "AU"
+          ],
+          "sourceUrls": [
+            "https://api.openalex.org/works/W4360867377",
+            "https://doi.org/10.1142/9789811275135_0119",
+            "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=tn1nAw0AAAAJ&pagesize=100&citation_for_view=tn1nAw0AAAAJ:Wp0gIr-vW9MC"
+          ],
+          "personId": "david-m-kennedy",
+          "self": false,
+          "identityStatus": "identified",
+          "affiliations": [
+            "University of Melbourne, Parkville, Australia"
+          ]
+        },
+        {
+          "name": "Nicolas Pucino",
+          "canonicalName": "Nicolas Pucino",
+          "authorId": "https://openalex.org/A5015242253",
+          "orcid": "https://orcid.org/0000-0001-6260-6647",
+          "countries": [
+            "AU"
+          ],
+          "sourceUrls": [
+            "https://api.openalex.org/works/W4360867377",
+            "https://doi.org/10.1142/9789811275135_0119",
+            "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=tn1nAw0AAAAJ&pagesize=100&citation_for_view=tn1nAw0AAAAJ:Wp0gIr-vW9MC"
+          ],
+          "personId": "nicolas-pucino",
+          "self": false,
+          "identityStatus": "identified",
+          "affiliations": [
+            "Deakin University, Warrnambool, Australia"
+          ]
+        },
+        {
+          "name": "Blake M. Allan",
+          "canonicalName": "Blake M. Allan",
+          "authorId": "https://openalex.org/A5025790072",
+          "orcid": "https://orcid.org/0000-0003-0101-3412",
+          "countries": [
+            "AU"
+          ],
+          "sourceUrls": [
+            "https://api.openalex.org/works/W4360867377",
+            "https://doi.org/10.1142/9789811275135_0119",
+            "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=tn1nAw0AAAAJ&pagesize=100&citation_for_view=tn1nAw0AAAAJ:Wp0gIr-vW9MC"
+          ],
+          "personId": "blake-m-allan",
+          "self": false,
+          "identityStatus": "identified",
+          "affiliations": [
+            "Deakin University, Warrnambool, Australia"
+          ]
+        },
+        {
+          "name": "JIN LIU",
+          "canonicalName": "Jin Liu",
+          "authorId": null,
+          "orcid": null,
+          "countries": [
+            "AU"
+          ],
+          "sourceUrls": [
+            "https://api.openalex.org/works/W4360867377",
+            "https://doi.org/10.1142/9789811275135_0119",
+            "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=tn1nAw0AAAAJ&pagesize=100&citation_for_view=tn1nAw0AAAAJ:Wp0gIr-vW9MC"
+          ],
+          "personId": "jin-liu",
+          "self": true,
+          "identityStatus": "identified",
+          "affiliations": [
+            "University of Melbourne, Parkville, Australia"
+          ]
+        },
+        {
+          "name": "Alberto Meucci",
+          "canonicalName": "Alberto Meucci",
+          "authorId": "https://openalex.org/A5035006455",
+          "orcid": "https://orcid.org/0000-0002-0278-756X",
+          "countries": [
+            "AU"
+          ],
+          "sourceUrls": [
+            "https://api.openalex.org/works/W4360867377",
+            "https://doi.org/10.1142/9789811275135_0119",
+            "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=tn1nAw0AAAAJ&pagesize=100&citation_for_view=tn1nAw0AAAAJ:Wp0gIr-vW9MC"
+          ],
+          "personId": "alberto-meucci",
+          "self": false,
+          "identityStatus": "identified",
+          "affiliations": [
+            "University of Melbourne, Parkville, Australia"
+          ]
+        },
+        {
+          "name": "IAN YOUNG",
+          "canonicalName": "Ian R. Young",
+          "authorId": null,
+          "orcid": null,
+          "countries": [
+            "AU"
+          ],
+          "sourceUrls": [
+            "https://api.openalex.org/works/W4360867377",
+            "https://doi.org/10.1142/9789811275135_0119",
+            "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=tn1nAw0AAAAJ&pagesize=100&citation_for_view=tn1nAw0AAAAJ:Wp0gIr-vW9MC"
+          ],
+          "personId": "ian-r-young",
+          "self": false,
+          "identityStatus": "identified",
+          "affiliations": [
+            "University of Melbourne, Parkville, Australia"
+          ]
+        },
+        {
+          "name": "Huy Quang Tran",
+          "canonicalName": "Huy Quang Tran",
+          "authorId": "https://openalex.org/A5034790800",
+          "orcid": "https://orcid.org/0000-0003-3136-0802",
+          "countries": [
+            "AU"
+          ],
+          "sourceUrls": [
+            "https://api.openalex.org/works/W4360867377",
+            "https://doi.org/10.1142/9789811275135_0119",
+            "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=tn1nAw0AAAAJ&pagesize=100&citation_for_view=tn1nAw0AAAAJ:Wp0gIr-vW9MC"
+          ],
+          "personId": "huy-quang-tran",
+          "self": false,
+          "identityStatus": "identified",
+          "affiliations": [
+            "University of Melbourne, Parkville, Australia"
+          ]
+        },
+        {
+          "name": "Alexander V. Babanin",
+          "canonicalName": "Alexander V. Babanin",
+          "authorId": "https://openalex.org/A5006825958",
+          "orcid": "https://orcid.org/0000-0002-8595-8204",
+          "countries": [
+            "AU"
+          ],
+          "sourceUrls": [
+            "https://api.openalex.org/works/W4360867377",
+            "https://doi.org/10.1142/9789811275135_0119",
+            "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=tn1nAw0AAAAJ&pagesize=100&citation_for_view=tn1nAw0AAAAJ:Wp0gIr-vW9MC"
+          ],
+          "personId": "alexander-v-babanin",
+          "self": false,
+          "identityStatus": "identified",
+          "affiliations": [
+            "University of Melbourne, Parkville, Australia"
+          ]
+        },
+        {
+          "name": "Rafael C. Carvalho",
+          "canonicalName": "Rafael C. Carvalho",
+          "authorId": "https://openalex.org/A5044950287",
+          "orcid": "https://orcid.org/0000-0003-0790-5614",
+          "countries": [
+            "AU"
+          ],
+          "sourceUrls": [
+            "https://api.openalex.org/works/W4360867377",
+            "https://doi.org/10.1142/9789811275135_0119",
+            "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=tn1nAw0AAAAJ&pagesize=100&citation_for_view=tn1nAw0AAAAJ:Wp0gIr-vW9MC"
+          ],
+          "personId": "rafael-c-carvalho",
+          "self": false,
+          "identityStatus": "identified",
+          "affiliations": [
+            "Monash University, Clayton, Australia"
+          ]
+        },
+        {
+          "name": "Robbi Bishop‐Taylor",
+          "canonicalName": "Robbi Bishop-Taylor",
+          "authorId": "https://openalex.org/A5068282601",
+          "orcid": "https://orcid.org/0000-0002-1533-2599",
+          "countries": [
+            "AU"
+          ],
+          "sourceUrls": [
+            "https://api.openalex.org/works/W4360867377",
+            "https://doi.org/10.1142/9789811275135_0119",
+            "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=tn1nAw0AAAAJ&pagesize=100&citation_for_view=tn1nAw0AAAAJ:Wp0gIr-vW9MC"
+          ],
+          "personId": "robbi-bishop-taylor",
+          "self": false,
+          "identityStatus": "identified",
+          "affiliations": [
+            "Geoscience Australia, Symonston, Australia"
+          ]
+        }
+      ]
+    },
+    {
+      "inventoryIndex": 22,
+      "title": "A framework to combine beach monitoring data with modular erosion risk modelling to inform operational coastal management",
+      "year": 2026,
+      "doi": "https://doi.org/10.1016/j.ocecoaman.2025.107972",
+      "sourceUrls": [
+        "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=tn1nAw0AAAAJ&pagesize=100&citation_for_view=tn1nAw0AAAAJ:-f6ydRqryjwC",
+        "https://api.openalex.org/works/W7103882224",
+        "https://doi.org/10.1016/j.ocecoaman.2025.107972"
+      ],
+      "unknowns": [],
+      "scholarUrl": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=tn1nAw0AAAAJ&pagesize=100&citation_for_view=tn1nAw0AAAAJ:-f6ydRqryjwC",
+      "countingEligible": true,
+      "countingNote": "Distinct collaborator-country pairs deduplicated across all verified work affiliations.",
+      "authors": [
+        {
+          "name": "Robert Jak McCarroll",
+          "canonicalName": "Jak McCarroll",
+          "authorId": "https://openalex.org/A5083308336",
+          "orcid": "https://orcid.org/0000-0003-1862-747X",
+          "countries": [
+            "AU"
+          ],
+          "sourceUrls": [
+            "https://api.openalex.org/works/W7103882224",
+            "https://doi.org/10.1016/j.ocecoaman.2025.107972",
+            "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=tn1nAw0AAAAJ&pagesize=100&citation_for_view=tn1nAw0AAAAJ:-f6ydRqryjwC"
+          ],
+          "personId": "jak-mccarroll",
+          "self": false,
+          "identityStatus": "identified",
+          "affiliations": [
+            "School of Geography, Earth and Atmospheric Sciences, The University of Melbourne, Parkville, Victoria, Australia"
+          ]
+        },
+        {
+          "name": "David M. Kennedy",
+          "canonicalName": "David M. Kennedy",
+          "authorId": "https://openalex.org/A5004476767",
+          "orcid": "https://orcid.org/0000-0002-4878-7717",
+          "countries": [
+            "AU"
+          ],
+          "sourceUrls": [
+            "https://api.openalex.org/works/W7103882224",
+            "https://doi.org/10.1016/j.ocecoaman.2025.107972",
+            "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=tn1nAw0AAAAJ&pagesize=100&citation_for_view=tn1nAw0AAAAJ:-f6ydRqryjwC"
+          ],
+          "personId": "david-m-kennedy",
+          "self": false,
+          "identityStatus": "identified",
+          "affiliations": [
+            "School of Geography, Earth and Atmospheric Sciences, The University of Melbourne, Parkville, Victoria, Australia"
+          ]
+        },
+        {
+          "name": "Jin Liu",
+          "canonicalName": "Jin Liu",
+          "authorId": null,
+          "orcid": "https://orcid.org/0000-0001-7415-3729",
+          "countries": [
+            "AU"
+          ],
+          "sourceUrls": [
+            "https://api.openalex.org/works/W7103882224",
+            "https://doi.org/10.1016/j.ocecoaman.2025.107972",
+            "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=tn1nAw0AAAAJ&pagesize=100&citation_for_view=tn1nAw0AAAAJ:-f6ydRqryjwC"
+          ],
+          "personId": "jin-liu",
+          "self": true,
+          "identityStatus": "identified",
+          "affiliations": [
+            "School of Biosciences, The University of Melbourne, Carlton, Victoria, Australia"
+          ]
+        },
+        {
+          "name": "Blake Allan",
+          "canonicalName": "Blake M. Allan",
+          "authorId": null,
+          "orcid": "https://orcid.org/0000-0003-0101-3412",
+          "countries": [
+            "AU"
+          ],
+          "sourceUrls": [
+            "https://api.openalex.org/works/W7103882224",
+            "https://doi.org/10.1016/j.ocecoaman.2025.107972",
+            "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=tn1nAw0AAAAJ&pagesize=100&citation_for_view=tn1nAw0AAAAJ:-f6ydRqryjwC"
+          ],
+          "personId": "blake-m-allan",
+          "self": false,
+          "identityStatus": "identified",
+          "affiliations": [
+            "Department of Energy Environment and Climate Action, Melbourne, Victoria, Australia"
+          ]
+        },
+        {
+          "name": "Elisa Zavadil",
+          "canonicalName": "Elisa Zavadil",
+          "authorId": null,
+          "orcid": "https://orcid.org/0009-0009-8298-1466",
+          "countries": [
+            "AU"
+          ],
+          "sourceUrls": [
+            "https://api.openalex.org/works/W7103882224",
+            "https://doi.org/10.1016/j.ocecoaman.2025.107972",
+            "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=tn1nAw0AAAAJ&pagesize=100&citation_for_view=tn1nAw0AAAAJ:-f6ydRqryjwC"
+          ],
+          "personId": "elisa-zavadil",
+          "self": false,
+          "identityStatus": "identified",
+          "affiliations": [
+            "Department of Energy Environment and Climate Action, Melbourne, Victoria, Australia"
+          ]
+        },
+        {
+          "name": "Daniel Ierodiaconou",
+          "canonicalName": "Daniel Ierodiaconou",
+          "authorId": null,
+          "orcid": null,
+          "countries": [
+            "AU"
+          ],
+          "sourceUrls": [
+            "https://api.openalex.org/works/W7103882224",
+            "https://doi.org/10.1016/j.ocecoaman.2025.107972",
+            "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=tn1nAw0AAAAJ&pagesize=100&citation_for_view=tn1nAw0AAAAJ:-f6ydRqryjwC"
+          ],
+          "personId": "daniel-ierodiaconou",
+          "self": false,
+          "identityStatus": "identified",
+          "affiliations": [
+            "School of Life and Environmental Sciences, Deakin University, Warrnambool, Victoria, Australia"
+          ]
+        }
+      ]
+    },
+    {
+      "inventoryIndex": 23,
+      "title": "Assessment of different CMIP6 regional wind wave climate downscaling approaches-From a global to a local perspective",
+      "year": 2024,
+      "doi": "https://doi.org/10.5194/egusphere-egu24-3679",
+      "sourceUrls": [
+        "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=tn1nAw0AAAAJ&pagesize=100&citation_for_view=tn1nAw0AAAAJ:9ZlFYXVOiuMC",
+        "https://api.openalex.org/works/W4392590450",
+        "https://doi.org/10.5194/egusphere-egu24-3679",
+        "https://meetingorganizer.copernicus.org/EGU24/EGU24-3679.html"
+      ],
+      "unknowns": [],
+      "scholarUrl": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=tn1nAw0AAAAJ&pagesize=100&citation_for_view=tn1nAw0AAAAJ:9ZlFYXVOiuMC",
+      "countingEligible": true,
+      "countingNote": "Distinct collaborator-country pairs deduplicated across all verified work affiliations.",
+      "authors": [
+        {
+          "name": "Alberto Meucci",
+          "canonicalName": "Alberto Meucci",
+          "authorId": "https://openalex.org/A5035006455",
+          "orcid": "https://orcid.org/0000-0002-0278-756X",
+          "countries": [
+            "AU"
+          ],
+          "sourceUrls": [
+            "https://api.openalex.org/works/W4392590450",
+            "https://doi.org/10.5194/egusphere-egu24-3679",
+            "https://meetingorganizer.copernicus.org/EGU24/EGU24-3679.html",
+            "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=tn1nAw0AAAAJ&pagesize=100&citation_for_view=tn1nAw0AAAAJ:9ZlFYXVOiuMC"
+          ],
+          "personId": "alberto-meucci",
+          "self": false,
+          "identityStatus": "identified",
+          "affiliations": [
+            "Climate Science Centre, CSIRO Environment, Aspendale, Australia",
+            "University of Melbourne, Melbourne School of Engineering, Department of Infrastructure Engineering, Australia"
+          ]
+        },
+        {
+          "name": "Matteo Lorenzo",
+          "canonicalName": "Matteo Lorenzo",
+          "authorId": "https://openalex.org/A5085372549",
+          "orcid": "https://orcid.org/0000-0001-8330-2327",
+          "countries": [
+            "IT"
+          ],
+          "sourceUrls": [
+            "https://api.openalex.org/works/W4392590450",
+            "https://doi.org/10.5194/egusphere-egu24-3679",
+            "https://meetingorganizer.copernicus.org/EGU24/EGU24-3679.html",
+            "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=tn1nAw0AAAAJ&pagesize=100&citation_for_view=tn1nAw0AAAAJ:9ZlFYXVOiuMC"
+          ],
+          "personId": "matteo-lorenzo",
+          "self": false,
+          "identityStatus": "identified",
+          "affiliations": [
+            "Department of Physics and INFN, University of Turin, Turin, Italy"
+          ]
+        },
+        {
+          "name": "Jin Liu",
+          "canonicalName": "Jin Liu",
+          "authorId": "https://openalex.org/A5023719440",
+          "orcid": "https://orcid.org/0000-0001-7415-3729",
+          "countries": [
+            "AU"
+          ],
+          "sourceUrls": [
+            "https://api.openalex.org/works/W4392590450",
+            "https://doi.org/10.5194/egusphere-egu24-3679",
+            "https://meetingorganizer.copernicus.org/EGU24/EGU24-3679.html",
+            "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=tn1nAw0AAAAJ&pagesize=100&citation_for_view=tn1nAw0AAAAJ:9ZlFYXVOiuMC"
+          ],
+          "personId": "jin-liu",
+          "self": true,
+          "identityStatus": "identified",
+          "affiliations": [
+            "Department of Energy, Environment and Climate Action, Melbourne, Victoria, Australia",
+            "University of Melbourne, Melbourne School of Engineering, Department of Infrastructure Engineering, Australia"
+          ]
+        },
+        {
+          "name": "Jozef I. Syktus",
+          "canonicalName": "Jozef Syktus",
+          "authorId": "https://openalex.org/A5041437291",
+          "orcid": "https://orcid.org/0000-0003-1782-3073",
+          "countries": [
+            "AU"
+          ],
+          "sourceUrls": [
+            "https://api.openalex.org/works/W4392590450",
+            "https://doi.org/10.5194/egusphere-egu24-3679",
+            "https://meetingorganizer.copernicus.org/EGU24/EGU24-3679.html",
+            "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=tn1nAw0AAAAJ&pagesize=100&citation_for_view=tn1nAw0AAAAJ:9ZlFYXVOiuMC"
+          ],
+          "personId": "jozef-syktus",
+          "self": false,
+          "identityStatus": "identified",
+          "affiliations": [
+            "The University of Queensland, School of the Environment, Brisbane, Australia"
+          ]
+        },
+        {
+          "name": "Claire Trenham",
+          "canonicalName": "Claire Trenham",
+          "authorId": "https://openalex.org/A5032322634",
+          "orcid": "https://orcid.org/0000-0003-4258-9936",
+          "countries": [
+            "AU"
+          ],
+          "sourceUrls": [
+            "https://api.openalex.org/works/W4392590450",
+            "https://doi.org/10.5194/egusphere-egu24-3679",
+            "https://meetingorganizer.copernicus.org/EGU24/EGU24-3679.html",
+            "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=tn1nAw0AAAAJ&pagesize=100&citation_for_view=tn1nAw0AAAAJ:9ZlFYXVOiuMC"
+          ],
+          "personId": "claire-trenham",
+          "self": false,
+          "identityStatus": "identified",
+          "affiliations": [
+            "Climate Science Centre, CSIRO Environment, Canberra, Australia"
+          ]
+        },
+        {
+          "name": "Vanessa Hernaman",
+          "canonicalName": "Vanessa Hernaman",
+          "authorId": "https://openalex.org/A5014765397",
+          "orcid": "https://orcid.org/0000-0002-0042-7579",
+          "countries": [
+            "AU"
+          ],
+          "sourceUrls": [
+            "https://api.openalex.org/works/W4392590450",
+            "https://doi.org/10.5194/egusphere-egu24-3679",
+            "https://meetingorganizer.copernicus.org/EGU24/EGU24-3679.html",
+            "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=tn1nAw0AAAAJ&pagesize=100&citation_for_view=tn1nAw0AAAAJ:9ZlFYXVOiuMC"
+          ],
+          "personId": "vanessa-hernaman",
+          "self": false,
+          "identityStatus": "identified",
+          "affiliations": [
+            "Climate Science Centre, CSIRO Environment, Aspendale, Australia"
+          ]
+        },
+        {
+          "name": "Ron Hoeke",
+          "canonicalName": "Ron Hoeke",
+          "authorId": "https://openalex.org/A5054187854",
+          "orcid": "https://orcid.org/0000-0003-0576-9436",
+          "countries": [
+            "AU"
+          ],
+          "sourceUrls": [
+            "https://api.openalex.org/works/W4392590450",
+            "https://doi.org/10.5194/egusphere-egu24-3679",
+            "https://meetingorganizer.copernicus.org/EGU24/EGU24-3679.html",
+            "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=tn1nAw0AAAAJ&pagesize=100&citation_for_view=tn1nAw0AAAAJ:9ZlFYXVOiuMC"
+          ],
+          "personId": "ron-hoeke",
+          "self": false,
+          "identityStatus": "identified",
+          "affiliations": [
+            "Climate Science Centre, CSIRO Environment, Aspendale, Australia"
+          ]
+        },
+        {
+          "name": "Miguel Onorato",
+          "canonicalName": "Miguel Onorato",
+          "authorId": "https://openalex.org/A5051756179",
+          "orcid": "https://orcid.org/0000-0001-9141-2147",
+          "countries": [
+            "IT"
+          ],
+          "sourceUrls": [
+            "https://api.openalex.org/works/W4392590450",
+            "https://doi.org/10.5194/egusphere-egu24-3679",
+            "https://meetingorganizer.copernicus.org/EGU24/EGU24-3679.html",
+            "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=tn1nAw0AAAAJ&pagesize=100&citation_for_view=tn1nAw0AAAAJ:9ZlFYXVOiuMC"
+          ],
+          "personId": "miguel-onorato",
+          "self": false,
+          "identityStatus": "identified",
+          "affiliations": [
+            "Department of Physics and INFN, University of Turin, Turin, Italy"
+          ]
+        },
+        {
+          "name": "Ian Robert Young",
+          "canonicalName": "Ian R. Young",
+          "authorId": "https://openalex.org/A5017415027",
+          "orcid": "https://orcid.org/0000-0003-2233-9227",
+          "countries": [
+            "AU"
+          ],
+          "sourceUrls": [
+            "https://api.openalex.org/works/W4392590450",
+            "https://doi.org/10.5194/egusphere-egu24-3679",
+            "https://meetingorganizer.copernicus.org/EGU24/EGU24-3679.html",
+            "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=tn1nAw0AAAAJ&pagesize=100&citation_for_view=tn1nAw0AAAAJ:9ZlFYXVOiuMC"
+          ],
+          "personId": "ian-r-young",
+          "self": false,
+          "identityStatus": "identified",
+          "affiliations": [
+            "University of Melbourne, Melbourne School of Engineering, Department of Infrastructure Engineering, Australia"
+          ]
+        }
+      ]
+    },
+    {
+      "inventoryIndex": 24,
+      "title": "VCMP sites data product",
+      "year": 2024,
+      "doi": null,
+      "sourceUrls": [
+        "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=tn1nAw0AAAAJ&pagesize=100&citation_for_view=tn1nAw0AAAAJ:TQgYirikUcIC",
+        "https://www.marineandcoasts.vic.gov.au/__data/assets/pdf_file/0041/688397/VCMP_Sites_MetadataReport_Mar2024.pdf"
+      ],
+      "unknowns": [],
+      "scholarUrl": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=tn1nAw0AAAAJ&pagesize=100&citation_for_view=tn1nAw0AAAAJ:TQgYirikUcIC",
+      "countingEligible": true,
+      "countingNote": "Distinct collaborator-country pairs deduplicated across all verified work affiliations.",
+      "authors": [
+        {
+          "name": "Jin Liu",
+          "canonicalName": "Jin Liu",
+          "countries": [
+            "AU"
+          ],
+          "sourceUrls": [
+            "https://www.marineandcoasts.vic.gov.au/__data/assets/pdf_file/0041/688397/VCMP_Sites_MetadataReport_Mar2024.pdf",
+            "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=tn1nAw0AAAAJ&pagesize=100&citation_for_view=tn1nAw0AAAAJ:TQgYirikUcIC"
+          ],
+          "personId": "jin-liu",
+          "self": true,
+          "identityStatus": "identified",
+          "affiliations": [
+            "Department of Energy, Environment and Climate Action, Victoria State Government, Australia"
+          ]
+        },
+        {
+          "name": "Jak McCarroll",
+          "canonicalName": "Jak McCarroll",
+          "countries": [
+            "AU"
+          ],
+          "sourceUrls": [
+            "https://www.marineandcoasts.vic.gov.au/__data/assets/pdf_file/0041/688397/VCMP_Sites_MetadataReport_Mar2024.pdf",
+            "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=tn1nAw0AAAAJ&pagesize=100&citation_for_view=tn1nAw0AAAAJ:TQgYirikUcIC"
+          ],
+          "personId": "jak-mccarroll",
+          "self": false,
+          "identityStatus": "identified",
+          "affiliations": [
+            "Department of Energy, Environment and Climate Action, Victoria State Government, Australia"
+          ]
+        }
+      ]
+    },
+    {
+      "inventoryIndex": 25,
+      "title": "Victorian coastline longshore sediment transport modelling",
+      "year": 2023,
+      "doi": null,
+      "sourceUrls": [
+        "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=tn1nAw0AAAAJ&pagesize=100&citation_for_view=tn1nAw0AAAAJ:HDshCWvjkbEC",
+        "https://www.marineandcoasts.vic.gov.au/__data/assets/pdf_file/0034/675448/Victorian_Coastline_Longshore_Sediment_Transport_Modelling-compressed2.pdf"
+      ],
+      "unknowns": [],
+      "scholarUrl": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=tn1nAw0AAAAJ&pagesize=100&citation_for_view=tn1nAw0AAAAJ:HDshCWvjkbEC",
+      "countingEligible": true,
+      "countingNote": "Distinct collaborator-country pairs deduplicated across all verified work affiliations.",
+      "authors": [
+        {
+          "name": "Jin Liu",
+          "canonicalName": "Jin Liu",
+          "countries": [
+            "AU"
+          ],
+          "sourceUrls": [
+            "https://www.marineandcoasts.vic.gov.au/__data/assets/pdf_file/0034/675448/Victorian_Coastline_Longshore_Sediment_Transport_Modelling-compressed2.pdf",
+            "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=tn1nAw0AAAAJ&pagesize=100&citation_for_view=tn1nAw0AAAAJ:HDshCWvjkbEC"
+          ],
+          "personId": "jin-liu",
+          "self": true,
+          "identityStatus": "identified",
+          "affiliations": [
+            "Department of Energy, Environment and Climate Action, Victoria State Government, Australia"
+          ]
+        },
+        {
+          "name": "Jak McCarroll",
+          "canonicalName": "Jak McCarroll",
+          "countries": [
+            "AU"
+          ],
+          "sourceUrls": [
+            "https://www.marineandcoasts.vic.gov.au/__data/assets/pdf_file/0034/675448/Victorian_Coastline_Longshore_Sediment_Transport_Modelling-compressed2.pdf",
+            "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=tn1nAw0AAAAJ&pagesize=100&citation_for_view=tn1nAw0AAAAJ:HDshCWvjkbEC"
+          ],
+          "personId": "jak-mccarroll",
+          "self": false,
+          "identityStatus": "identified",
+          "affiliations": [
+            "Department of Energy, Environment and Climate Action, Victoria State Government, Australia"
+          ]
+        }
+      ]
+    },
+    {
+      "inventoryIndex": 26,
+      "title": "Design and application of coastal erosion indicators using satellite and drone data for a regional monitoring program",
+      "year": 2023,
+      "doi": "https://doi.org/10.1016/j.ocecoaman.2024.107146",
+      "sourceUrls": [
+        "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=tn1nAw0AAAAJ&pagesize=100&citation_for_view=tn1nAw0AAAAJ:7PzlFSSx8tAC",
+        "https://api.openalex.org/works/W4394843587",
+        "https://doi.org/10.1016/j.ocecoaman.2024.107146"
+      ],
+      "unknowns": [],
+      "scholarUrl": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=tn1nAw0AAAAJ&pagesize=100&citation_for_view=tn1nAw0AAAAJ:7PzlFSSx8tAC",
+      "countingEligible": false,
+      "countingNote": "Duplicate preprint of inventory work 8; not counted separately.",
+      "authors": [
+        {
+          "name": "Robert Jak McCarroll",
+          "canonicalName": "Jak McCarroll",
+          "authorId": "https://openalex.org/A5083308336",
+          "orcid": "https://orcid.org/0000-0003-1862-747X",
+          "countries": [
+            "AU"
+          ],
+          "sourceUrls": [
+            "https://api.openalex.org/works/W4394843587",
+            "https://doi.org/10.1016/j.ocecoaman.2024.107146",
+            "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=tn1nAw0AAAAJ&pagesize=100&citation_for_view=tn1nAw0AAAAJ:7PzlFSSx8tAC"
+          ],
+          "personId": "jak-mccarroll",
+          "self": false,
+          "identityStatus": "identified",
+          "affiliations": [
+            "Department of Energy, Environment and Climate Action, East Melbourne, Vic, 3002, Australia",
+            "School of Geography, Earth & Atmospheric Sciences, University of Melbourne, Parkville, Vic, 3010, Australia"
+          ]
+        },
+        {
+          "name": "David M. Kennedy",
+          "canonicalName": "David M. Kennedy",
+          "authorId": "https://openalex.org/A5004476767",
+          "orcid": "https://orcid.org/0000-0002-4878-7717",
+          "countries": [
+            "AU"
+          ],
+          "sourceUrls": [
+            "https://api.openalex.org/works/W4394843587",
+            "https://doi.org/10.1016/j.ocecoaman.2024.107146",
+            "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=tn1nAw0AAAAJ&pagesize=100&citation_for_view=tn1nAw0AAAAJ:7PzlFSSx8tAC"
+          ],
+          "personId": "david-m-kennedy",
+          "self": false,
+          "identityStatus": "identified",
+          "affiliations": [
+            "School of Geography, Earth & Atmospheric Sciences, University of Melbourne, Parkville, Vic, 3010, Australia"
+          ]
+        },
+        {
+          "name": "Jin Liu",
+          "canonicalName": "Jin Liu",
+          "authorId": "https://openalex.org/A5023719440",
+          "orcid": "https://orcid.org/0000-0001-7415-3729",
+          "countries": [
+            "AU"
+          ],
+          "sourceUrls": [
+            "https://api.openalex.org/works/W4394843587",
+            "https://doi.org/10.1016/j.ocecoaman.2024.107146",
+            "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=tn1nAw0AAAAJ&pagesize=100&citation_for_view=tn1nAw0AAAAJ:7PzlFSSx8tAC"
+          ],
+          "personId": "jin-liu",
+          "self": true,
+          "identityStatus": "identified",
+          "affiliations": [
+            "Department of Energy, Environment and Climate Action, East Melbourne, Vic, 3002, Australia",
+            "Department of Infrastructure Engineering, University of Melbourne, Parkville, Vic, 3010, Australia"
+          ]
+        },
+        {
+          "name": "Blake M. Allan",
+          "canonicalName": "Blake M. Allan",
+          "authorId": "https://openalex.org/A5025790072",
+          "orcid": "https://orcid.org/0000-0003-0101-3412",
+          "countries": [
+            "AU"
+          ],
+          "sourceUrls": [
+            "https://api.openalex.org/works/W4394843587",
+            "https://doi.org/10.1016/j.ocecoaman.2024.107146",
+            "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=tn1nAw0AAAAJ&pagesize=100&citation_for_view=tn1nAw0AAAAJ:7PzlFSSx8tAC"
+          ],
+          "personId": "blake-m-allan",
+          "self": false,
+          "identityStatus": "identified",
+          "affiliations": [
+            "Department of Energy, Environment and Climate Action, East Melbourne, Vic, 3002, Australia"
+          ]
+        },
+        {
+          "name": "Daniel A. Ierodiaconou",
+          "canonicalName": "Daniel Ierodiaconou",
+          "authorId": "https://openalex.org/A5075734722",
+          "orcid": "https://orcid.org/0000-0002-7832-4801",
+          "countries": [
+            "AU"
+          ],
+          "sourceUrls": [
+            "https://api.openalex.org/works/W4394843587",
+            "https://doi.org/10.1016/j.ocecoaman.2024.107146",
+            "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=tn1nAw0AAAAJ&pagesize=100&citation_for_view=tn1nAw0AAAAJ:7PzlFSSx8tAC"
+          ],
+          "personId": "daniel-ierodiaconou",
+          "self": false,
+          "identityStatus": "identified",
+          "affiliations": [
+            "School of Life and Environmental Sciences, Deakin University, Warrnambool, Vic, 3280, Australia"
+          ]
+        }
+      ]
+    },
+    {
+      "inventoryIndex": 27,
+      "title": "Wave variability of Bass Strait and south-east Australia",
+      "year": 2023,
+      "doi": null,
+      "sourceUrls": [
+        "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=tn1nAw0AAAAJ&pagesize=100&citation_for_view=tn1nAw0AAAAJ:ULOm3_A8WrAC",
+        "https://api.openalex.org/works/W7198611404"
+      ],
+      "unknowns": [],
+      "scholarUrl": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=tn1nAw0AAAAJ&pagesize=100&citation_for_view=tn1nAw0AAAAJ:ULOm3_A8WrAC",
+      "countingEligible": false,
+      "countingNote": "Single-author thesis, no collaborators.",
+      "authors": [
+        {
+          "name": "Jin Liu",
+          "canonicalName": "Jin Liu",
+          "authorId": "https://openalex.org/A5145410734",
+          "orcid": null,
+          "countries": [],
+          "sourceUrls": [
+            "https://api.openalex.org/works/W7198611404",
+            "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=tn1nAw0AAAAJ&pagesize=100&citation_for_view=tn1nAw0AAAAJ:ULOm3_A8WrAC"
+          ],
+          "personId": "jin-liu",
+          "self": true,
+          "identityStatus": "identified",
+          "affiliations": []
+        }
+      ]
+    },
+    {
+      "inventoryIndex": 28,
+      "title": "Climate impacts on ocean waves",
+      "year": 2022,
+      "doi": null,
+      "sourceUrls": [
+        "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=tn1nAw0AAAAJ&pagesize=100&citation_for_view=tn1nAw0AAAAJ:R3hNpaxXUhUC",
+        "https://www.amsa.asn.au/wp-content/uploads/2019/04/AMSA-Bulletin_2091.pdf"
+      ],
+      "unknowns": [],
+      "scholarUrl": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=tn1nAw0AAAAJ&pagesize=100&citation_for_view=tn1nAw0AAAAJ:R3hNpaxXUhUC",
+      "countingEligible": true,
+      "countingNote": "Distinct collaborator-country pairs deduplicated across all verified work affiliations.",
+      "authors": [
+        {
+          "name": "Ian Young",
+          "canonicalName": "Ian R. Young",
+          "countries": [
+            "AU"
+          ],
+          "sourceUrls": [
+            "https://www.amsa.asn.au/wp-content/uploads/2019/04/AMSA-Bulletin_2091.pdf",
+            "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=tn1nAw0AAAAJ&pagesize=100&citation_for_view=tn1nAw0AAAAJ:R3hNpaxXUhUC"
+          ],
+          "personId": "ian-r-young",
+          "self": false,
+          "identityStatus": "identified",
+          "affiliations": [
+            "University of Melbourne, Australia"
+          ]
+        },
+        {
+          "name": "Alberto Meuvvi",
+          "canonicalName": "Alberto Meucci",
+          "countries": [
+            "AU"
+          ],
+          "sourceUrls": [
+            "https://www.amsa.asn.au/wp-content/uploads/2019/04/AMSA-Bulletin_2091.pdf",
+            "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=tn1nAw0AAAAJ&pagesize=100&citation_for_view=tn1nAw0AAAAJ:R3hNpaxXUhUC"
+          ],
+          "personId": "alberto-meucci",
+          "self": false,
+          "identityStatus": "identified",
+          "affiliations": [
+            "University of Melbourne, Australia"
+          ]
+        },
+        {
+          "name": "Jin Liu",
+          "canonicalName": "Jin Liu",
+          "countries": [
+            "AU"
+          ],
+          "sourceUrls": [
+            "https://www.amsa.asn.au/wp-content/uploads/2019/04/AMSA-Bulletin_2091.pdf",
+            "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=tn1nAw0AAAAJ&pagesize=100&citation_for_view=tn1nAw0AAAAJ:R3hNpaxXUhUC"
+          ],
+          "personId": "jin-liu",
+          "self": true,
+          "identityStatus": "identified",
+          "affiliations": [
+            "University of Melbourne, Australia"
+          ]
+        }
+      ]
+    },
+    {
+      "inventoryIndex": 29,
+      "title": "The wave climate of south-east Australia and future wave projection by the end of 21st century",
+      "year": 2022,
+      "doi": "https://doi.org/10.9753/icce.v37.waves.1",
+      "sourceUrls": [
+        "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=tn1nAw0AAAAJ&pagesize=100&citation_for_view=tn1nAw0AAAAJ:mVmsd5A6BfQC",
+        "https://api.openalex.org/works/W4386960064",
+        "https://doi.org/10.9753/icce.v37.waves.1",
+        "https://icce-ojs-tamu.tdl.org/icce/article/view/13117"
+      ],
+      "unknowns": [],
+      "scholarUrl": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=tn1nAw0AAAAJ&pagesize=100&citation_for_view=tn1nAw0AAAAJ:mVmsd5A6BfQC",
+      "countingEligible": true,
+      "countingNote": "Distinct collaborator-country pairs deduplicated across all verified work affiliations.",
+      "authors": [
+        {
+          "name": "Jin Liu",
+          "canonicalName": "Jin Liu",
+          "authorId": "https://openalex.org/A5023719440",
+          "orcid": "https://orcid.org/0000-0001-7415-3729",
+          "countries": [
+            "AU"
+          ],
+          "sourceUrls": [
+            "https://api.openalex.org/works/W4386960064",
+            "https://doi.org/10.9753/icce.v37.waves.1",
+            "https://icce-ojs-tamu.tdl.org/icce/article/view/13117",
+            "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=tn1nAw0AAAAJ&pagesize=100&citation_for_view=tn1nAw0AAAAJ:mVmsd5A6BfQC"
+          ],
+          "personId": "jin-liu",
+          "self": true,
+          "identityStatus": "identified",
+          "affiliations": [
+            "University of Melbourne,"
+          ]
+        },
+        {
+          "name": "Ian Robert Young",
+          "canonicalName": "Ian R. Young",
+          "authorId": "https://openalex.org/A5017415027",
+          "orcid": "https://orcid.org/0000-0003-2233-9227",
+          "countries": [
+            "AU"
+          ],
+          "sourceUrls": [
+            "https://api.openalex.org/works/W4386960064",
+            "https://doi.org/10.9753/icce.v37.waves.1",
+            "https://icce-ojs-tamu.tdl.org/icce/article/view/13117",
+            "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=tn1nAw0AAAAJ&pagesize=100&citation_for_view=tn1nAw0AAAAJ:mVmsd5A6BfQC"
+          ],
+          "personId": "ian-r-young",
+          "self": false,
+          "identityStatus": "identified",
+          "affiliations": [
+            "University of Melbourne,"
+          ]
+        },
+        {
+          "name": "Alberto Meucci",
+          "canonicalName": "Alberto Meucci",
+          "authorId": "https://openalex.org/A5035006455",
+          "orcid": "https://orcid.org/0000-0002-0278-756X",
+          "countries": [
+            "AU"
+          ],
+          "sourceUrls": [
+            "https://api.openalex.org/works/W4386960064",
+            "https://doi.org/10.9753/icce.v37.waves.1",
+            "https://icce-ojs-tamu.tdl.org/icce/article/view/13117",
+            "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=tn1nAw0AAAAJ&pagesize=100&citation_for_view=tn1nAw0AAAAJ:mVmsd5A6BfQC"
+          ],
+          "personId": "alberto-meucci",
+          "self": false,
+          "identityStatus": "identified",
+          "affiliations": [
+            "University of Melbourne,"
+          ]
+        }
+      ]
+    },
+    {
+      "inventoryIndex": 30,
+      "title": "Variability of SST frontal activity in eastern Pacific Ocean and its relationship with large-scale oscillation",
+      "year": 2020,
+      "doi": null,
+      "sourceUrls": [
+        "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=tn1nAw0AAAAJ&pagesize=100&citation_for_view=tn1nAw0AAAAJ:d1gkVwhDpl0C"
+      ],
+      "unknowns": [
+        "Publication-specific affiliation countries could not be verified for this conference record. These people recur in independently indexed coauthored journal papers; do not infer their conference affiliations."
+      ],
+      "scholarUrl": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=tn1nAw0AAAAJ&pagesize=100&citation_for_view=tn1nAw0AAAAJ:d1gkVwhDpl0C",
+      "countingEligible": true,
+      "countingNote": "Distinct collaborator-country pairs deduplicated across all verified work affiliations.",
+      "authors": [
+        {
+          "name": "Y Wang",
+          "canonicalName": "Yuntao Wang",
+          "countries": [],
+          "sourceUrls": [
+            "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=tn1nAw0AAAAJ&pagesize=100&citation_for_view=tn1nAw0AAAAJ:d1gkVwhDpl0C"
+          ],
+          "personId": "yuntao-wang",
+          "self": false,
+          "identityStatus": "identified",
+          "affiliations": []
+        },
+        {
+          "name": "Y Yuan",
+          "canonicalName": "Yeping Yuan",
+          "countries": [],
+          "sourceUrls": [
+            "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=tn1nAw0AAAAJ&pagesize=100&citation_for_view=tn1nAw0AAAAJ:d1gkVwhDpl0C"
+          ],
+          "personId": "yeping-yuan",
+          "self": false,
+          "identityStatus": "identified",
+          "affiliations": []
+        },
+        {
+          "name": "J Liu",
+          "canonicalName": "Jin Liu",
+          "countries": [],
+          "sourceUrls": [
+            "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=tn1nAw0AAAAJ&pagesize=100&citation_for_view=tn1nAw0AAAAJ:d1gkVwhDpl0C"
+          ],
+          "personId": "jin-liu",
+          "self": true,
+          "identityStatus": "identified",
+          "affiliations": []
+        }
+      ]
+    },
+    {
+      "inventoryIndex": 31,
+      "title": "The response of chlorophyll to mesoscale eddies in the eastern South China Sea",
+      "year": 2019,
+      "doi": null,
+      "sourceUrls": [
+        "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=tn1nAw0AAAAJ&pagesize=100&citation_for_view=tn1nAw0AAAAJ:9yKSN-GCB0IC",
+        "https://api.openalex.org/works/W3002922790"
+      ],
+      "unknowns": [
+        "Publication-specific affiliation countries could not be verified for this conference record. These people recur in independently indexed coauthored journal papers; do not infer their conference affiliations."
+      ],
+      "scholarUrl": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=tn1nAw0AAAAJ&pagesize=100&citation_for_view=tn1nAw0AAAAJ:9yKSN-GCB0IC",
+      "countingEligible": true,
+      "countingNote": "Distinct collaborator-country pairs deduplicated across all verified work affiliations.",
+      "authors": [
+        {
+          "name": "J Liu",
+          "canonicalName": "Jin Liu",
+          "countries": [
+            "CN"
+          ],
+          "sourceUrls": [
+            "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=tn1nAw0AAAAJ&pagesize=100&citation_for_view=tn1nAw0AAAAJ:9yKSN-GCB0IC",
+            "https://api.openalex.org/works/W3002922790"
+          ],
+          "personId": "jin-liu",
+          "self": true,
+          "identityStatus": "identified",
+          "affiliations": [
+            "Zhejiang University (author record)"
+          ]
+        },
+        {
+          "name": "Y Yuan",
+          "canonicalName": "Yeping Yuan",
+          "countries": [],
+          "sourceUrls": [
+            "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=tn1nAw0AAAAJ&pagesize=100&citation_for_view=tn1nAw0AAAAJ:9yKSN-GCB0IC",
+            "https://api.openalex.org/works/W3002922790"
+          ],
+          "personId": "yeping-yuan",
+          "self": false,
+          "identityStatus": "identified",
+          "affiliations": []
+        },
+        {
+          "name": "Y Wang",
+          "canonicalName": "Yuntao Wang",
+          "countries": [],
+          "sourceUrls": [
+            "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=tn1nAw0AAAAJ&pagesize=100&citation_for_view=tn1nAw0AAAAJ:9yKSN-GCB0IC",
+            "https://api.openalex.org/works/W3002922790"
+          ],
+          "personId": "yuntao-wang",
+          "self": false,
+          "identityStatus": "identified",
+          "affiliations": []
+        },
+        {
+          "name": "J Dai",
+          "canonicalName": "J Dai",
+          "countries": [],
+          "sourceUrls": [
+            "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=tn1nAw0AAAAJ&pagesize=100&citation_for_view=tn1nAw0AAAAJ:9yKSN-GCB0IC",
+            "https://api.openalex.org/works/W3002922790"
+          ],
+          "personId": "j-dai",
+          "self": false,
+          "identityStatus": "unresolved-initials",
+          "affiliations": []
+        }
+      ]
+    }
+  ],
+  "identityNotes": [
+    {
+      "observed": "Daniel A. Ierodiaconou",
+      "canonical": "Daniel Ierodiaconou",
+      "inventoryIndex": 0,
+      "evidence": "https://openalex.org/A5075734722"
+    },
+    {
+      "observed": "Ian Robert Young",
+      "canonical": "Ian R. Young",
+      "inventoryIndex": 0,
+      "evidence": "https://openalex.org/A5017415027"
+    },
+    {
+      "observed": "Ian Robert Young",
+      "canonical": "Ian R. Young",
+      "inventoryIndex": 3,
+      "evidence": "https://openalex.org/A5017415027"
+    },
+    {
+      "observed": "Daniel A. Ierodiaconou",
+      "canonical": "Daniel Ierodiaconou",
+      "inventoryIndex": 4,
+      "evidence": "https://openalex.org/A5075734722"
+    },
+    {
+      "observed": "Ian Robert Young",
+      "canonical": "Ian R. Young",
+      "inventoryIndex": 4,
+      "evidence": "https://openalex.org/A5017415027"
+    },
+    {
+      "observed": "Ian Robert Young",
+      "canonical": "Ian R. Young",
+      "inventoryIndex": 5,
+      "evidence": "https://openalex.org/A5017415027"
+    },
+    {
+      "observed": "Ian Robert Young",
+      "canonical": "Ian R. Young",
+      "inventoryIndex": 6,
+      "evidence": "https://openalex.org/A5017415027"
+    },
+    {
+      "observed": "Robert Jak McCarroll",
+      "canonical": "Jak McCarroll",
+      "inventoryIndex": 8,
+      "evidence": "https://openalex.org/A5083308336"
+    },
+    {
+      "observed": "Daniel A. Ierodiaconou",
+      "canonical": "Daniel Ierodiaconou",
+      "inventoryIndex": 8,
+      "evidence": "https://openalex.org/A5075734722"
+    },
+    {
+      "observed": "Ian Robert Young",
+      "canonical": "Ian R. Young",
+      "inventoryIndex": 10,
+      "evidence": "https://openalex.org/A5017415027"
+    },
+    {
+      "observed": "Ian Robert Young",
+      "canonical": "Ian R. Young",
+      "inventoryIndex": 11,
+      "evidence": "https://openalex.org/A5017415027"
+    },
+    {
+      "observed": "Jozef I. Syktus",
+      "canonical": "Jozef Syktus",
+      "inventoryIndex": 12,
+      "evidence": "https://openalex.org/A5041437291"
+    },
+    {
+      "observed": "Ian Robert Young",
+      "canonical": "Ian R. Young",
+      "inventoryIndex": 12,
+      "evidence": "https://openalex.org/A5017415027"
+    },
+    {
+      "observed": "B. Allan",
+      "canonical": "Blake M. Allan",
+      "inventoryIndex": 13,
+      "evidence": "Publication authorship context / provided canonical-name evidence"
+    },
+    {
+      "observed": "Daniel A. Ierodiaconou",
+      "canonical": "Daniel Ierodiaconou",
+      "inventoryIndex": 13,
+      "evidence": "https://openalex.org/A5075734722"
+    },
+    {
+      "observed": "Robert Jak McCarroll",
+      "canonical": "Jak McCarroll",
+      "inventoryIndex": 20,
+      "evidence": "https://openalex.org/A5083308336"
+    },
+    {
+      "observed": "Daniel A. Ierodiaconou",
+      "canonical": "Daniel Ierodiaconou",
+      "inventoryIndex": 20,
+      "evidence": "https://openalex.org/A5075734722"
+    },
+    {
+      "observed": "Robert Jak McCarroll",
+      "canonical": "Jak McCarroll",
+      "inventoryIndex": 21,
+      "evidence": "https://openalex.org/A5083308336"
+    },
+    {
+      "observed": "Daniel A. Ierodiaconou",
+      "canonical": "Daniel Ierodiaconou",
+      "inventoryIndex": 21,
+      "evidence": "https://openalex.org/A5075734722"
+    },
+    {
+      "observed": "JIN LIU",
+      "canonical": "Jin Liu",
+      "inventoryIndex": 21,
+      "evidence": "Publication authorship context / provided canonical-name evidence"
+    },
+    {
+      "observed": "IAN YOUNG",
+      "canonical": "Ian R. Young",
+      "inventoryIndex": 21,
+      "evidence": "Publication authorship context / provided canonical-name evidence"
+    },
+    {
+      "observed": "Robbi Bishop‐Taylor",
+      "canonical": "Robbi Bishop-Taylor",
+      "inventoryIndex": 21,
+      "evidence": "https://openalex.org/A5068282601"
+    },
+    {
+      "observed": "Robert Jak McCarroll",
+      "canonical": "Jak McCarroll",
+      "inventoryIndex": 22,
+      "evidence": "https://openalex.org/A5083308336"
+    },
+    {
+      "observed": "Blake Allan",
+      "canonical": "Blake M. Allan",
+      "inventoryIndex": 22,
+      "evidence": "https://orcid.org/0000-0003-0101-3412"
+    },
+    {
+      "observed": "Jozef I. Syktus",
+      "canonical": "Jozef Syktus",
+      "inventoryIndex": 23,
+      "evidence": "https://openalex.org/A5041437291"
+    },
+    {
+      "observed": "Ian Robert Young",
+      "canonical": "Ian R. Young",
+      "inventoryIndex": 23,
+      "evidence": "https://openalex.org/A5017415027"
+    },
+    {
+      "observed": "Robert Jak McCarroll",
+      "canonical": "Jak McCarroll",
+      "inventoryIndex": 26,
+      "evidence": "https://openalex.org/A5083308336"
+    },
+    {
+      "observed": "Daniel A. Ierodiaconou",
+      "canonical": "Daniel Ierodiaconou",
+      "inventoryIndex": 26,
+      "evidence": "https://openalex.org/A5075734722"
+    },
+    {
+      "observed": "Ian Young",
+      "canonical": "Ian R. Young",
+      "inventoryIndex": 28,
+      "evidence": "Publication authorship context / provided canonical-name evidence"
+    },
+    {
+      "observed": "Alberto Meuvvi",
+      "canonical": "Alberto Meucci",
+      "inventoryIndex": 28,
+      "evidence": "Publication authorship context / provided canonical-name evidence"
+    },
+    {
+      "observed": "Ian Robert Young",
+      "canonical": "Ian R. Young",
+      "inventoryIndex": 29,
+      "evidence": "https://openalex.org/A5017415027"
+    },
+    {
+      "observed": "Y Wang",
+      "canonical": "Yuntao Wang",
+      "inventoryIndex": 30,
+      "evidence": "Publication authorship context / provided canonical-name evidence"
+    },
+    {
+      "observed": "Y Yuan",
+      "canonical": "Yeping Yuan",
+      "inventoryIndex": 30,
+      "evidence": "Publication authorship context / provided canonical-name evidence"
+    },
+    {
+      "observed": "J Liu",
+      "canonical": "Jin Liu",
+      "inventoryIndex": 30,
+      "evidence": "Publication authorship context / provided canonical-name evidence"
+    },
+    {
+      "observed": "J Liu",
+      "canonical": "Jin Liu",
+      "inventoryIndex": 31,
+      "evidence": "Publication authorship context / provided canonical-name evidence"
+    },
+    {
+      "observed": "Y Yuan",
+      "canonical": "Yeping Yuan",
+      "inventoryIndex": 31,
+      "evidence": "Publication authorship context / provided canonical-name evidence"
+    },
+    {
+      "observed": "Y Wang",
+      "canonical": "Yuntao Wang",
+      "inventoryIndex": 31,
+      "evidence": "Publication authorship context / provided canonical-name evidence"
+    },
+    {
+      "observed": "Yaniln Shao",
+      "canonical": "Yanlin Shao",
+      "inventoryIndex": 2,
+      "evidence": "Publisher metadata spells given name Yaniln. Normalized to Yanlin for deduplication; same DTU affiliation and initial Y. Institutional PDF and other DTU publications use Yanlin."
+    }
+  ],
+  "unresolvedIdentities": [
+    {
+      "observedName": "J Dai",
+      "inventoryIndex": 31,
+      "candidateInCorpus": "Juanjuan Dai",
+      "status": "Not merged: initials and related coauthorship context alone do not independently verify conference identity. No country assignment or additional counted collaborator."
+    }
+  ]
+}

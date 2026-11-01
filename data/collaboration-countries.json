@@ -1,0 +1,62 @@
+{
+  "SG": {
+    "name": "Singapore",
+    "longitude": 103.82,
+    "latitude": 1.35
+  },
+  "AU": {
+    "name": "Australia",
+    "longitude": 134.04972,
+    "latitude": -24.129522
+  },
+  "CN": {
+    "name": "China",
+    "longitude": 106.337289,
+    "latitude": 32.498178
+  },
+  "DE": {
+    "name": "Germany",
+    "longitude": 9.678348,
+    "latitude": 50.961733
+  },
+  "DK": {
+    "name": "Denmark",
+    "longitude": 9.018163,
+    "latitude": 55.966965
+  },
+  "GB": {
+    "name": "United Kingdom",
+    "longitude": -2.116346,
+    "latitude": 54.402739
+  },
+  "GR": {
+    "name": "Greece",
+    "longitude": 21.72568,
+    "latitude": 39.492763
+  },
+  "IT": {
+    "name": "Italy",
+    "longitude": 11.076907,
+    "latitude": 44.732482
+  },
+  "NL": {
+    "name": "Netherlands",
+    "longitude": 5.61144,
+    "latitude": 52.422211
+  },
+  "NO": {
+    "name": "Norway",
+    "longitude": 9.679975,
+    "latitude": 61.357092
+  },
+  "NZ": {
+    "name": "New Zealand",
+    "longitude": 172.787,
+    "latitude": -39.759
+  },
+  "PT": {
+    "name": "Portugal",
+    "longitude": -8.271754,
+    "latitude": 39.606675
+  }
+}

@@ -37,7 +37,10 @@ jobs:
       - name: Build public website
         env:
           HUGO_ENV: production
-        run: hugo --gc --minify --baseURL https://www.jinliu.org/
+        run: |
+          python3 -m unittest discover -s tests
+          python3 scripts/build_collaborations.py
+          hugo --gc --minify --baseURL https://www.jinliu.org/
       - name: Upload website artifact
         uses: actions/upload-pages-artifact@v4
         with:

@@ -184,7 +184,7 @@ body.dark .wg-about-biography { background: linear-gradient(145deg, #1b3240, #15
 /* Keep a longer language list usable on narrow and short screens. */
 .translation-options { width: 260px; max-width: calc(100vw - 48px); max-height: 70vh; overflow-y: auto; overscroll-behavior: contain; }
 
-/* Country-level collaboration map, using the same body typography as other sections. */
+/* Regional collaboration map, using the same body typography as other sections. */
 .collaboration-map { margin-top: 0; font-size: 1rem; line-height: 1.75; font-weight: 400; }
 .collaboration-chart[hidden] { display: none; }
 .collaboration-map-frame { position: relative; border: 1px solid var(--coast-line); border-radius: 12px; background: #f7fbfc; overflow: hidden; }
@@ -196,10 +196,6 @@ body.dark .wg-about-biography { background: linear-gradient(145deg, #1b3240, #15
 .collaboration-zoom button { width: 32px; height: 32px; padding: 0; border: 1px solid var(--coast-line); border-radius: 5px; background: #fff; color: var(--coast-ink); font-size: 19px; cursor: pointer; }
 .collaboration-zoom button:disabled { opacity: .4; cursor: default; }
 .collaboration-map-hint { position: absolute; bottom: 8px; left: 12px; padding: 2px 5px; background: rgba(255,255,255,.85); font-size: 11px; color: #415865; pointer-events: none; }
-.collaboration-map-key { display: flex; align-items: center; justify-content: flex-end; flex-wrap: wrap; gap: 8px 22px; margin: 10px 0 22px; }
-.collaboration-key-item { display: inline-flex; align-items: center; gap: 7px; }
-.collaboration-key-dot { flex: 0 0 auto; width: 18px; height: 18px; border-radius: 50%; background: #087e83; opacity: .72; }
-.collaboration-key-dot.large { width: 26px; height: 26px; }
 .collaboration-country-control { display: flex; align-items: center; flex-wrap: wrap; gap: 8px 16px; }
 .collaboration-country-control label { margin: 0; font-weight: 400; }
 .collaboration-country-control select { max-width: 100%; padding: 8px 30px 8px 10px; border: 1px solid var(--coast-line); border-radius: 5px; background: var(--coast-paper); color: var(--coast-text); font: inherit; }
@@ -213,7 +209,6 @@ body.dark .wg-about-biography { background: linear-gradient(145deg, #1b3240, #15
   .collaboration-organizations { grid-template-columns: 1fr; }
   .collaboration-country-control { align-items: flex-start; flex-direction: column; }
   .collaboration-country-control select { width: 100%; }
-  .collaboration-map-key { justify-content: flex-start; }
 }
 
 .collaboration-caption { margin: 14px 0 10px; color: var(--coast-text); }

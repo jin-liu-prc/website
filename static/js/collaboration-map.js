@@ -61,14 +61,14 @@
     selection.replaceChildren();
     const country = data.countries.find(c => c.code === code);
     if (!country) {
-      selection.append(element('p', 'Choose a marker or a country to see its research organisations.'));
+      selection.append(element('p', 'Choose a marker or a region to see its research organisations.'));
       return;
     }
     const organizations = country.organizations || [];
-    selection.append(element('p', `${country.name} · ${organizations.length} ${organizations.length === 1 ? 'research organisation' : 'research organisations'}. Numbers in brackets show distinct coauthored publications.`, 'collaboration-country-summary'));
+    selection.append(element('p', `${country.name} · ${organizations.length} ${organizations.length === 1 ? 'research organisation' : 'research organisations'}. Numbers in brackets show distinct coauthors.`, 'collaboration-country-summary'));
     const list = element('ul', undefined, 'collaboration-organizations');
-    organizations.slice().sort((a, b) => b.workIds.length - a.workIds.length || a.name.localeCompare(b.name)).forEach(organization => {
-      const li = element('li', `${organization.name} (${organization.workIds.length})`);
+    organizations.slice().sort((a, b) => b.coauthorCount - a.coauthorCount || a.name.localeCompare(b.name)).forEach(organization => {
+      const li = element('li', `${organization.name} (${organization.coauthorCount})`);
       list.append(li);
     });
     selection.append(list);
@@ -113,8 +113,8 @@
     if (!Array.isArray(result.countries) || !result.countries.length) throw new Error('No verified affiliations');
     data = result;
     root.querySelector('.collaboration-period').textContent = `Data cover ${data.yearRange.join('–')}.`;
-    status.textContent = `${data.totals.collaborators} distinct collaborators across ${data.countries.length} countries; updated ${new Intl.DateTimeFormat('en-AU', {day:'numeric', month:'long', year:'numeric', timeZone:'UTC'}).format(new Date(data.updated + 'T00:00:00Z'))}.`;
-    data.countries.slice().sort((a, b) => a.name.localeCompare(b.name)).forEach(country => {
+    status.textContent = `${data.totals.collaborators} distinct collaborators across ${data.countries.length} regions; updated ${new Intl.DateTimeFormat('en-AU', {day:'numeric', month:'long', year:'numeric', timeZone:'UTC'}).format(new Date(data.updated + 'T00:00:00Z'))}.`;
+    data.countries.slice().sort((a, b) => b.collaborators.length - a.collaborators.length || a.name.localeCompare(b.name)).forEach(country => {
       const option = element('option', `${country.name} (${country.collaborators.length})`);
       option.value = country.code;
       countrySelect.append(option);

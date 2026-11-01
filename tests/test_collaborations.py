@@ -49,17 +49,64 @@ class CollaborationCounting(unittest.TestCase):
 
     def test_country_organizations_are_reviewed_and_separate_from_people(self):
         work = {'inventoryIndex': 0, 'title': 'Paper', 'year': 2020, 'authors': [
-            {'name': 'A Person', 'personId': 'a', 'countries': ['AU'], 'sourceUrls': ['https://example.org']}],
+            {'name': 'A Person', 'personId': 'a', 'countries': ['AU'], 'sourceUrls': ['https://example.org'],
+             'affiliations': ['Example University']}],
             'scholarUrl': 'https://example.org'}
         research = {'updated': '2026-11-01', 'profileUrl': 'https://example.org', 'works': [work]}
         places = {'AU': {'name': 'Australia', 'longitude': 135, 'latitude': -25}}
         catalog = {'countries': [{'code': 'AU', 'organizations': [
-            {'id': 'university', 'name': 'Example University', 'workIds': ['0'], 'sourceUrls': ['https://example.org']}]}]}
+            {'id': 'university', 'name': 'Example University', 'workIds': ['0'],
+             'affiliationEvidence': ['Example University'], 'sourceUrls': ['https://example.org']}]}]}
         result = builder.build(research, places, catalog)
         self.assertEqual(result['countries'][0]['organizations'][0]['name'], 'Example University')
+        self.assertEqual(result['countries'][0]['organizations'][0]['coauthorCount'], 1)
         self.assertNotIn('A Person', str(result['countries'][0]['organizations']))
         with self.assertRaisesRegex(ValueError, 'Review root organizations'):
             builder.build(research, places, {'countries': []})
+
+    def test_organization_counts_distinct_coauthors_not_every_author_of_a_paper(self):
+        def author(pid, countries, affiliations, **extra):
+            return dict(name=pid, personId=pid, countries=countries, affiliations=affiliations,
+                        sourceUrls=['https://example.org'], **extra)
+
+        a = author('a', ['AU', 'CN'], ['School, Example University, Melbourne', 'Institute of China'])
+        b = author('b', ['AU'], ['Department of Energy, Environment and Climate Action, Victoria'])
+        jin = author('jin-liu', ['AU'], ['School, Example University, Melbourne'], self=True)
+        works = [
+            {'inventoryIndex': 0, 'title': 'Two Australian organisations', 'year': 2020,
+             'authors': [a, b, jin], 'scholarUrl': 'https://example.org'},
+            {'inventoryIndex': 1, 'title': 'Same person, another department and office', 'year': 2021,
+             'authors': [author('a', ['AU'], ['SCHOOL; EXAMPLE UNIVERSITY — MELBOURNE'])],
+             'scholarUrl': 'https://example.org'},
+            {'inventoryIndex': 2, 'title': 'A duplicate version', 'year': 2020, 'countingEligible': False,
+             'authors': [author('b', ['AU'], ['School, Example University, Melbourne'])],
+             'scholarUrl': 'https://example.org'}]
+        research = {'updated': '2026-11-01', 'profileUrl': 'https://example.org', 'works': works}
+        places = {code: {'name': code, 'longitude': 0, 'latitude': 0} for code in ['AU', 'CN']}
+
+        def organization(oid, ids, aliases):
+            return dict(id=oid, name=oid, workIds=ids, affiliationEvidence=aliases,
+                        sourceUrls=['https://example.org'])
+
+        catalog = {'countries': [
+            {'code': 'AU', 'organizations': [
+                organization('university', ['0', '1', '2'], ['School, Example University, Melbourne']),
+                organization('government', ['0'], ['Department of Energy, Environment and Climate Action, Victoria'])]},
+            {'code': 'CN', 'organizations': [organization('institute', ['0'], ['Institute of China'])]}]}
+        result = builder.build(research, places, catalog)
+        counts = {(c['code'], o['id']): o['coauthorCount'] for c in result['countries'] for o in c['organizations']}
+        self.assertEqual(counts, {('AU', 'university'): 1, ('AU', 'government'): 1, ('CN', 'institute'): 1})
+        self.assertEqual(result['totals'], {'collaborators': 2, 'countryPairs': 3})
+
+        # A new, unreviewed affiliation must stop publication rather than silently lose a coauthor.
+        works[1]['authors'].append(author('new', ['AU'], ['Unreviewed Institution']))
+        with self.assertRaisesRegex(ValueError, 'Review coauthor organization aliases'):
+            builder.build(research, places, catalog)
+
+        works[1]['authors'].pop()
+        catalog['countries'][0]['organizations'].append(organization('unmatched', ['0'], ['Other Institution']))
+        with self.assertRaisesRegex(ValueError, 'Review coauthor affiliations for unmatched'):
+            builder.build(research, places, catalog)
 
 
 if __name__ == '__main__':

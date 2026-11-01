@@ -296,7 +296,15 @@
               "Department of Energy, Environment and Climate Action (Victoria)",
               "Department of Environment, Land, Water and Planning (Victoria)"
             ]
-          }
+          },
+          "affiliationEvidence": [
+            "Department of Energy Environment and Climate Action, Melbourne, Victoria, Australia",
+            "Department of Energy, Environment and Climate Action, East Melbourne, Vic, 3002, Australia",
+            "Department of Energy, Environment and Climate Action, Melbourne, Victoria, Australia",
+            "Department of Energy, Environment and Climate Action, Victoria State Government, Australia",
+            "Department of Environment, Land, Water and Planning, Melbourne, Australia",
+            "Regional Coastal Adaptation and Planning, Department of Energy, Environment, and Climate Action, East Melbourne, VIC, Australia"
+          ]
         }
       ]
     },

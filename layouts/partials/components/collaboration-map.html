@@ -3,24 +3,26 @@
   <p class="collaboration-loading" role="status">Loading collaboration map…</p>
   <div class="collaboration-chart" hidden>
     <div class="collaboration-map-frame">
+      <div class="collaboration-map-toolbar">
+        <div class="collaboration-zoom" aria-label="Map controls">
+          <button type="button" data-map-zoom="in" aria-label="Zoom in">+</button>
+          <button type="button" data-map-zoom="out" aria-label="Zoom out">−</button>
+          <button type="button" data-map-zoom="reset" aria-label="Reset map view">↺</button>
+        </div>
+        <div class="collaboration-country-control">
+          <label for="collaboration-country">Explore a region</label>
+          <select id="collaboration-country"><option value="">Choose a region</option></select>
+        </div>
+      </div>
       <svg class="collaboration-world" viewBox="0 0 960 480" role="group" aria-label="World map of coauthor affiliations">
         <title>Coauthors by region</title>
-        <desc>Select a region marker or use the region list below to explore collaborators. Marker size reflects the number of distinct coauthors, with a minimum size for visibility.</desc>
+        <desc>Select a region marker or use the region selector to explore collaborators. Marker size reflects the number of distinct coauthors, with a minimum size for visibility.</desc>
         <image href="{{ "/images/collaboration-world.svg" | absURL }}" x="0" y="0" width="960" height="480" aria-hidden="true" />
         <g class="collaboration-markers"></g>
       </svg>
-      <div class="collaboration-zoom" aria-label="Map controls">
-        <button type="button" data-map-zoom="in" aria-label="Zoom in">+</button>
-        <button type="button" data-map-zoom="out" aria-label="Zoom out">−</button>
-        <button type="button" data-map-zoom="reset" aria-label="Reset map view">↺</button>
-      </div>
       <div class="collaboration-map-hint">Select a marker to explore</div>
     </div>
     <p class="collaboration-caption"><span class="collaboration-period">All years.</span> <span class="collaboration-intro">One marker per collaborating region. Larger markers represent more distinct coauthors.</span> <span class="collaboration-status" role="status"></span></p>
-    <div class="collaboration-country-control">
-      <label for="collaboration-country">Explore a region</label>
-      <select id="collaboration-country"><option value="">Choose a region</option></select>
-    </div>
     <div class="collaboration-selection" aria-live="polite">
       <p>Choose a marker or a region to see its research organisations.</p>
     </div>

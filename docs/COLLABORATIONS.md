@@ -40,4 +40,6 @@ Region details list parent organisations with distinct coauthor counts in bracke
 
 Match map captions, region details, organisation lists and region selector to the website's general body text: 1rem, 1.75 line height and normal weight. Combine the selected region's name and organisation count with “Numbers in brackets show distinct coauthors.” in a single paragraph, without a bold heading. Keep the map's overall data description in one paragraph below the map.
 
+Keep the “Explore a region” label and selector inside the map's bordered frame, in a control bar with the zoom buttons above the geographic area. Let the selector wrap onto its own row on phones so controls do not cover markers.
+
 Keep methodology and publication-source evidence in the repository for maintenance. Do not display the “How this map is counted and sourced” or “Publication sources” sections on the website.

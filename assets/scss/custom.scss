@@ -188,15 +188,16 @@ body.dark .wg-about-biography { background: linear-gradient(145deg, #1b3240, #15
 .collaboration-map { margin-top: 0; font-size: 1rem; line-height: 1.75; font-weight: 400; }
 .collaboration-chart[hidden] { display: none; }
 .collaboration-map-frame { position: relative; border: 1px solid var(--coast-line); border-radius: 12px; background: #f7fbfc; overflow: hidden; }
+.collaboration-map-toolbar { display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 12px 20px; padding: 12px; border-bottom: 1px solid var(--coast-line); background: var(--coast-paper); }
 .collaboration-world { display: block; width: 100%; height: auto; aspect-ratio: 2 / 1; }
 .collaboration-marker { cursor: pointer; outline: none; }
 .collaboration-marker-dot { fill: #087e83; fill-opacity: .72; stroke: #fff; stroke-width: 1.5; vector-effect: non-scaling-stroke; }
 .collaboration-marker:hover .collaboration-marker-dot, .collaboration-marker:focus .collaboration-marker-dot, .collaboration-marker.is-selected .collaboration-marker-dot { fill: #153548; fill-opacity: .95; stroke: #edba61; stroke-width: 2.5; }
-.collaboration-zoom { position: absolute; top: 12px; left: 12px; display: flex; gap: 4px; }
+.collaboration-zoom { display: flex; flex: 0 0 auto; gap: 4px; }
 .collaboration-zoom button { width: 32px; height: 32px; padding: 0; border: 1px solid var(--coast-line); border-radius: 5px; background: #fff; color: var(--coast-ink); font-size: 19px; cursor: pointer; }
 .collaboration-zoom button:disabled { opacity: .4; cursor: default; }
 .collaboration-map-hint { position: absolute; bottom: 8px; left: 12px; padding: 2px 5px; background: rgba(255,255,255,.85); font-size: 11px; color: #415865; pointer-events: none; }
-.collaboration-country-control { display: flex; align-items: center; flex-wrap: wrap; gap: 8px 16px; }
+.collaboration-country-control { display: flex; align-items: center; flex-wrap: wrap; gap: 8px 16px; min-width: 0; margin-left: auto; }
 .collaboration-country-control label { margin: 0; font-weight: 400; }
 .collaboration-country-control select { max-width: 100%; padding: 8px 30px 8px 10px; border: 1px solid var(--coast-line); border-radius: 5px; background: var(--coast-paper); color: var(--coast-text); font: inherit; }
 .collaboration-selection { margin-top: 18px; padding: 18px 0 0; border-top: 1px solid var(--coast-line); }
@@ -207,7 +208,7 @@ body.dark .wg-about-biography { background: linear-gradient(145deg, #1b3240, #15
 .collaboration-organizations li { line-height: inherit; overflow-wrap: break-word; }
 @media (max-width: 575px) {
   .collaboration-organizations { grid-template-columns: 1fr; }
-  .collaboration-country-control { align-items: flex-start; flex-direction: column; }
+  .collaboration-country-control { flex: 1 1 100%; align-items: flex-start; flex-direction: column; margin-left: 0; }
   .collaboration-country-control select { width: 100%; }
 }
 

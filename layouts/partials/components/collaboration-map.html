@@ -14,18 +14,21 @@
           <select id="collaboration-country"><option value="">Choose a region</option></select>
         </div>
       </div>
+      <div class="collaboration-map-view">
       <svg class="collaboration-world" viewBox="0 0 960 480" role="group" aria-label="World map of coauthor affiliations">
         <title>Coauthors by region</title>
-        <desc>Select a region marker or use the region selector to explore collaborators. Marker size reflects the number of distinct coauthors, with a minimum size for visibility.</desc>
+        <desc>Select a region marker or use the region selector to show its research organisations in a panel on the map. Marker size reflects the number of distinct coauthors, with a minimum size for visibility.</desc>
         <image href="{{ "/images/collaboration-world.svg" | absURL }}" x="0" y="0" width="960" height="480" aria-hidden="true" />
         <g class="collaboration-markers"></g>
       </svg>
       <div class="collaboration-map-hint">Select a marker to explore</div>
+      <aside class="collaboration-region-panel" aria-label="Selected region details" hidden>
+        <button type="button" class="collaboration-region-close" aria-label="Close region details">×</button>
+        <div class="collaboration-selection" aria-live="polite"></div>
+      </aside>
+      </div>
     </div>
     <p class="collaboration-caption"><span class="collaboration-period">All years.</span> <span class="collaboration-intro">One marker per collaborating region. Larger markers represent more distinct coauthors.</span> <span class="collaboration-status" role="status"></span></p>
-    <div class="collaboration-selection" aria-live="polite">
-      <p>Choose a marker or a region to see its research organisations.</p>
-    </div>
   </div>
   <noscript><p>Enable JavaScript to view the interactive map. Publication information remains available on Google Scholar above.</p></noscript>
 </div>

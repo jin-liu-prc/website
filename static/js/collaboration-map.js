@@ -10,6 +10,9 @@
   const markers = root.querySelector('.collaboration-markers');
   const countrySelect = root.querySelector('select');
   const selection = root.querySelector('.collaboration-selection');
+  const panel = root.querySelector('.collaboration-region-panel');
+  const mapView = root.querySelector('.collaboration-map-view');
+  const closePanel = root.querySelector('.collaboration-region-close');
   const ns = 'http://www.w3.org/2000/svg';
   let data, selected = '', zoom = 1, center = [480, 240], drag = null;
 
@@ -60,19 +63,34 @@
     });
     selection.replaceChildren();
     const country = data.countries.find(c => c.code === code);
+    panel.hidden = !country;
+    mapView.classList.toggle('has-selection', Boolean(country));
     if (!country) {
-      selection.append(element('p', 'Choose a marker or a region to see its research organisations.'));
       return;
     }
     const organizations = country.organizations || [];
     selection.append(element('p', `${country.name} · ${organizations.length} ${organizations.length === 1 ? 'research organisation' : 'research organisations'}. Numbers in brackets show distinct coauthors.`, 'collaboration-country-summary'));
     const list = element('ul', undefined, 'collaboration-organizations');
+    list.tabIndex = 0;
+    list.setAttribute('aria-label', 'Research organisations');
     organizations.slice().sort((a, b) => b.coauthorCount - a.coauthorCount || a.name.localeCompare(b.name)).forEach(organization => {
       const li = element('li', `${organization.name} (${organization.coauthorCount})`);
       list.append(li);
     });
     selection.append(list);
   }
+
+  function dismissRegion() {
+    selectCountry('');
+    countrySelect.focus({preventScroll: true});
+  }
+  closePanel.addEventListener('click', dismissRegion);
+  root.addEventListener('keydown', event => {
+    if (event.key === 'Escape' && !panel.hidden) {
+      event.preventDefault();
+      dismissRegion();
+    }
+  });
 
   root.querySelectorAll('[data-map-zoom]').forEach(button => {
     button.addEventListener('click', () => {
@@ -95,7 +113,7 @@
     if (!drag) return;
     const rect = svg.getBoundingClientRect();
     center = [drag.center[0] - (event.clientX - drag.x) * 960 / zoom / rect.width,
-      drag.center[1] - (event.clientY - drag.y) * 480 / zoom / rect.height];
+      drag.center[1] - (event.clientY - drag.y) * 960 / zoom / rect.width];
     updateView();
   });
   ['pointerup', 'pointercancel'].forEach(type => svg.addEventListener(type, () => { drag = null; }));

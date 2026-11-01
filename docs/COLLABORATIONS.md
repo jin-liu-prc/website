@@ -42,4 +42,6 @@ Match map captions, region details, organisation lists and region selector to th
 
 Keep the “Explore a region” label and selector inside the map's bordered frame, in a control bar with the zoom buttons above the geographic area. Let the selector wrap onto its own row on phones so controls do not cover markers.
 
+Show the selected region's summary and organisation list in a closable overlay on the geographic map, not beneath it. Keep the summary in one normal-weight paragraph and the organisation list scrollable and keyboard accessible. Close or Escape clears the selection and returns focus to the region selector. On phones the selected map view expands to 400px high to keep the overlay readable. Preserve the SVG's map proportions; both panning axes use its width-based coordinate scale when the mobile view is letterboxed.
+
 Keep methodology and publication-source evidence in the repository for maintenance. Do not display the “How this map is counted and sourced” or “Publication sources” sections on the website.

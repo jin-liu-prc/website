@@ -20,14 +20,6 @@
     return node;
   }
 
-  function sourceLink(url, label) {
-    const link = element('a', label);
-    if (/^https?:\/\//.test(url)) link.href = url;
-    link.target = '_blank';
-    link.rel = 'noopener';
-    return link;
-  }
-
   function project(country) {
     return [(country.longitude + 180) * 960 / 360, (90 - country.latitude) * 480 / 180];
   }
@@ -140,15 +132,6 @@
         if (event.key === 'Enter' || event.key === ' ') { event.preventDefault(); selectCountry(country.code); }
       });
       markers.append(group);
-    });
-    const coverage = data.coverage;
-    root.querySelector('.collaboration-coverage').textContent = `${coverage.inventoryRecords} Scholar records reviewed; ${coverage.verifiedCoauthoredWorks} distinct coauthored records with fully verified affiliations. ${coverage.unresolvedWorks} records have unresolved affiliations. Duplicate versions and the single-author thesis do not add collaborators. Automatic refresh checks preserve the last verified data if new affiliations cannot be resolved.`;
-    const sources = root.querySelector('.collaboration-publication-sources ol');
-    data.works.forEach(work => {
-      const li = element('li');
-      li.append(sourceLink(work.url, `${work.title} (${work.year})`));
-      if (work.note) li.append(document.createTextNode(` — ${work.note}`));
-      sources.append(li);
     });
     chart.hidden = false;
     if (loading) loading.hidden = true;

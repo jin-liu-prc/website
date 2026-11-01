@@ -35,3 +35,5 @@ Use the allowed public profile URL `https://scholar.google.com/citations?user=tn
 Marker size continues to reflect distinct coauthor counts, even though country details list root research organisations. Radii range from 6 to 16 SVG units: a minimum makes small markers visible and a capped maximum keeps the largest markers restrained. The scale preserves count ordering, rather than exact area ratios.
 
 Country details list parent organisations with distinct coauthored publication counts in brackets, ordered from highest to lowest count (alphabetical ties). Do not show author names or expandable per-organisation paper lists. Count each eligible publication only once per organisation. The refresh schedule is monthly on the first day at 09:00 Australia/Melbourne.
+
+Keep methodology and publication-source evidence in the repository for maintenance. Do not display the “How this map is counted and sourced” or “Publication sources” sections on the website.

@@ -3,6 +3,7 @@
 The map in Publications is built from the public Google Scholar profile `tn1nAw0AAAAJ` and publication-time institutional affiliation evidence. It does not infer nationality or substitute current workplaces for historical affiliations.
 
 - `data/collaboration-research.json`: reviewed publication inventory, author identities, affiliations, country codes, source URLs, duplicate exclusions and unresolved records.
+- `data/collaboration-organizations.json`: reviewed institution-level parent organisations by country, with publication IDs and source URLs. Display organisation names only; do not show author names, university colleges/departments/labs, company divisions or office locations. Group repeated variants under the same root institution. Do not union a dual-affiliation author’s raw affiliation strings across all their countries.
 - `data/collaboration-countries.json`: reviewed country names and representative map positions. All currently counted countries are UN member states. Use one marker per collaborating country, never one marker per institution or publication.
 - `static/data/collaborations.json`: generated public map data. Rebuild it after changing the reviewed source.
 - `scripts/build_collaborations.py`: deterministic author/country aggregation.
@@ -26,7 +27,9 @@ Use the allowed public profile URL `https://scholar.google.com/citations?user=tn
 2. Match a changed record by DOI or a reviewed title alias. Deduplicate preprints and journal versions when they represent the same work.
 3. Read publisher metadata, article front matter, official repositories or indexed publication-specific author affiliations. Save supporting URLs for each affiliation. Never assign a country from an author's name, residence, nationality, or institution headquarters when the actual office address is elsewhere.
 4. Resolve identities with full names, ORCID, trusted author IDs and paper-specific evidence. Initials alone do not establish identity. Preserve reviewed overrides and document conflicts.
-5. Update source records and country locations if necessary. Exclude Jin Liu. Count each collaborator once per country across all eligible works; verified multiple-country affiliations can contribute once to each country.
+5. Update source records, country locations and the reviewed root-organisation directory if necessary. Exclude Jin Liu. Count each collaborator once per country across all eligible works; verified multiple-country affiliations can contribute once to each country.
 6. Run counting tests and rebuild public JSON. Check totals, coverage, new country markers and source links. Publish through the existing GitHub Pages workflow and verify the deployment.
 
 `updated` is the date of the last reviewed data change, not a promise that every attempted daily check succeeded. Keep the previous value when nothing changes. Notify Jin only after a meaningful published change or when user action is needed.
+
+Marker area continues to represent distinct coauthors, even though country details list root research organisations. The largest circle radius is capped at 16 SVG units using one common scale factor, preserving relative areas.

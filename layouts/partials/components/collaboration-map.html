@@ -1,4 +1,5 @@
-<div class="collaboration-map" data-collaboration-map data-source="{{ "/data/collaborations.json" | absURL }}">
+{{ $mapDataVersion := readFile "static/data/collaborations.json" | md5 }}
+<div class="collaboration-map" data-collaboration-map data-source="{{ "/data/collaborations.json" | absURL }}?v={{ $mapDataVersion }}">
   <div class="collaboration-heading">
     <h3>Collaborators around the world</h3>
     <span class="collaboration-period">All years</span>
@@ -26,7 +27,7 @@
       <select id="collaboration-country"><option value="">Choose a country</option></select>
     </div>
     <div class="collaboration-selection" aria-live="polite">
-      <p>Choose a marker or a country to see its collaborators.</p>
+      <p>Choose a marker or a country to see its research organisations.</p>
     </div>
     <details class="collaboration-method">
       <summary>How this map is counted and sourced</summary>

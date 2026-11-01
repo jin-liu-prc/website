@@ -1,0 +1,724 @@
+{
+  "updated": "2026-11-01",
+  "countries": [
+    {
+      "code": "AU",
+      "organizations": [
+        {
+          "id": "csiro",
+          "name": "CSIRO",
+          "workIds": [
+            "12",
+            "23"
+          ],
+          "sourceUrls": [
+            "https://api.openalex.org/works/W4392590450",
+            "https://api.openalex.org/works/W4406698877",
+            "https://doi.org/10.1007/s00382-024-07504-8",
+            "https://doi.org/10.5194/egusphere-egu24-3679",
+            "https://link.springer.com/article/10.1007/s00382-024-07504-8",
+            "https://meetingorganizer.copernicus.org/EGU24/EGU24-3679.html"
+          ],
+          "affiliationEvidence": [
+            "Climate Science Centre, CSIRO Environment, Aspendale, Australia",
+            "Climate Science Centre, CSIRO Environment, Aspendale, VIC, Australia",
+            "Climate Science Centre, CSIRO Environment, Canberra, Australia"
+          ]
+        },
+        {
+          "id": "deakin-university",
+          "name": "Deakin University",
+          "workIds": [
+            "0",
+            "4",
+            "8",
+            "13",
+            "20",
+            "21",
+            "22"
+          ],
+          "sourceUrls": [
+            "https://api.openalex.org/works/W4220697980",
+            "https://api.openalex.org/works/W4360867377",
+            "https://api.openalex.org/works/W4376126737",
+            "https://api.openalex.org/works/W4381427648",
+            "https://api.openalex.org/works/W4394843587",
+            "https://api.openalex.org/works/W4413365690",
+            "https://api.openalex.org/works/W7103882224",
+            "https://doi.org/10.1016/j.ocecoaman.2023.106641",
+            "https://doi.org/10.1016/j.ocecoaman.2024.107146",
+            "https://doi.org/10.1016/j.ocecoaman.2025.107972",
+            "https://doi.org/10.1016/j.ocemod.2022.101980",
+            "https://doi.org/10.1016/j.renene.2023.118943",
+            "https://doi.org/10.1142/9789811275135_0119",
+            "https://doi.org/10.3389/feart.2025.1607126",
+            "https://www.frontiersin.org/journals/earth-science/articles/10.3389/feart.2025.1607126/full",
+            "https://www.sciencedirect.com/science/article/pii/S0964569123001667"
+          ],
+          "affiliationEvidence": [
+            "Deakin University, Warrnambool, Australia",
+            "School of Life and Environmental Sciences, Deakin University, Warrnambool, VIC, Australia",
+            "School of Life and Environmental Sciences, Deakin University, Warrnambool, Vic, 3280, Australia",
+            "School of Life and Environmental Sciences, Deakin University, Warrnambool, Victoria, Australia"
+          ]
+        },
+        {
+          "id": "geoscience-australia",
+          "name": "Geoscience Australia",
+          "workIds": [
+            "21"
+          ],
+          "sourceUrls": [
+            "https://api.openalex.org/works/W4360867377",
+            "https://doi.org/10.1142/9789811275135_0119"
+          ],
+          "affiliationEvidence": [
+            "Geoscience Australia, Symonston, Australia"
+          ]
+        },
+        {
+          "id": "monash-university",
+          "name": "Monash University",
+          "workIds": [
+            "21"
+          ],
+          "sourceUrls": [
+            "https://api.openalex.org/works/W4360867377",
+            "https://doi.org/10.1142/9789811275135_0119"
+          ],
+          "affiliationEvidence": [
+            "Monash University, Clayton, Australia"
+          ]
+        },
+        {
+          "id": "swinburne-university-of-technology",
+          "name": "Swinburne University of Technology",
+          "workIds": [
+            "2"
+          ],
+          "sourceUrls": [
+            "https://backend.orbit.dtu.dk/ws/portalfiles/portal/413943875/1-s2.0-S0029801825022280-main.pdf",
+            "https://doi.org/10.1016/j.oceaneng.2025.122545",
+            "https://eprints.soton.ac.uk/506307/",
+            "https://eprints.soton.ac.uk/506307/1/1-s2.0-S0029801825022280-main.pdf"
+          ],
+          "affiliationEvidence": [
+            "Swinburne University of Technology"
+          ]
+        },
+        {
+          "id": "university-of-melbourne",
+          "name": "University of Melbourne",
+          "workIds": [
+            "0",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "7",
+            "8",
+            "10",
+            "11",
+            "12",
+            "13",
+            "15",
+            "17",
+            "18",
+            "19",
+            "20",
+            "21",
+            "22",
+            "23",
+            "28",
+            "29"
+          ],
+          "sourceUrls": [
+            "https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2023JC019843",
+            "https://api.crossref.org/works/10.1016%2Fj.apor.2026.104991",
+            "https://api.crossref.org/works/10.1016%2Fj.ocemod.2025.102649",
+            "https://api.crossref.org/works/10.3390%2Fjmse11101848",
+            "https://api.crossref.org/works/10.3390%2Frs15112768",
+            "https://api.openalex.org/works/W4220697980",
+            "https://api.openalex.org/works/W4281385381",
+            "https://api.openalex.org/works/W4360867377",
+            "https://api.openalex.org/works/W4365516181",
+            "https://api.openalex.org/works/W4376126737",
+            "https://api.openalex.org/works/W4381427648",
+            "https://api.openalex.org/works/W4386544408",
+            "https://api.openalex.org/works/W4386960064",
+            "https://api.openalex.org/works/W4390473219",
+            "https://api.openalex.org/works/W4392590450",
+            "https://api.openalex.org/works/W4394843587",
+            "https://api.openalex.org/works/W4400217820",
+            "https://api.openalex.org/works/W4406698877",
+            "https://api.openalex.org/works/W4409157102",
+            "https://api.openalex.org/works/W4413365690",
+            "https://api.openalex.org/works/W4415748272",
+            "https://api.openalex.org/works/W7103882224",
+            "https://api.openalex.org/works/W7136604002",
+            "https://backend.orbit.dtu.dk/ws/portalfiles/portal/413943875/1-s2.0-S0029801825022280-main.pdf",
+            "https://doi.org/10.1007/s00382-022-06310-4",
+            "https://doi.org/10.1007/s00382-024-07504-8",
+            "https://doi.org/10.1016/j.apenergy.2023.122572",
+            "https://doi.org/10.1016/j.apor.2026.104991",
+            "https://doi.org/10.1016/j.oceaneng.2025.122545",
+            "https://doi.org/10.1016/j.ocecoaman.2023.106641",
+            "https://doi.org/10.1016/j.ocecoaman.2024.107146",
+            "https://doi.org/10.1016/j.ocecoaman.2025.107972",
+            "https://doi.org/10.1016/j.ocemod.2022.101980",
+            "https://doi.org/10.1016/j.ocemod.2025.102540",
+            "https://doi.org/10.1016/j.ocemod.2025.102649",
+            "https://doi.org/10.1016/j.renene.2023.118943",
+            "https://doi.org/10.1029/2022jc018996",
+            "https://doi.org/10.1029/2023jc019843",
+            "https://doi.org/10.1142/9789811275135_0119",
+            "https://doi.org/10.3389/feart.2025.1607126",
+            "https://doi.org/10.3390/jmse11101848",
+            "https://doi.org/10.3390/rs15112768",
+            "https://doi.org/10.5194/egusphere-egu24-3679",
+            "https://doi.org/10.5194/nhess-24-2175-2024",
+            "https://doi.org/10.9753/icce.v37.waves.1",
+            "https://eprints.soton.ac.uk/506307/",
+            "https://eprints.soton.ac.uk/506307/1/1-s2.0-S0029801825022280-main.pdf",
+            "https://icce-ojs-tamu.tdl.org/icce/article/view/13117",
+            "https://jglobal.jst.go.jp/detail?JGLOBAL_ID=202602262766717588",
+            "https://jglobal.jst.go.jp/en/detail?JGLOBAL_ID=202602237739548349",
+            "https://link.springer.com/article/10.1007/s00382-024-07504-8",
+            "https://meetingorganizer.copernicus.org/EGU24/EGU24-3679.html",
+            "https://nhess.copernicus.org/articles/24/2175/2024/index.html",
+            "https://www.amsa.asn.au/wp-content/uploads/2019/04/AMSA-Bulletin_2091.pdf",
+            "https://www.frontiersin.org/journals/earth-science/articles/10.3389/feart.2025.1607126/full",
+            "https://www.sciencedirect.com/science/article/pii/S014111872600074X",
+            "https://www.sciencedirect.com/science/article/pii/S0964569123001667"
+          ],
+          "affiliationEvidence": [
+            "Department of Infrastructure Engineering University of Melbourne  Melbourne VIC Australia",
+            "Department of Infrastructure Engineering, The University of Melbourne, Melbourne, VIC, Australia",
+            "Department of Infrastructure Engineering, University of Melbourne, Melbourne, VIC 3010, Australia",
+            "Department of Infrastructure Engineering, University of Melbourne, Melbourne, VIC, Australia",
+            "Department of Infrastructure Engineering, University of Melbourne, Melbourne, Victoria, Australia",
+            "Department of Infrastructure Engineering, University of Melbourne, Parkville, Melbourne, Victoria, Australia",
+            "Department of infrastructure Engineering, University of Melbourne, Melbourne, Victoria, Australia",
+            "School of Geography, Earth & Atmospheric Sciences, The University of Melbourne, Parkville, Vic, 3010, Australia",
+            "School of Geography, Earth & Atmospheric Sciences, University of Melbourne, Parkville, Vic, 3010, Australia",
+            "School of Geography, Earth and Atmospheric Sciences, The University of Melbourne, Parkville, VIC, Australia",
+            "School of Geography, Earth and Atmospheric Sciences, The University of Melbourne, Parkville, Victoria, Australia",
+            "The University of Melbourne",
+            "University of Melbourne",
+            "University of Melbourne,",
+            "University of Melbourne, Australia",
+            "University of Melbourne, Melbourne School of Engineering, Department of Infrastructure Engineering, Australia",
+            "University of Melbourne, Parkville, Australia"
+          ]
+        },
+        {
+          "id": "university-of-queensland",
+          "name": "University of Queensland",
+          "workIds": [
+            "12",
+            "23"
+          ],
+          "sourceUrls": [
+            "https://api.openalex.org/works/W4392590450",
+            "https://api.openalex.org/works/W4406698877",
+            "https://doi.org/10.1007/s00382-024-07504-8",
+            "https://doi.org/10.5194/egusphere-egu24-3679",
+            "https://link.springer.com/article/10.1007/s00382-024-07504-8",
+            "https://meetingorganizer.copernicus.org/EGU24/EGU24-3679.html"
+          ],
+          "affiliationEvidence": [
+            "School of the Environment, The University of Queensland, Brisbane, QLD, Australia",
+            "The University of Queensland, School of the Environment, Brisbane, Australia"
+          ]
+        },
+        {
+          "id": "university-of-tasmania",
+          "name": "University of Tasmania",
+          "workIds": [
+            "2"
+          ],
+          "sourceUrls": [
+            "https://backend.orbit.dtu.dk/ws/portalfiles/portal/413943875/1-s2.0-S0029801825022280-main.pdf",
+            "https://doi.org/10.1016/j.oceaneng.2025.122545",
+            "https://eprints.soton.ac.uk/506307/",
+            "https://eprints.soton.ac.uk/506307/1/1-s2.0-S0029801825022280-main.pdf"
+          ],
+          "affiliationEvidence": [
+            "Australian Maritime College, University of Tasmania"
+          ]
+        },
+        {
+          "id": "unsw-sydney",
+          "name": "UNSW Sydney",
+          "workIds": [
+            "2"
+          ],
+          "sourceUrls": [
+            "https://backend.orbit.dtu.dk/ws/portalfiles/portal/413943875/1-s2.0-S0029801825022280-main.pdf",
+            "https://doi.org/10.1016/j.oceaneng.2025.122545",
+            "https://eprints.soton.ac.uk/506307/",
+            "https://eprints.soton.ac.uk/506307/1/1-s2.0-S0029801825022280-main.pdf"
+          ],
+          "affiliationEvidence": [
+            "UNSW"
+          ]
+        },
+        {
+          "id": "victorian-government",
+          "name": "Victorian Government",
+          "workIds": [
+            "8",
+            "15",
+            "20",
+            "21",
+            "22",
+            "24",
+            "25"
+          ],
+          "sourceUrls": [
+            "https://api.openalex.org/works/W4360867377",
+            "https://api.openalex.org/works/W4394843587",
+            "https://api.openalex.org/works/W4409157102",
+            "https://api.openalex.org/works/W4413365690",
+            "https://api.openalex.org/works/W7103882224",
+            "https://doi.org/10.1016/j.ocecoaman.2024.107146",
+            "https://doi.org/10.1016/j.ocecoaman.2025.107972",
+            "https://doi.org/10.1016/j.ocemod.2025.102540",
+            "https://doi.org/10.1142/9789811275135_0119",
+            "https://doi.org/10.3389/feart.2025.1607126",
+            "https://www.frontiersin.org/journals/earth-science/articles/10.3389/feart.2025.1607126/full",
+            "https://www.marineandcoasts.vic.gov.au/__data/assets/pdf_file/0034/675448/Victorian_Coastline_Longshore_Sediment_Transport_Modelling-compressed2.pdf",
+            "https://www.marineandcoasts.vic.gov.au/__data/assets/pdf_file/0041/688397/VCMP_Sites_MetadataReport_Mar2024.pdf"
+          ],
+          "evidence": {
+            "mergedPublicationOrganizations": [
+              "Department of Energy, Environment and Climate Action (Victoria)",
+              "Department of Environment, Land, Water and Planning (Victoria)"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "code": "CN",
+      "organizations": [
+        {
+          "id": "institute-of-atmospheric-physics",
+          "name": "Chinese Academy of Sciences",
+          "workIds": [
+            "1"
+          ],
+          "sourceUrls": [
+            "https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2020JC016356",
+            "https://api.crossref.org/works/10.1029%2F2020jc016356",
+            "https://doi.org/10.1029/2020jc016356"
+          ],
+          "affiliationEvidence": [
+            "Institute of Atmospheric Physics"
+          ]
+        },
+        {
+          "id": "gongyi-yellow-river-bureau",
+          "name": "Gongyi Yellow River Bureau",
+          "workIds": [
+            "17"
+          ],
+          "sourceUrls": [
+            "https://api.crossref.org/works/10.3390%2Fjmse11101848",
+            "https://doi.org/10.3390/jmse11101848"
+          ],
+          "affiliationEvidence": [
+            "Gongyi Yellow River Bureau, Operational Observation Section, China"
+          ]
+        },
+        {
+          "id": "henan-university",
+          "name": "Henan University",
+          "workIds": [
+            "17"
+          ],
+          "sourceUrls": [
+            "https://api.crossref.org/works/10.3390%2Fjmse11101848",
+            "https://doi.org/10.3390/jmse11101848"
+          ],
+          "affiliationEvidence": [
+            "Henan University"
+          ]
+        },
+        {
+          "id": "hohai-university",
+          "name": "Hohai University",
+          "workIds": [
+            "19"
+          ],
+          "sourceUrls": [
+            "https://api.crossref.org/works/10.1016%2Fj.ocemod.2025.102649",
+            "https://api.openalex.org/works/W4415748272",
+            "https://doi.org/10.1016/j.ocemod.2025.102649",
+            "https://jglobal.jst.go.jp/detail?JGLOBAL_ID=202602262766717588"
+          ],
+          "affiliationEvidence": [
+            "Hohai University"
+          ]
+        },
+        {
+          "id": "ocean-university-of-china",
+          "name": "Ocean University of China",
+          "workIds": [
+            "0",
+            "3",
+            "4",
+            "7",
+            "15",
+            "17",
+            "18",
+            "19"
+          ],
+          "sourceUrls": [
+            "https://api.crossref.org/works/10.1016%2Fj.apor.2026.104991",
+            "https://api.crossref.org/works/10.1016%2Fj.ocemod.2025.102649",
+            "https://api.crossref.org/works/10.3390%2Fjmse11101848",
+            "https://api.crossref.org/works/10.3390%2Frs15112768",
+            "https://api.openalex.org/works/W4220697980",
+            "https://api.openalex.org/works/W4381427648",
+            "https://api.openalex.org/works/W4390473219",
+            "https://api.openalex.org/works/W4409157102",
+            "https://api.openalex.org/works/W4415748272",
+            "https://api.openalex.org/works/W7136604002",
+            "https://doi.org/10.1016/j.apenergy.2023.122572",
+            "https://doi.org/10.1016/j.apor.2026.104991",
+            "https://doi.org/10.1016/j.ocemod.2022.101980",
+            "https://doi.org/10.1016/j.ocemod.2025.102540",
+            "https://doi.org/10.1016/j.ocemod.2025.102649",
+            "https://doi.org/10.1016/j.renene.2023.118943",
+            "https://doi.org/10.3390/jmse11101848",
+            "https://doi.org/10.3390/rs15112768",
+            "https://jglobal.jst.go.jp/detail?JGLOBAL_ID=202602262766717588",
+            "https://jglobal.jst.go.jp/en/detail?JGLOBAL_ID=202602237739548349",
+            "https://www.sciencedirect.com/science/article/pii/S014111872600074X"
+          ],
+          "affiliationEvidence": [
+            "College of Oceanic and Atmospheric Sciences, Ocean University of China, Qingdao, China",
+            "Ocean University of China",
+            "Physical Oceanography Laboratory, Ocean University of China, Qingdao, China",
+            "Physical Oceanography Laboratory, Ocean University of China, Qingdao, Shandong, China"
+          ]
+        },
+        {
+          "id": "second-institute-of-oceanography",
+          "name": "Second Institute of Oceanography",
+          "workIds": [
+            "1",
+            "9",
+            "14",
+            "16"
+          ],
+          "sourceUrls": [
+            "https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2020JC016356",
+            "https://api.crossref.org/works/10.1007%2Fs10652-018-9610-z",
+            "https://api.crossref.org/works/10.1007%2Fs10872-020-00540-y",
+            "https://api.crossref.org/works/10.1029%2F2020jc016356",
+            "https://api.crossref.org/works/10.3390%2Fw10040520",
+            "https://api.openalex.org/works/W2810739295",
+            "https://api.openalex.org/works/W3005367727",
+            "https://doi.org/10.1007/s10652-018-9610-z",
+            "https://doi.org/10.1007/s10872-020-00540-y",
+            "https://doi.org/10.1029/2020jc016356",
+            "https://doi.org/10.3390/w10040520",
+            "https://link.springer.com/article/10.1007/s10652-018-9610-z",
+            "https://link.springer.com/article/10.1007/s10872-020-00540-y"
+          ],
+          "affiliationEvidence": [
+            "Second Institute of Oceanography"
+          ]
+        },
+        {
+          "id": "zhejiang-university",
+          "name": "Zhejiang University",
+          "workIds": [
+            "1",
+            "9",
+            "14",
+            "16"
+          ],
+          "sourceUrls": [
+            "https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2020JC016356",
+            "https://api.crossref.org/works/10.1007%2Fs10652-018-9610-z",
+            "https://api.crossref.org/works/10.1007%2Fs10872-020-00540-y",
+            "https://api.crossref.org/works/10.1029%2F2020jc016356",
+            "https://api.crossref.org/works/10.3390%2Fw10040520",
+            "https://api.openalex.org/works/W2810739295",
+            "https://api.openalex.org/works/W3005367727",
+            "https://doi.org/10.1007/s10652-018-9610-z",
+            "https://doi.org/10.1007/s10872-020-00540-y",
+            "https://doi.org/10.1029/2020jc016356",
+            "https://doi.org/10.3390/w10040520",
+            "https://link.springer.com/article/10.1007/s10652-018-9610-z",
+            "https://link.springer.com/article/10.1007/s10872-020-00540-y"
+          ],
+          "affiliationEvidence": [
+            "Zhejiang University"
+          ]
+        }
+      ]
+    },
+    {
+      "code": "DE",
+      "organizations": [
+        {
+          "id": "catholic-university-of-eichstatt-ingolstadt",
+          "name": "Catholic University of Eichstätt-Ingolstadt",
+          "workIds": [
+            "2"
+          ],
+          "sourceUrls": [
+            "https://backend.orbit.dtu.dk/ws/portalfiles/portal/413943875/1-s2.0-S0029801825022280-main.pdf",
+            "https://doi.org/10.1016/j.oceaneng.2025.122545",
+            "https://eprints.soton.ac.uk/506307/",
+            "https://eprints.soton.ac.uk/506307/1/1-s2.0-S0029801825022280-main.pdf"
+          ],
+          "affiliationEvidence": [
+            "Katholische Universität Eichstätt-Ingolstadt"
+          ]
+        }
+      ]
+    },
+    {
+      "code": "DK",
+      "organizations": [
+        {
+          "id": "technical-university-of-denmark",
+          "name": "Technical University of Denmark",
+          "workIds": [
+            "2"
+          ],
+          "sourceUrls": [
+            "https://backend.orbit.dtu.dk/ws/portalfiles/portal/413943875/1-s2.0-S0029801825022280-main.pdf",
+            "https://doi.org/10.1016/j.oceaneng.2025.122545",
+            "https://eprints.soton.ac.uk/506307/",
+            "https://eprints.soton.ac.uk/506307/1/1-s2.0-S0029801825022280-main.pdf"
+          ],
+          "affiliationEvidence": [
+            "Technical University of Denmark"
+          ]
+        }
+      ]
+    },
+    {
+      "code": "GB",
+      "organizations": [
+        {
+          "id": "cranfield-university",
+          "name": "Cranfield University",
+          "workIds": [
+            "2"
+          ],
+          "sourceUrls": [
+            "https://backend.orbit.dtu.dk/ws/portalfiles/portal/413943875/1-s2.0-S0029801825022280-main.pdf",
+            "https://doi.org/10.1016/j.oceaneng.2025.122545",
+            "https://eprints.soton.ac.uk/506307/",
+            "https://eprints.soton.ac.uk/506307/1/1-s2.0-S0029801825022280-main.pdf"
+          ],
+          "affiliationEvidence": [
+            "Cranfield University"
+          ]
+        },
+        {
+          "id": "university-of-southampton",
+          "name": "University of Southampton",
+          "workIds": [
+            "2"
+          ],
+          "sourceUrls": [
+            "https://backend.orbit.dtu.dk/ws/portalfiles/portal/413943875/1-s2.0-S0029801825022280-main.pdf",
+            "https://doi.org/10.1016/j.oceaneng.2025.122545",
+            "https://eprints.soton.ac.uk/506307/",
+            "https://eprints.soton.ac.uk/506307/1/1-s2.0-S0029801825022280-main.pdf"
+          ],
+          "affiliationEvidence": [
+            "University of Southampton"
+          ]
+        }
+      ]
+    },
+    {
+      "code": "GR",
+      "organizations": [
+        {
+          "id": "american-bureau-of-shipping-athens",
+          "name": "American Bureau of Shipping",
+          "workIds": [
+            "2"
+          ],
+          "sourceUrls": [
+            "https://backend.orbit.dtu.dk/ws/portalfiles/portal/413943875/1-s2.0-S0029801825022280-main.pdf",
+            "https://doi.org/10.1016/j.oceaneng.2025.122545",
+            "https://eprints.soton.ac.uk/506307/",
+            "https://eprints.soton.ac.uk/506307/1/1-s2.0-S0029801825022280-main.pdf"
+          ],
+          "affiliationEvidence": [
+            "Global Ship Systems Centre, American Bureau of Shipping, Athens"
+          ]
+        }
+      ]
+    },
+    {
+      "code": "IT",
+      "organizations": [
+        {
+          "id": "national-research-council",
+          "name": "National Research Council",
+          "workIds": [
+            "12"
+          ],
+          "sourceUrls": [
+            "https://api.openalex.org/works/W4406698877",
+            "https://doi.org/10.1007/s00382-024-07504-8",
+            "https://link.springer.com/article/10.1007/s00382-024-07504-8"
+          ],
+          "affiliationEvidence": [
+            "Institute of Atmospheric Sciences and Climate, National Research Council, Turin, Italy"
+          ]
+        },
+        {
+          "id": "university-of-turin",
+          "name": "University of Turin",
+          "workIds": [
+            "12",
+            "23"
+          ],
+          "sourceUrls": [
+            "https://api.openalex.org/works/W4392590450",
+            "https://api.openalex.org/works/W4406698877",
+            "https://doi.org/10.1007/s00382-024-07504-8",
+            "https://doi.org/10.5194/egusphere-egu24-3679",
+            "https://link.springer.com/article/10.1007/s00382-024-07504-8",
+            "https://meetingorganizer.copernicus.org/EGU24/EGU24-3679.html"
+          ],
+          "affiliationEvidence": [
+            "Department of Physics and INFN, University of Turin, Turin, Italy"
+          ]
+        }
+      ]
+    },
+    {
+      "code": "NL",
+      "organizations": [
+        {
+          "id": "delft-university-of-technology",
+          "name": "Delft University of Technology",
+          "workIds": [
+            "2"
+          ],
+          "sourceUrls": [
+            "https://backend.orbit.dtu.dk/ws/portalfiles/portal/413943875/1-s2.0-S0029801825022280-main.pdf",
+            "https://doi.org/10.1016/j.oceaneng.2025.122545",
+            "https://eprints.soton.ac.uk/506307/",
+            "https://eprints.soton.ac.uk/506307/1/1-s2.0-S0029801825022280-main.pdf"
+          ],
+          "affiliationEvidence": [
+            "Delft University of Technology"
+          ]
+        }
+      ]
+    },
+    {
+      "code": "NO",
+      "organizations": [
+        {
+          "id": "akva-group",
+          "name": "AKVA Group",
+          "workIds": [
+            "2"
+          ],
+          "sourceUrls": [
+            "https://backend.orbit.dtu.dk/ws/portalfiles/portal/413943875/1-s2.0-S0029801825022280-main.pdf",
+            "https://doi.org/10.1016/j.oceaneng.2025.122545",
+            "https://eprints.soton.ac.uk/506307/",
+            "https://eprints.soton.ac.uk/506307/1/1-s2.0-S0029801825022280-main.pdf"
+          ],
+          "affiliationEvidence": [
+            "AKVA Group ASA, Bergen"
+          ]
+        }
+      ]
+    },
+    {
+      "code": "NZ",
+      "organizations": [
+        {
+          "id": "tonkin-taylor",
+          "name": "Tonkin + Taylor",
+          "workIds": [
+            "20"
+          ],
+          "sourceUrls": [
+            "https://api.openalex.org/works/W4413365690",
+            "https://doi.org/10.3389/feart.2025.1607126",
+            "https://www.frontiersin.org/journals/earth-science/articles/10.3389/feart.2025.1607126/full"
+          ],
+          "affiliationEvidence": [
+            "Tonkin and Taylor Ltd., Auckland, New Zealand"
+          ]
+        }
+      ]
+    },
+    {
+      "code": "PT",
+      "organizations": [
+        {
+          "id": "university-of-lisbon",
+          "name": "University of Lisbon",
+          "workIds": [
+            "2"
+          ],
+          "sourceUrls": [
+            "https://backend.orbit.dtu.dk/ws/portalfiles/portal/413943875/1-s2.0-S0029801825022280-main.pdf",
+            "https://doi.org/10.1016/j.oceaneng.2025.122545",
+            "https://eprints.soton.ac.uk/506307/",
+            "https://eprints.soton.ac.uk/506307/1/1-s2.0-S0029801825022280-main.pdf"
+          ],
+          "affiliationEvidence": [
+            "Instituto Superior Técnico, Universidade de Lisboa"
+          ]
+        }
+      ]
+    },
+    {
+      "code": "SG",
+      "organizations": [
+        {
+          "id": "national-university-of-singapore",
+          "name": "National University of Singapore",
+          "workIds": [
+            "2"
+          ],
+          "sourceUrls": [
+            "https://backend.orbit.dtu.dk/ws/portalfiles/portal/413943875/1-s2.0-S0029801825022280-main.pdf",
+            "https://doi.org/10.1016/j.oceaneng.2025.122545",
+            "https://eprints.soton.ac.uk/506307/",
+            "https://eprints.soton.ac.uk/506307/1/1-s2.0-S0029801825022280-main.pdf"
+          ],
+          "affiliationEvidence": [
+            "National University of Singapore"
+          ]
+        }
+      ]
+    }
+  ],
+  "notes": [
+    "Only coauthor affiliations on eligible reviewed publications are included; Jin Liu alone does not add an organization.",
+    "Departments, laboratories, centres and campuses are grouped under the named parent institution. Government departments and private research/engineering organizations are retained when listed as coauthor affiliations.",
+    "Cross-country authors are split using named institution addresses; Australian institutions are not copied into China, or vice versa.",
+    "Second Institute of Oceanography is grouped across parent-agency labels Ministry of Natural Resources and the former State Oceanic Administration. Its component State Key Laboratory is not a separate organization.",
+    "Institute of Atmospheric Physics includes the component LASG laboratory; Chinese Academy of Sciences is the parent organization.",
+    "The publication lists Department of Physics and INFN, University of Turin as one joint affiliation. This exact joint affiliation is retained as a single display entry rather than inventing a separate independent INFN affiliation.",
+    "National Research Council is shown with its Institute of Atmospheric Sciences and Climate unit. University of Lisbon is shown with Instituto Superior Técnico.",
+    "DEECA and the former DELWP are retained as distinct historical department labels, not merged as spelling variants.",
+    "American Bureau of Shipping uses the publication Athens office and is assigned to Greece; AKVA uses Bergen and is assigned to Norway, irrespective of corporate headquarters elsewhere.",
+    "Conference records 30 and 31 remain excluded because affiliation-country evidence is unresolved.",
+    "Display only institution-level parent organisations: strip university colleges/departments and laboratories, council subinstitutes, office locations, and private-company divisions. DEECA and DELWP are grouped under the Victorian Government; the exact historical affiliation remains in reviewed source records."
+  ],
+  "unresolved": []
+}

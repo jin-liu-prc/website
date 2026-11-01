@@ -53,25 +53,24 @@
     selection.replaceChildren();
     const country = data.countries.find(c => c.code === code);
     if (!country) {
-      selection.append(element('p', 'Choose a marker or a country to see its collaborators.'));
+      selection.append(element('p', 'Choose a marker or a country to see its research organisations.'));
       return;
     }
-    selection.append(element('h4', `${country.name} · ${country.collaborators.length} ${country.collaborators.length === 1 ? 'collaborator' : 'collaborators'}`));
-    const list = element('ul', undefined, 'collaboration-people');
-    country.collaborators.forEach(person => {
+    const organizations = country.organizations || [];
+    selection.append(element('h4', `${country.name} · ${organizations.length} ${organizations.length === 1 ? 'research organisation' : 'research organisations'}`));
+    const list = element('ul', undefined, 'collaboration-organizations');
+    organizations.forEach(organization => {
       const li = element('li');
       const details = element('details');
-      const summary = element('summary', person.name);
-      summary.className = 'notranslate';
-      summary.setAttribute('translate', 'no');
+      const summary = element('summary', organization.name);
       details.append(summary);
-      details.append(element('p', person.affiliations.join('; '), 'collaboration-affiliations'));
-      const sources = element('div', undefined, 'collaboration-person-sources');
-      person.workIds.forEach((id, index) => {
+      const sources = element('div', undefined, 'collaboration-organization-sources');
+      organization.workIds.forEach(id => {
         const work = data.works.find(w => w.id === id);
         if (!work) return;
-        if (index) sources.append(document.createTextNode(' · '));
-        sources.append(sourceLink(work.url, String(work.year)));
+        const source = element('p');
+        source.append(sourceLink(work.url, `${work.title} (${work.year})`));
+        sources.append(source);
       });
       details.append(sources);
       li.append(details);
@@ -120,6 +119,9 @@
       option.value = country.code;
       countrySelect.append(option);
     });
+    // Use a single scale factor so the largest radius stays at 16 SVG units and area ratios remain exact.
+    const maxCount = Math.max(...data.countries.map(c => c.collaborators.length));
+    const radiusScale = Math.min(5, 16 / Math.sqrt(maxCount));
     // Large bubbles first so small European countries remain selectable above them.
     data.countries.slice().sort((a, b) => b.collaborators.length - a.collaborators.length).forEach(country => {
       const [x, y] = project(country);
@@ -133,7 +135,7 @@
       const title = document.createElementNS(ns, 'title');
       title.textContent = `${country.name}: ${country.collaborators.length}`;
       group.append(title);
-      const radius = 5 * Math.sqrt(country.collaborators.length);
+      const radius = radiusScale * Math.sqrt(country.collaborators.length);
       const hit = document.createElementNS(ns, 'circle');
       hit.setAttribute('cx', x); hit.setAttribute('cy', y); hit.setAttribute('r', Math.max(10, radius));
       hit.setAttribute('fill', 'transparent'); hit.classList.add('collaboration-marker-hit');

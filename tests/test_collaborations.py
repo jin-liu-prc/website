@@ -47,6 +47,20 @@ class CollaborationCounting(unittest.TestCase):
         self.assertEqual(data['coverage']['verifiedCoauthoredWorks'], 0)
         self.assertEqual(data['coverage']['unresolvedWorks'], 1)
 
+    def test_country_organizations_are_reviewed_and_separate_from_people(self):
+        work = {'inventoryIndex': 0, 'title': 'Paper', 'year': 2020, 'authors': [
+            {'name': 'A Person', 'personId': 'a', 'countries': ['AU'], 'sourceUrls': ['https://example.org']}],
+            'scholarUrl': 'https://example.org'}
+        research = {'updated': '2026-11-01', 'profileUrl': 'https://example.org', 'works': [work]}
+        places = {'AU': {'name': 'Australia', 'longitude': 135, 'latitude': -25}}
+        catalog = {'countries': [{'code': 'AU', 'organizations': [
+            {'id': 'university', 'name': 'Example University', 'workIds': ['0'], 'sourceUrls': ['https://example.org']}]}]}
+        result = builder.build(research, places, catalog)
+        self.assertEqual(result['countries'][0]['organizations'][0]['name'], 'Example University')
+        self.assertNotIn('A Person', str(result['countries'][0]['organizations']))
+        with self.assertRaisesRegex(ValueError, 'Review root organizations'):
+            builder.build(research, places, {'countries': []})
+
 
 if __name__ == '__main__':
     unittest.main()

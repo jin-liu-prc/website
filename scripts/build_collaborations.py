@@ -4,7 +4,7 @@ import json
 from pathlib import Path
 
 
-def build(research, places):
+def build(research, places, organization_catalog=None):
     countries, people, works = {}, {}, []
     verified_works = 0
     unresolved = 0
@@ -59,6 +59,26 @@ def build(research, places):
             person['workIds'] = sorted(person['workIds'], key=int)
             coauthors.append(person)
         country['collaborators'] = sorted(coauthors, key=lambda p: p['name'].casefold())
+        if organization_catalog is not None:
+            catalog = next((c for c in organization_catalog['countries'] if c['code'] == country['code']), None)
+            if not catalog or not catalog.get('organizations'):
+                raise ValueError(f"Review root organizations for {country['code']}")
+            eligible_ids = {str(w['inventoryIndex']) for w in research['works'] if w.get('countingEligible', True)}
+            organizations = []
+            seen = set()
+            for organization in catalog['organizations']:
+                if organization['id'] in seen:
+                    raise ValueError(f"Duplicate root organization: {organization['id']}")
+                seen.add(organization['id'])
+                ids = sorted(set(organization['workIds']) & eligible_ids, key=int)
+                if not ids or not organization.get('sourceUrls'):
+                    raise ValueError(f"Missing publication evidence: {organization['name']}")
+                organizations.append({'id': organization['id'], 'name': organization['name'], 'workIds': ids})
+            country_work_ids = {wid for person in coauthors for wid in person['workIds']}
+            organization_work_ids = {wid for organization in organizations for wid in organization['workIds']}
+            if not country_work_ids <= organization_work_ids:
+                raise ValueError(f"Review organizations for new publications in {country['code']}: {sorted(country_work_ids - organization_work_ids)}")
+            country['organizations'] = sorted(organizations, key=lambda o: o['name'].casefold())
         output_countries.append(country)
     return {
         'schemaVersion': 1, 'updated': research['updated'], 'profileUrl': research['profileUrl'],
@@ -74,7 +94,8 @@ if __name__ == '__main__':
     root = Path(__file__).resolve().parents[1]
     research = json.loads((root / 'data/collaboration-research.json').read_text())
     places = json.loads((root / 'data/collaboration-countries.json').read_text())
-    result = build(research, places)
+    organizations = json.loads((root / 'data/collaboration-organizations.json').read_text())
+    result = build(research, places, organizations)
     destination = root / 'static/data/collaborations.json'
     destination.parent.mkdir(parents=True, exist_ok=True)
     destination.write_text(json.dumps(result, ensure_ascii=False, indent=2) + '\n')

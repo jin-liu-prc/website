@@ -1,1 +1,2 @@
-<script src="{{ "/js/collaboration-map.js" | relURL }}" defer></script>
+{{ $mapScriptVersion := readFile "static/js/collaboration-map.js" | md5 }}
+<script src="{{ "/js/collaboration-map.js" | relURL }}?v={{ $mapScriptVersion }}" defer></script>

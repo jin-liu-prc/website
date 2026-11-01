@@ -19,7 +19,7 @@ hugo --minify --baseURL https://www.jinliu.org/
 
 ## Refresh rules
 
-The initial snapshot reviews all 32 profile records visible on 1 November 2026. A daily Codex follow-up checks the public profile and verifies changed records before updating this repository. It needs the local host available; it is not a real-time Google Scholar integration. No paid service, secret key, or extra hosting provider is required. If Scholar is blocked or affiliations cannot be verified, preserve the last valid map and retain explicit unresolved records.
+The initial snapshot reviews all 32 profile records visible on 1 November 2026. A monthly Codex follow-up checks the public profile and verifies changed records before updating this repository. It needs the local host available; it is not a real-time Google Scholar integration. No paid service, secret key, or extra hosting provider is required. If Scholar is blocked or affiliations cannot be verified, preserve the last valid map and retain explicit unresolved records.
 
 Use the allowed public profile URL `https://scholar.google.com/citations?user=tn1nAw0AAAAJ&hl=en&pagesize=100`. Respect Scholar's robots policy; do not bypass CAPTCHA, blocks, or restricted pagination. If the profile grows beyond the visible inventory, flag the coverage limitation.
 
@@ -30,6 +30,8 @@ Use the allowed public profile URL `https://scholar.google.com/citations?user=tn
 5. Update source records, country locations and the reviewed root-organisation directory if necessary. Exclude Jin Liu. Count each collaborator once per country across all eligible works; verified multiple-country affiliations can contribute once to each country.
 6. Run counting tests and rebuild public JSON. Check totals, coverage, new country markers and source links. Publish through the existing GitHub Pages workflow and verify the deployment.
 
-`updated` is the date of the last reviewed data change, not a promise that every attempted daily check succeeded. Keep the previous value when nothing changes. Notify Jin only after a meaningful published change or when user action is needed.
+`updated` is the date of the last reviewed data change, not a promise that every attempted monthly check succeeded. Keep the previous value when nothing changes. Notify Jin only after a meaningful published change or when user action is needed.
 
 Marker size continues to reflect distinct coauthor counts, even though country details list root research organisations. Radii range from 6 to 16 SVG units: a minimum makes small markers visible and a capped maximum keeps the largest markers restrained. The scale preserves count ordering, rather than exact area ratios.
+
+Country details list parent organisations with distinct coauthored publication counts in brackets, ordered from highest to lowest count (alphabetical ties). Do not show author names or expandable per-organisation paper lists. Count each eligible publication only once per organisation. The refresh schedule is monthly on the first day at 09:00 Australia/Melbourne.

@@ -58,22 +58,10 @@
     }
     const organizations = country.organizations || [];
     selection.append(element('h4', `${country.name} · ${organizations.length} ${organizations.length === 1 ? 'research organisation' : 'research organisations'}`));
+    selection.append(element('p', 'Numbers in brackets show distinct coauthored publications.', 'collaboration-organization-note'));
     const list = element('ul', undefined, 'collaboration-organizations');
-    organizations.forEach(organization => {
-      const li = element('li');
-      const details = element('details');
-      const summary = element('summary', organization.name);
-      details.append(summary);
-      const sources = element('div', undefined, 'collaboration-organization-sources');
-      organization.workIds.forEach(id => {
-        const work = data.works.find(w => w.id === id);
-        if (!work) return;
-        const source = element('p');
-        source.append(sourceLink(work.url, `${work.title} (${work.year})`));
-        sources.append(source);
-      });
-      details.append(sources);
-      li.append(details);
+    organizations.slice().sort((a, b) => b.workIds.length - a.workIds.length || a.name.localeCompare(b.name)).forEach(organization => {
+      const li = element('li', `${organization.name} (${organization.workIds.length})`);
       list.append(li);
     });
     selection.append(list);

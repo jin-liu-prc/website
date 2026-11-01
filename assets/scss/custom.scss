@@ -212,10 +212,8 @@ body.dark .wg-about-biography { background: linear-gradient(145deg, #1b3240, #15
 .collaboration-selection h4 { margin: 0 0 14px; font-size: .95rem; }
 .collaboration-organizations { display: grid; grid-template-columns: 1fr 1fr; gap: 8px 22px; max-height: 300px; overflow: auto; padding: 0 4px 0 0; margin: 0; list-style: none; }
 .wg-markdown .collaboration-organizations li { margin: 0; padding: 0; }
-.collaboration-organizations summary { cursor: pointer; color: var(--coast-teal); padding: 3px 0; }
-.collaboration-organizations .collaboration-affiliations { margin: 6px 0; font-size: .68rem; line-height: 1.6; }
-.collaboration-organization-sources { font-size: .65rem; margin-bottom: 10px; }
-.collaboration-organization-sources p { margin: 5px 0; line-height: 1.5; }
+.collaboration-organizations li { line-height: 1.6; }
+.collaboration-organization-note { font-size: .68rem; margin: 0 0 12px; }
 .collaboration-method { margin-top: 22px; padding-top: 14px; border-top: 1px solid var(--coast-line); font-size: .7rem; line-height: 1.7; }
 .collaboration-method > summary, .collaboration-publication-sources > summary { cursor: pointer; color: var(--coast-teal); font-weight: 500; }
 .collaboration-method p { margin: 10px 0; }

@@ -32,7 +32,7 @@ Use the allowed public profile URL `https://scholar.google.com/citations?user=tn
 
 `updated` is the date of the last reviewed data change, not a promise that every attempted monthly check succeeded. Keep the previous value when nothing changes. Notify Jin only after a meaningful published change or when user action is needed.
 
-Marker size continues to reflect distinct coauthor counts, even though country details list root research organisations. Visible diameters range from 18 to 26 CSS pixels, recalculated on resize and zoom: a minimum makes small markers visible on phones and a capped maximum keeps the largest markers restrained. The scale preserves count ordering, rather than exact area ratios.
+Marker size continues to reflect distinct coauthor counts, even though region details list root research organisations. Visible diameters range from 12 to 26 CSS pixels, recalculated on resize and zoom. The smaller minimum keeps low-count markers restrained; an invisible hit area at least 28 CSS pixels wide keeps them easy to select on phones. The scale preserves count ordering, rather than exact area ratios.
 
 Use “region” throughout the visible map interface, including its caption, selector and accessibility descriptions. Keep the underlying reviewed country codes and geographic grouping. Sort the region selector by distinct coauthor count, highest first, with alphabetical ties. Do not display a marker-size legend.
 

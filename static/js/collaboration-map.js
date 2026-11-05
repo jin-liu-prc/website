@@ -34,8 +34,8 @@
     const maxCount = Math.max(...data.countries.map(c => c.collaborators.length));
     markers.querySelectorAll('[data-country]').forEach(marker => {
       const count = Number(marker.dataset.count);
-      // Keep circles 18–26 CSS pixels wide, including on phones and at every zoom level.
-      const radiusPixels = 9 + 4 * Math.sqrt((count - 1) / Math.max(1, maxCount - 1));
+      // Keep circles 12–26 CSS pixels wide, with a larger invisible area for selection.
+      const radiusPixels = 6 + 7 * Math.sqrt((count - 1) / Math.max(1, maxCount - 1));
       marker.querySelector('.collaboration-marker-dot').setAttribute('r', radiusPixels * unitsPerPixel);
       marker.querySelector('.collaboration-marker-hit').setAttribute('r', Math.max(14, radiusPixels + 3) * unitsPerPixel);
     });
@@ -151,7 +151,7 @@
       const title = document.createElementNS(ns, 'title');
       title.textContent = `${country.name}: ${country.collaborators.length}`;
       group.append(title);
-      const radius = 9; // Initial value; updateView measures the actual display width before rendering.
+      const radius = 6; // Initial value; updateView measures the actual display width before rendering.
       const hit = document.createElementNS(ns, 'circle');
       hit.setAttribute('cx', x); hit.setAttribute('cy', y); hit.setAttribute('r', Math.max(10, radius));
       hit.setAttribute('fill', 'transparent'); hit.classList.add('collaboration-marker-hit');

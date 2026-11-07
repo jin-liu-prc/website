@@ -1,6 +1,6 @@
 # Collaboration map maintenance
 
-The map in the Collaborators section, immediately after Publications is built from the public Google Scholar profile `tn1nAw0AAAAJ` and publication-time institutional affiliation evidence. It does not infer nationality or substitute current workplaces for historical affiliations.
+The map in the Collaborators section, immediately after Publications is built from the public Google Scholar profile `tn1nAw0AAAAJ`, supplemented by publisher-verified published articles supplied in Jin's updated CV, and publication-time institutional affiliation evidence. It does not infer nationality or substitute current workplaces for historical affiliations.
 
 - `data/collaboration-research.json`: reviewed publication inventory, author identities, affiliations, country codes, source URLs, duplicate exclusions and unresolved records.
 - `data/collaboration-organizations.json`: reviewed institution-level parent organisations by country, with publication IDs, source URLs and exact publication-time affiliation aliases in `affiliationEvidence`. The builder matches these aliases within the organisation's region and eligible works, deduplicates author identities and outputs `coauthorCount`. Review new aliases when the build flags unmatched coauthors. Display organisation names only; do not show author names, university colleges/departments/labs, company divisions or office locations. Group repeated variants under the same root institution. Do not union a dual-affiliation author’s raw affiliation strings across all their countries.
@@ -20,6 +20,8 @@ hugo --minify --baseURL https://www.jinliu.org/
 ## Refresh rules
 
 The initial snapshot reviews all 32 profile records visible on 1 November 2026. A monthly Codex follow-up checks the public profile and verifies changed records before updating this repository. It needs the local host available; it is not a real-time Google Scholar integration. No paid service, secret key, or extra hosting provider is required. If Scholar is blocked or affiliations cannot be verified, preserve the last valid map and retain explicit unresolved records.
+
+The 7 November 2026 refresh retains those 32 Scholar records and adds inventory record 32 from the updated CV: “Wave and slope thresholds for mangrove restoration and nature-based solution design”, DOI `10.1088/1748-9326/aebbdd`, published on 6 November 2026. The publisher's Authors panel and PDF front matter confirm all names, ORCIDs and publication-time Australian affiliation addresses. This published article is not yet on the complete 32-record Scholar profile checked on 7 November. Keep it as a labelled CV/publisher supplement until Scholar indexes it, then merge the Scholar record by DOI rather than adding a duplicate. Do not treat an absent Scholar listing as deletion of a publisher-verified CV supplement. Do not count manuscripts in preparation from the CV without publication and affiliation evidence.
 
 Use the allowed public profile URL `https://scholar.google.com/citations?user=tn1nAw0AAAAJ&hl=en&pagesize=100`. Respect Scholar's robots policy; do not bypass CAPTCHA, blocks, or restricted pagination. If the profile grows beyond the visible inventory, flag the coverage limitation.
 

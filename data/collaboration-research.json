@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-01",
+  "updated": "2026-11-07",
   "profileUrl": "https://scholar.google.com/citations?user=tn1nAw0AAAAJ&hl=en",
   "yearRange": [
     2018,
@@ -4033,6 +4033,457 @@
           "affiliations": []
         }
       ]
+    },
+    {
+      "inventoryIndex": 32,
+      "title": "Wave and slope thresholds for mangrove restoration and nature-based solution design",
+      "year": 2026,
+      "doi": "10.1088/1748-9326/aebbdd",
+      "publicationDate": "2026-11-06",
+      "publicationStatus": "published",
+      "inventorySource": {
+        "kind": "publisher-verified CV supplement",
+        "cvUrl": "https://www.jinliu.org/CV.pdf?v=cef589b90232",
+        "checked": "2026-11-07",
+        "scholarStatus": "Not yet listed in the complete 32-record public profile checked on 7 November 2026; retain this published record and merge by DOI when indexed."
+      },
+      "sourceUrls": [
+        "https://iopscience.iop.org/article/10.1088/1748-9326/aebbdd",
+        "https://iopscience.iop.org/article/10.1088/1748-9326/aebbdd/pdf",
+        "https://api.crossref.org/works/10.1088%2F1748-9326%2Faebbdd"
+      ],
+      "scholarUrl": "https://scholar.google.com/citations?user=tn1nAw0AAAAJ&hl=en",
+      "countingEligible": true,
+      "countingNote": "Publisher-verified published article supplied in the updated CV before Google Scholar indexing. Reuse existing coauthor identities by exact ORCID. Count all publication-time affiliations as printed, including Stephen Swearer at UWA and Runjie Yuan at both Monash and Melbourne.",
+      "unknowns": [],
+      "authors": [
+        {
+          "name": "Jin Liu",
+          "canonicalName": "Jin Liu",
+          "personId": "jin-liu",
+          "orcid": "https://orcid.org/0000-0001-7415-3729",
+          "countries": [
+            "AU"
+          ],
+          "self": true,
+          "identityStatus": "identified",
+          "affiliations": [
+            "School of BioSciences, The University of Melbourne, Parkville, VIC 3010, Australia"
+          ],
+          "rootOrganizations": [
+            {
+              "id": "university-of-melbourne",
+              "name": "University of Melbourne",
+              "country": "AU"
+            }
+          ],
+          "sourceUrls": [
+            "https://iopscience.iop.org/article/10.1088/1748-9326/aebbdd",
+            "https://iopscience.iop.org/article/10.1088/1748-9326/aebbdd/pdf",
+            "https://api.crossref.org/works/10.1088%2F1748-9326%2Faebbdd"
+          ],
+          "authorId": "https://openalex.org/A5023719440"
+        },
+        {
+          "name": "Andrew W M Pomeroy",
+          "canonicalName": "Andrew W M Pomeroy",
+          "personId": "andrew-w-m-pomeroy",
+          "orcid": "https://orcid.org/0000-0002-8948-4579",
+          "countries": [
+            "AU"
+          ],
+          "self": false,
+          "identityStatus": "identified",
+          "affiliations": [
+            "School of BioSciences, The University of Melbourne, Parkville, VIC 3010, Australia"
+          ],
+          "rootOrganizations": [
+            {
+              "id": "university-of-melbourne",
+              "name": "University of Melbourne",
+              "country": "AU"
+            }
+          ],
+          "sourceUrls": [
+            "https://iopscience.iop.org/article/10.1088/1748-9326/aebbdd",
+            "https://iopscience.iop.org/article/10.1088/1748-9326/aebbdd/pdf",
+            "https://api.crossref.org/works/10.1088%2F1748-9326%2Faebbdd"
+          ]
+        },
+        {
+          "name": "Brendan S Lanham",
+          "canonicalName": "Brendan S Lanham",
+          "personId": "brendan-s-lanham",
+          "orcid": "https://orcid.org/0000-0003-2209-4899",
+          "countries": [
+            "AU"
+          ],
+          "self": false,
+          "identityStatus": "identified",
+          "affiliations": [
+            "School of BioSciences, The University of Melbourne, Parkville, VIC 3010, Australia"
+          ],
+          "rootOrganizations": [
+            {
+              "id": "university-of-melbourne",
+              "name": "University of Melbourne",
+              "country": "AU"
+            }
+          ],
+          "sourceUrls": [
+            "https://iopscience.iop.org/article/10.1088/1748-9326/aebbdd",
+            "https://iopscience.iop.org/article/10.1088/1748-9326/aebbdd/pdf",
+            "https://api.crossref.org/works/10.1088%2F1748-9326%2Faebbdd"
+          ]
+        },
+        {
+          "name": "Stephen E Swearer",
+          "canonicalName": "Stephen E Swearer",
+          "personId": "stephen-e-swearer",
+          "orcid": "https://orcid.org/0000-0001-6381-9943",
+          "countries": [
+            "AU"
+          ],
+          "self": false,
+          "identityStatus": "identified",
+          "affiliations": [
+            "Oceans Institute, The University of Western Australia, Crawley, WA 6009, Australia"
+          ],
+          "rootOrganizations": [
+            {
+              "id": "university-of-western-australia",
+              "name": "University of Western Australia",
+              "country": "AU"
+            }
+          ],
+          "sourceUrls": [
+            "https://iopscience.iop.org/article/10.1088/1748-9326/aebbdd",
+            "https://iopscience.iop.org/article/10.1088/1748-9326/aebbdd/pdf",
+            "https://api.crossref.org/works/10.1088%2F1748-9326%2Faebbdd"
+          ]
+        },
+        {
+          "name": "Marco Ghisalberti",
+          "canonicalName": "Marco Ghisalberti",
+          "personId": "marco-ghisalberti",
+          "orcid": "https://orcid.org/0000-0002-6690-8922",
+          "countries": [
+            "AU"
+          ],
+          "self": false,
+          "identityStatus": "identified",
+          "affiliations": [
+            "Oceans Institute, The University of Western Australia, Crawley, WA 6009, Australia"
+          ],
+          "rootOrganizations": [
+            {
+              "id": "university-of-western-australia",
+              "name": "University of Western Australia",
+              "country": "AU"
+            }
+          ],
+          "sourceUrls": [
+            "https://iopscience.iop.org/article/10.1088/1748-9326/aebbdd",
+            "https://iopscience.iop.org/article/10.1088/1748-9326/aebbdd/pdf",
+            "https://api.crossref.org/works/10.1088%2F1748-9326%2Faebbdd"
+          ]
+        },
+        {
+          "name": "Ryan Lowe",
+          "canonicalName": "Ryan Lowe",
+          "personId": "ryan-lowe",
+          "orcid": "https://orcid.org/0000-0002-7080-8406",
+          "countries": [
+            "AU"
+          ],
+          "self": false,
+          "identityStatus": "identified",
+          "affiliations": [
+            "Oceans Institute, The University of Western Australia, Crawley, WA 6009, Australia"
+          ],
+          "rootOrganizations": [
+            {
+              "id": "university-of-western-australia",
+              "name": "University of Western Australia",
+              "country": "AU"
+            }
+          ],
+          "sourceUrls": [
+            "https://iopscience.iop.org/article/10.1088/1748-9326/aebbdd",
+            "https://iopscience.iop.org/article/10.1088/1748-9326/aebbdd/pdf",
+            "https://api.crossref.org/works/10.1088%2F1748-9326%2Faebbdd"
+          ]
+        },
+        {
+          "name": "Melanie J Bishop",
+          "canonicalName": "Melanie J Bishop",
+          "personId": "melanie-j-bishop",
+          "orcid": "https://orcid.org/0000-0001-8210-6500",
+          "countries": [
+            "AU"
+          ],
+          "self": false,
+          "identityStatus": "identified",
+          "affiliations": [
+            "School of Natural Sciences, Macquarie University, North Ryde, NSW 2109, Australia"
+          ],
+          "rootOrganizations": [
+            {
+              "id": "macquarie-university",
+              "name": "Macquarie University",
+              "country": "AU"
+            }
+          ],
+          "sourceUrls": [
+            "https://iopscience.iop.org/article/10.1088/1748-9326/aebbdd",
+            "https://iopscience.iop.org/article/10.1088/1748-9326/aebbdd/pdf",
+            "https://api.crossref.org/works/10.1088%2F1748-9326%2Faebbdd"
+          ]
+        },
+        {
+          "name": "Charlotte Jenkins",
+          "canonicalName": "Charlotte Jenkins",
+          "personId": "charlotte-jenkins",
+          "orcid": "https://orcid.org/0009-0008-2129-4366",
+          "countries": [
+            "AU"
+          ],
+          "self": false,
+          "identityStatus": "identified",
+          "affiliations": [
+            "New South Wales Department of Primary Industries and Regional Development, Orange, NSW 2800, Australia"
+          ],
+          "rootOrganizations": [
+            {
+              "id": "new-south-wales-government",
+              "name": "New South Wales Government",
+              "country": "AU"
+            }
+          ],
+          "sourceUrls": [
+            "https://iopscience.iop.org/article/10.1088/1748-9326/aebbdd",
+            "https://iopscience.iop.org/article/10.1088/1748-9326/aebbdd/pdf",
+            "https://api.crossref.org/works/10.1088%2F1748-9326%2Faebbdd"
+          ]
+        },
+        {
+          "name": "Victoria J Cole",
+          "canonicalName": "Victoria J Cole",
+          "personId": "victoria-j-cole",
+          "orcid": "https://orcid.org/0000-0002-9594-2775",
+          "countries": [
+            "AU"
+          ],
+          "self": false,
+          "identityStatus": "identified",
+          "affiliations": [
+            "New South Wales Department of Primary Industries and Regional Development, Orange, NSW 2800, Australia"
+          ],
+          "rootOrganizations": [
+            {
+              "id": "new-south-wales-government",
+              "name": "New South Wales Government",
+              "country": "AU"
+            }
+          ],
+          "sourceUrls": [
+            "https://iopscience.iop.org/article/10.1088/1748-9326/aebbdd",
+            "https://iopscience.iop.org/article/10.1088/1748-9326/aebbdd/pdf",
+            "https://api.crossref.org/works/10.1088%2F1748-9326%2Faebbdd"
+          ]
+        },
+        {
+          "name": "Roma O Bodycomb",
+          "canonicalName": "Roma O Bodycomb",
+          "personId": "roma-o-bodycomb",
+          "orcid": "https://orcid.org/0009-0003-9162-124X",
+          "countries": [
+            "AU"
+          ],
+          "self": false,
+          "identityStatus": "identified",
+          "affiliations": [
+            "School of BioSciences, The University of Melbourne, Parkville, VIC 3010, Australia"
+          ],
+          "rootOrganizations": [
+            {
+              "id": "university-of-melbourne",
+              "name": "University of Melbourne",
+              "country": "AU"
+            }
+          ],
+          "sourceUrls": [
+            "https://iopscience.iop.org/article/10.1088/1748-9326/aebbdd",
+            "https://iopscience.iop.org/article/10.1088/1748-9326/aebbdd/pdf",
+            "https://api.crossref.org/works/10.1088%2F1748-9326%2Faebbdd"
+          ]
+        },
+        {
+          "name": "Sydney A Crisanti",
+          "canonicalName": "Sydney A Crisanti",
+          "personId": "sydney-a-crisanti",
+          "orcid": "https://orcid.org/0009-0006-1020-0307",
+          "countries": [
+            "AU"
+          ],
+          "self": false,
+          "identityStatus": "identified",
+          "affiliations": [
+            "Oceans Institute, The University of Western Australia, Crawley, WA 6009, Australia"
+          ],
+          "rootOrganizations": [
+            {
+              "id": "university-of-western-australia",
+              "name": "University of Western Australia",
+              "country": "AU"
+            }
+          ],
+          "sourceUrls": [
+            "https://iopscience.iop.org/article/10.1088/1748-9326/aebbdd",
+            "https://iopscience.iop.org/article/10.1088/1748-9326/aebbdd/pdf",
+            "https://api.crossref.org/works/10.1088%2F1748-9326%2Faebbdd"
+          ]
+        },
+        {
+          "name": "Runjie Yuan",
+          "canonicalName": "Runjie Yuan",
+          "personId": "runjie-yuan",
+          "orcid": "https://orcid.org/0000-0002-3099-8970",
+          "countries": [
+            "AU"
+          ],
+          "self": false,
+          "identityStatus": "identified",
+          "affiliations": [
+            "Monash Indigenous Studies Centre, Monash University, Clayton, VIC 3800, Australia",
+            "School of Geography, Earth and Atmospheric Sciences, The University of Melbourne, Parkville, VIC 3010, Australia"
+          ],
+          "rootOrganizations": [
+            {
+              "id": "monash-university",
+              "name": "Monash University",
+              "country": "AU"
+            },
+            {
+              "id": "university-of-melbourne",
+              "name": "University of Melbourne",
+              "country": "AU"
+            }
+          ],
+          "sourceUrls": [
+            "https://iopscience.iop.org/article/10.1088/1748-9326/aebbdd",
+            "https://iopscience.iop.org/article/10.1088/1748-9326/aebbdd/pdf",
+            "https://api.crossref.org/works/10.1088%2F1748-9326%2Faebbdd"
+          ],
+          "authorId": "https://openalex.org/A5026471680"
+        },
+        {
+          "name": "Rui Li",
+          "canonicalName": "Rui Li",
+          "personId": "rui-li",
+          "orcid": "https://orcid.org/0000-0003-2042-7813",
+          "countries": [
+            "AU"
+          ],
+          "self": false,
+          "identityStatus": "identified",
+          "affiliations": [
+            "Department of Infrastructure Engineering, The University of Melbourne, Parkville, VIC 3010, Australia"
+          ],
+          "rootOrganizations": [
+            {
+              "id": "university-of-melbourne",
+              "name": "University of Melbourne",
+              "country": "AU"
+            }
+          ],
+          "sourceUrls": [
+            "https://iopscience.iop.org/article/10.1088/1748-9326/aebbdd",
+            "https://iopscience.iop.org/article/10.1088/1748-9326/aebbdd/pdf",
+            "https://api.crossref.org/works/10.1088%2F1748-9326%2Faebbdd"
+          ],
+          "authorId": "https://openalex.org/A5038987380"
+        },
+        {
+          "name": "Zhaohui Wang",
+          "canonicalName": "Zhaohui Wang",
+          "personId": "zhaohui-wang",
+          "orcid": "https://orcid.org/0000-0001-8730-9024",
+          "countries": [
+            "AU"
+          ],
+          "self": false,
+          "identityStatus": "identified",
+          "affiliations": [
+            "Climate Change Research Centre, Australian Centre for Excellence in Antarctic Science, University of New South Wales, Sydney, NSW 2052, Australia"
+          ],
+          "rootOrganizations": [
+            {
+              "id": "unsw-sydney",
+              "name": "UNSW Sydney",
+              "country": "AU"
+            }
+          ],
+          "sourceUrls": [
+            "https://iopscience.iop.org/article/10.1088/1748-9326/aebbdd",
+            "https://iopscience.iop.org/article/10.1088/1748-9326/aebbdd/pdf",
+            "https://api.crossref.org/works/10.1088%2F1748-9326%2Faebbdd"
+          ]
+        },
+        {
+          "name": "Shuo Li",
+          "canonicalName": "Shuo Li",
+          "personId": "shuo-li",
+          "orcid": "https://orcid.org/0000-0002-9425-1040",
+          "countries": [
+            "AU"
+          ],
+          "self": false,
+          "identityStatus": "identified",
+          "affiliations": [
+            "Department of Infrastructure Engineering, The University of Melbourne, Parkville, VIC 3010, Australia"
+          ],
+          "rootOrganizations": [
+            {
+              "id": "university-of-melbourne",
+              "name": "University of Melbourne",
+              "country": "AU"
+            }
+          ],
+          "sourceUrls": [
+            "https://iopscience.iop.org/article/10.1088/1748-9326/aebbdd",
+            "https://iopscience.iop.org/article/10.1088/1748-9326/aebbdd/pdf",
+            "https://api.crossref.org/works/10.1088%2F1748-9326%2Faebbdd"
+          ],
+          "authorId": "https://openalex.org/A5100386643"
+        },
+        {
+          "name": "Rebecca L Morris",
+          "canonicalName": "Rebecca L Morris",
+          "personId": "rebecca-l-morris",
+          "orcid": "https://orcid.org/0000-0003-0455-0811",
+          "countries": [
+            "AU"
+          ],
+          "self": false,
+          "identityStatus": "identified",
+          "affiliations": [
+            "School of BioSciences, The University of Melbourne, Parkville, VIC 3010, Australia"
+          ],
+          "rootOrganizations": [
+            {
+              "id": "university-of-melbourne",
+              "name": "University of Melbourne",
+              "country": "AU"
+            }
+          ],
+          "sourceUrls": [
+            "https://iopscience.iop.org/article/10.1088/1748-9326/aebbdd",
+            "https://iopscience.iop.org/article/10.1088/1748-9326/aebbdd/pdf",
+            "https://api.crossref.org/works/10.1088%2F1748-9326%2Faebbdd"
+          ]
+        }
+      ]
     }
   ],
   "identityNotes": [
@@ -4263,6 +4714,11 @@
       "canonical": "Yanlin Shao",
       "inventoryIndex": 2,
       "evidence": "Publisher metadata spells given name Yaniln. Normalized to Yanlin for deduplication; same DTU affiliation and initial Y. Institutional PDF and other DTU publications use Yanlin."
+    },
+    {
+      "inventoryIndex": 32,
+      "evidence": "https://iopscience.iop.org/article/10.1088/1748-9326/aebbdd",
+      "note": "Publisher Authors panel and PDF front matter independently confirm all 16 names, ORCIDs and Australian addresses. Three exact ORCID matches reuse runjie-yuan, rui-li and shuo-li; 12 new coauthor identities are added. Publication-time affiliations are preserved rather than substituted with current workplaces."
     }
   ],
   "unresolvedIdentities": [

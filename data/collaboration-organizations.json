@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-01",
+  "updated": "2026-11-07",
   "countries": [
     {
       "code": "AU",
@@ -77,17 +77,52 @@
           ]
         },
         {
+          "id": "macquarie-university",
+          "name": "Macquarie University",
+          "workIds": [
+            "32"
+          ],
+          "sourceUrls": [
+            "https://api.crossref.org/works/10.1088%2F1748-9326%2Faebbdd",
+            "https://iopscience.iop.org/article/10.1088/1748-9326/aebbdd",
+            "https://iopscience.iop.org/article/10.1088/1748-9326/aebbdd/pdf"
+          ],
+          "affiliationEvidence": [
+            "School of Natural Sciences, Macquarie University, North Ryde, NSW 2109, Australia"
+          ]
+        },
+        {
           "id": "monash-university",
           "name": "Monash University",
           "workIds": [
-            "21"
+            "21",
+            "32"
           ],
           "sourceUrls": [
+            "https://api.crossref.org/works/10.1088%2F1748-9326%2Faebbdd",
             "https://api.openalex.org/works/W4360867377",
-            "https://doi.org/10.1142/9789811275135_0119"
+            "https://doi.org/10.1142/9789811275135_0119",
+            "https://iopscience.iop.org/article/10.1088/1748-9326/aebbdd",
+            "https://iopscience.iop.org/article/10.1088/1748-9326/aebbdd/pdf"
           ],
           "affiliationEvidence": [
+            "Monash Indigenous Studies Centre, Monash University, Clayton, VIC 3800, Australia",
             "Monash University, Clayton, Australia"
+          ]
+        },
+        {
+          "id": "new-south-wales-government",
+          "name": "New South Wales Government",
+          "workIds": [
+            "32"
+          ],
+          "sourceUrls": [
+            "https://api.crossref.org/works/10.1088%2F1748-9326%2Faebbdd",
+            "https://iopscience.iop.org/article/10.1088/1748-9326/aebbdd",
+            "https://iopscience.iop.org/article/10.1088/1748-9326/aebbdd/pdf"
+          ],
+          "affiliationEvidence": [
+            "New South Wales Department of Primary Industries and Regional Development, Orange, NSW 2800, Australia"
           ]
         },
         {
@@ -131,12 +166,14 @@
             "22",
             "23",
             "28",
-            "29"
+            "29",
+            "32"
           ],
           "sourceUrls": [
             "https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2023JC019843",
             "https://api.crossref.org/works/10.1016%2Fj.apor.2026.104991",
             "https://api.crossref.org/works/10.1016%2Fj.ocemod.2025.102649",
+            "https://api.crossref.org/works/10.1088%2F1748-9326%2Faebbdd",
             "https://api.crossref.org/works/10.3390%2Fjmse11101848",
             "https://api.crossref.org/works/10.3390%2Frs15112768",
             "https://api.openalex.org/works/W4220697980",
@@ -182,6 +219,8 @@
             "https://eprints.soton.ac.uk/506307/",
             "https://eprints.soton.ac.uk/506307/1/1-s2.0-S0029801825022280-main.pdf",
             "https://icce-ojs-tamu.tdl.org/icce/article/view/13117",
+            "https://iopscience.iop.org/article/10.1088/1748-9326/aebbdd",
+            "https://iopscience.iop.org/article/10.1088/1748-9326/aebbdd/pdf",
             "https://jglobal.jst.go.jp/detail?JGLOBAL_ID=202602262766717588",
             "https://jglobal.jst.go.jp/en/detail?JGLOBAL_ID=202602237739548349",
             "https://link.springer.com/article/10.1007/s00382-024-07504-8",
@@ -195,13 +234,16 @@
           "affiliationEvidence": [
             "Department of Infrastructure Engineering University of Melbourne  Melbourne VIC Australia",
             "Department of Infrastructure Engineering, The University of Melbourne, Melbourne, VIC, Australia",
+            "Department of Infrastructure Engineering, The University of Melbourne, Parkville, VIC 3010, Australia",
             "Department of Infrastructure Engineering, University of Melbourne, Melbourne, VIC 3010, Australia",
             "Department of Infrastructure Engineering, University of Melbourne, Melbourne, VIC, Australia",
             "Department of Infrastructure Engineering, University of Melbourne, Melbourne, Victoria, Australia",
             "Department of Infrastructure Engineering, University of Melbourne, Parkville, Melbourne, Victoria, Australia",
             "Department of infrastructure Engineering, University of Melbourne, Melbourne, Victoria, Australia",
+            "School of BioSciences, The University of Melbourne, Parkville, VIC 3010, Australia",
             "School of Geography, Earth & Atmospheric Sciences, The University of Melbourne, Parkville, Vic, 3010, Australia",
             "School of Geography, Earth & Atmospheric Sciences, University of Melbourne, Parkville, Vic, 3010, Australia",
+            "School of Geography, Earth and Atmospheric Sciences, The University of Melbourne, Parkville, VIC 3010, Australia",
             "School of Geography, Earth and Atmospheric Sciences, The University of Melbourne, Parkville, VIC, Australia",
             "School of Geography, Earth and Atmospheric Sciences, The University of Melbourne, Parkville, Victoria, Australia",
             "The University of Melbourne",
@@ -249,18 +291,38 @@
           ]
         },
         {
+          "id": "university-of-western-australia",
+          "name": "University of Western Australia",
+          "workIds": [
+            "32"
+          ],
+          "sourceUrls": [
+            "https://api.crossref.org/works/10.1088%2F1748-9326%2Faebbdd",
+            "https://iopscience.iop.org/article/10.1088/1748-9326/aebbdd",
+            "https://iopscience.iop.org/article/10.1088/1748-9326/aebbdd/pdf"
+          ],
+          "affiliationEvidence": [
+            "Oceans Institute, The University of Western Australia, Crawley, WA 6009, Australia"
+          ]
+        },
+        {
           "id": "unsw-sydney",
           "name": "UNSW Sydney",
           "workIds": [
-            "2"
+            "2",
+            "32"
           ],
           "sourceUrls": [
+            "https://api.crossref.org/works/10.1088%2F1748-9326%2Faebbdd",
             "https://backend.orbit.dtu.dk/ws/portalfiles/portal/413943875/1-s2.0-S0029801825022280-main.pdf",
             "https://doi.org/10.1016/j.oceaneng.2025.122545",
             "https://eprints.soton.ac.uk/506307/",
-            "https://eprints.soton.ac.uk/506307/1/1-s2.0-S0029801825022280-main.pdf"
+            "https://eprints.soton.ac.uk/506307/1/1-s2.0-S0029801825022280-main.pdf",
+            "https://iopscience.iop.org/article/10.1088/1748-9326/aebbdd",
+            "https://iopscience.iop.org/article/10.1088/1748-9326/aebbdd/pdf"
           ],
           "affiliationEvidence": [
+            "Climate Change Research Centre, Australian Centre for Excellence in Antarctic Science, University of New South Wales, Sydney, NSW 2052, Australia",
             "UNSW"
           ]
         },

@@ -1,18 +1,18 @@
 {
   "schemaVersion": 1,
-  "updated": "2026-11-01",
+  "updated": "2026-11-07",
   "profileUrl": "https://scholar.google.com/citations?user=tn1nAw0AAAAJ&hl=en",
   "yearRange": [
     2018,
     2026
   ],
   "totals": {
-    "collaborators": 65,
-    "countryPairs": 68
+    "collaborators": 77,
+    "countryPairs": 80
   },
   "coverage": {
-    "inventoryRecords": 32,
-    "verifiedCoauthoredWorks": 28,
+    "inventoryRecords": 33,
+    "verifiedCoauthoredWorks": 29,
     "unresolvedWorks": 2
   },
   "countries": [
@@ -73,6 +73,16 @@
           ]
         },
         {
+          "id": "andrew-w-m-pomeroy",
+          "name": "Andrew W M Pomeroy",
+          "affiliations": [
+            "School of BioSciences, The University of Melbourne, Parkville, VIC 3010, Australia"
+          ],
+          "workIds": [
+            "32"
+          ]
+        },
+        {
           "id": "azam-dolatshah",
           "name": "Azam Dolatshah",
           "affiliations": [
@@ -99,6 +109,16 @@
           ]
         },
         {
+          "id": "brendan-s-lanham",
+          "name": "Brendan S Lanham",
+          "affiliations": [
+            "School of BioSciences, The University of Melbourne, Parkville, VIC 3010, Australia"
+          ],
+          "workIds": [
+            "32"
+          ]
+        },
+        {
           "id": "c-leach",
           "name": "C. Leach",
           "affiliations": [
@@ -106,6 +126,16 @@
           ],
           "workIds": [
             "13"
+          ]
+        },
+        {
+          "id": "charlotte-jenkins",
+          "name": "Charlotte Jenkins",
+          "affiliations": [
+            "New South Wales Department of Primary Industries and Regional Development, Orange, NSW 2800, Australia"
+          ],
+          "workIds": [
+            "32"
           ]
         },
         {
@@ -288,6 +318,16 @@
           ]
         },
         {
+          "id": "marco-ghisalberti",
+          "name": "Marco Ghisalberti",
+          "affiliations": [
+            "Oceans Institute, The University of Western Australia, Crawley, WA 6009, Australia"
+          ],
+          "workIds": [
+            "32"
+          ]
+        },
+        {
           "id": "marcus-thatcher",
           "name": "Marcus Thatcher",
           "affiliations": [
@@ -295,6 +335,16 @@
           ],
           "workIds": [
             "12"
+          ]
+        },
+        {
+          "id": "melanie-j-bishop",
+          "name": "Melanie J Bishop",
+          "affiliations": [
+            "School of Natural Sciences, Macquarie University, North Ryde, NSW 2109, Australia"
+          ],
+          "workIds": [
+            "32"
           ]
         },
         {
@@ -340,6 +390,16 @@
           ]
         },
         {
+          "id": "rebecca-l-morris",
+          "name": "Rebecca L Morris",
+          "affiliations": [
+            "School of BioSciences, The University of Melbourne, Parkville, VIC 3010, Australia"
+          ],
+          "workIds": [
+            "32"
+          ]
+        },
+        {
           "id": "robbi-bishop-taylor",
           "name": "Robbi Bishop-Taylor",
           "affiliations": [
@@ -347,6 +407,16 @@
           ],
           "workIds": [
             "21"
+          ]
+        },
+        {
+          "id": "roma-o-bodycomb",
+          "name": "Roma O Bodycomb",
+          "affiliations": [
+            "School of BioSciences, The University of Melbourne, Parkville, VIC 3010, Australia"
+          ],
+          "workIds": [
+            "32"
           ]
         },
         {
@@ -363,6 +433,7 @@
           "id": "rui-li",
           "name": "Rui Li",
           "affiliations": [
+            "Department of Infrastructure Engineering, The University of Melbourne, Parkville, VIC 3010, Australia",
             "Department of Infrastructure Engineering, University of Melbourne, Melbourne, Victoria, Australia",
             "Ocean University of China",
             "Physical Oceanography Laboratory, Ocean University of China, Qingdao, Shandong, China",
@@ -374,17 +445,31 @@
             "7",
             "17",
             "18",
-            "19"
+            "19",
+            "32"
           ]
         },
         {
           "id": "runjie-yuan",
           "name": "Runjie Yuan",
           "affiliations": [
+            "Monash Indigenous Studies Centre, Monash University, Clayton, VIC 3800, Australia",
+            "School of Geography, Earth and Atmospheric Sciences, The University of Melbourne, Parkville, VIC 3010, Australia",
             "School of Geography, Earth and Atmospheric Sciences, The University of Melbourne, Parkville, VIC, Australia"
           ],
           "workIds": [
-            "20"
+            "20",
+            "32"
+          ]
+        },
+        {
+          "id": "ryan-lowe",
+          "name": "Ryan Lowe",
+          "affiliations": [
+            "Oceans Institute, The University of Western Australia, Crawley, WA 6009, Australia"
+          ],
+          "workIds": [
+            "32"
           ]
         },
         {
@@ -402,12 +487,14 @@
           "id": "shuo-li",
           "name": "Shuo Li",
           "affiliations": [
+            "Department of Infrastructure Engineering, The University of Melbourne, Parkville, VIC 3010, Australia",
             "Department of Infrastructure Engineering, University of Melbourne, Melbourne, Victoria, Australia",
             "The University of Melbourne"
           ],
           "workIds": [
             "3",
-            "7"
+            "7",
+            "32"
           ]
         },
         {
@@ -421,6 +508,26 @@
           ]
         },
         {
+          "id": "stephen-e-swearer",
+          "name": "Stephen E Swearer",
+          "affiliations": [
+            "Oceans Institute, The University of Western Australia, Crawley, WA 6009, Australia"
+          ],
+          "workIds": [
+            "32"
+          ]
+        },
+        {
+          "id": "sydney-a-crisanti",
+          "name": "Sydney A Crisanti",
+          "affiliations": [
+            "Oceans Institute, The University of Western Australia, Crawley, WA 6009, Australia"
+          ],
+          "workIds": [
+            "32"
+          ]
+        },
+        {
           "id": "vanessa-hernaman",
           "name": "Vanessa Hernaman",
           "affiliations": [
@@ -431,6 +538,16 @@
           ]
         },
         {
+          "id": "victoria-j-cole",
+          "name": "Victoria J Cole",
+          "affiliations": [
+            "New South Wales Department of Primary Industries and Regional Development, Orange, NSW 2800, Australia"
+          ],
+          "workIds": [
+            "32"
+          ]
+        },
+        {
           "id": "xingkun-xu",
           "name": "Xingkun Xu",
           "affiliations": [
@@ -438,6 +555,16 @@
           ],
           "workIds": [
             "4"
+          ]
+        },
+        {
+          "id": "zhaohui-wang",
+          "name": "Zhaohui Wang",
+          "affiliations": [
+            "Climate Change Research Centre, Australian Centre for Excellence in Antarctic Science, University of New South Wales, Sydney, NSW 2052, Australia"
+          ],
+          "workIds": [
+            "32"
           ]
         }
       ],
@@ -474,12 +601,29 @@
           "coauthorCount": 1
         },
         {
+          "id": "macquarie-university",
+          "name": "Macquarie University",
+          "workIds": [
+            "32"
+          ],
+          "coauthorCount": 1
+        },
+        {
           "id": "monash-university",
           "name": "Monash University",
           "workIds": [
-            "21"
+            "21",
+            "32"
           ],
-          "coauthorCount": 1
+          "coauthorCount": 2
+        },
+        {
+          "id": "new-south-wales-government",
+          "name": "New South Wales Government",
+          "workIds": [
+            "32"
+          ],
+          "coauthorCount": 2
         },
         {
           "id": "swinburne-university-of-technology",
@@ -514,9 +658,10 @@
             "22",
             "23",
             "28",
-            "29"
+            "29",
+            "32"
           ],
-          "coauthorCount": 18
+          "coauthorCount": 22
         },
         {
           "id": "university-of-queensland",
@@ -536,12 +681,21 @@
           "coauthorCount": 1
         },
         {
+          "id": "university-of-western-australia",
+          "name": "University of Western Australia",
+          "workIds": [
+            "32"
+          ],
+          "coauthorCount": 4
+        },
+        {
           "id": "unsw-sydney",
           "name": "UNSW Sydney",
           "workIds": [
-            "2"
+            "2",
+            "32"
           ],
-          "coauthorCount": 1
+          "coauthorCount": 2
         },
         {
           "id": "victorian-government",
@@ -1262,6 +1416,14 @@
       "year": 2026,
       "url": "https://doi.org/https://doi.org/10.1016/j.apor.2026.104991",
       "scholarUrl": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=tn1nAw0AAAAJ&pagesize=100&citation_for_view=tn1nAw0AAAAJ:hFOr9nPyWt4C",
+      "note": ""
+    },
+    {
+      "id": "32",
+      "title": "Wave and slope thresholds for mangrove restoration and nature-based solution design",
+      "year": 2026,
+      "url": "https://doi.org/10.1088/1748-9326/aebbdd",
+      "scholarUrl": "https://scholar.google.com/citations?user=tn1nAw0AAAAJ&hl=en",
       "note": ""
     },
     {

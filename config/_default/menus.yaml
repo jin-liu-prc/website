@@ -20,9 +20,6 @@ main:
   - name: Research projects
     url: "#research_projects"
     weight: 60
-  - name: Funding
-    url: "#funding"
-    weight: 65
   - name: Selected awards
     url: "#selected_awards"
     weight: 70

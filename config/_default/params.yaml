@@ -23,6 +23,7 @@ marketing:
   analytics:
     google_analytics: ''
     baidu_tongji: ''
+    cloudflare_beacon: 'cba29eab6af14dc0984c0c0d0054ea11'
   verification:
     google: ''
     baidu: ''

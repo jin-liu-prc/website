@@ -1,2 +1,7 @@
 {{ $mapScriptVersion := readFile "static/js/collaboration-map.js" | md5 }}
 <script src="{{ "/js/collaboration-map.js" | relURL }}?v={{ $mapScriptVersion }}" defer></script>
+{{ if hugo.IsProduction }}
+  {{ with .Site.Params.marketing.analytics.cloudflare_beacon }}
+    <script type="module" src="https://static.cloudflareinsights.com/beacon.min.js" data-cf-beacon="{{ dict "token" . | jsonify }}"></script>
+  {{ end }}
+{{ end }}

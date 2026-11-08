@@ -5,6 +5,12 @@ Public website source for https://www.jinliu.org/.
 ## Services
 - Name.com: domain registration and DNS.
 - GitHub Pages: website hosting and HTTPS.
+- Cloudflare Web Analytics: free, private aggregate visitor statistics. Domain registration, DNS and hosting stay with Name.com and GitHub Pages.
+
+## Private visitor statistics
+Sign in to [Cloudflare](https://dash.cloudflare.com/) and open **Observability → Analytics → Web analytics → www.jinliu.org**. Use the geographic breakdown to see approximate visitor regions, alongside visits, page views and referrers. Statistics start after installation; they do not identify individual visitors by name.
+
+The public website loads Cloudflare's browser beacon only in production builds. The public site token is stored in `marketing.analytics.cloudflare_beacon` in `config/_default/params.yaml`; it cannot access the private dashboard. Never commit Cloudflare API keys or account credentials. No visitor report or public analytics widget is included on the website.
 
 ## Where to edit
 - Biography, role, affiliations, interests and degree summary: `content/authors/admin/_index.md`.

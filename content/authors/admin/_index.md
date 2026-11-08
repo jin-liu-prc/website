@@ -10,7 +10,7 @@ social:
     link: https://www.researchgate.net/profile/Jin-Liu-70
   - icon: graduation-cap
     icon_pack: fas
-    link: https://scholar.google.com/citations?user=tn1nAw0AAAAJ&hl=en
+    link: https://scholar.google.com/citations?user=tn1nAw0AAAAJ
   - icon: orcid
     icon_pack: fab
     link: https://orcid.org/0000-0001-7415-3729
@@ -23,7 +23,7 @@ social:
     link: https://findanexpert.unimelb.edu.au/profile/1038580-jin-liu
   - icon: cv
     icon_pack: ai
-    link: /CV.pdf?v=cef589b90232
+    link: /CV.pdf
 email: 'jin.liu.prc@gmail.com'
 highlight_name: true
 ---

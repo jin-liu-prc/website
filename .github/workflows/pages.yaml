@@ -38,6 +38,7 @@ jobs:
         env:
           HUGO_ENV: production
         run: |
+          node --test tests/visitor-analytics.test.cjs
           python3 -m unittest discover -s tests
           python3 scripts/build_collaborations.py
           hugo --gc --minify --baseURL https://www.jinliu.org/

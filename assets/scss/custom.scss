@@ -1,5 +1,9 @@
 /* Coastal palette and responsive academic profile, using existing Wowchemy markup. */
 :root { --coast-ink: #153548; --coast-text: #415865; --coast-teal: #087e83; --coast-paper: #fff; --coast-wash: #f0f6f7; --coast-line: #dbe7e9; }
+.analytics-preferences { max-width: 860px; margin: 0 auto; padding: 48px 24px; font-size: 1rem; line-height: 1.75; }
+.analytics-preferences h1 { font-size: 2.1rem; margin-bottom: 1.2rem; }
+.analytics-preferences-actions { display: flex; flex-wrap: wrap; gap: 12px; margin: 1.5rem 0; }
+.analytics-preferences-actions button { font: inherit; }
 body { color: var(--coast-text); background: var(--coast-paper); line-height: 1.75; }
 h1, h2, h3, .section-subheading { color: var(--coast-ink); letter-spacing: -.035em; }
 a { color: var(--coast-teal); text-underline-offset: .2em; }

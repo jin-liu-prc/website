@@ -12,6 +12,8 @@ Sign in to [Cloudflare](https://dash.cloudflare.com/) and open **Observability â
 
 The public website loads Cloudflare's browser beacon only in production builds. The public site token is stored in `marketing.analytics.cloudflare_beacon` in `config/_default/params.yaml`; it cannot access the private dashboard. Never commit Cloudflare API keys or account credentials. No visitor report or public analytics widget is included on the website.
 
+To exclude your own future visits, open https://www.jinliu.org/analytics-preferences/ in each browser profile you use and select **Exclude my visits**. The preference is stored only in that browser's local storage (`jinliu.analytics.exclude`), checked before the Cloudflare beacon loads, and survives browser restarts. Clearing site data removes it; other devices, profiles and private windows need their own setting. Reload other open website tabs after changing it. The preferences page itself is never measured. **Count my visits** reverses the exclusion. Existing anonymous totals cannot reliably be separated into your own previous visits and other visitors' visits.
+
 ## Where to edit
 - Biography, role, affiliations, interests and degree summary: `content/authors/admin/_index.md`.
 - Research, appointments, education, conferences, publications, data products, awards, skills, outreach and contact: `content/_index.md`.

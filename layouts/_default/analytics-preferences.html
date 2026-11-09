@@ -1,0 +1,15 @@
+{{ define "main" }}
+<section class="analytics-preferences" aria-labelledby="analytics-preferences-title" data-analytics-preferences>
+  <h1 id="analytics-preferences-title">{{ .Title }}</h1>
+  <p>Choose whether visits from this browser are included in this website's anonymous visitor statistics.</p>
+  <p role="status" aria-live="polite" data-analytics-status>Checking your preference…</p>
+  <div class="analytics-preferences-actions">
+    <button type="button" class="btn btn-primary" data-analytics-exclude>Exclude my visits</button>
+    <button type="button" class="btn btn-outline-primary" data-analytics-count>Count my visits</button>
+  </div>
+  <p>This setting applies to this browser profile. Set it separately on your phone or in another browser. Clearing this website's stored data removes the setting.</p>
+  <p>After changing this setting, reload any other open tabs of this website. Visits already recorded remain in the existing totals.</p>
+  <p><a href="{{ "/" | relURL }}">Return to the website</a></p>
+  <noscript><p>JavaScript is required to save this preference.</p></noscript>
+</section>
+{{ end }}

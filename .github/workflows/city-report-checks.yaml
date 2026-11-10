@@ -1,0 +1,18 @@
+name: Check private city report
+on:
+  push:
+    paths: ['cloudflare/city-report/**', '.github/workflows/city-report-checks.yaml']
+  pull_request:
+    paths: ['cloudflare/city-report/**', '.github/workflows/city-report-checks.yaml']
+permissions:
+  contents: read
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v6
+      - uses: actions/setup-node@v6
+        with:
+          node-version: '22'
+      - run: node --test cloudflare/city-report/worker.test.mjs
+      - run: python3 cloudflare/city-report/schema_test.py

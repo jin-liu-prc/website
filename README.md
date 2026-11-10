@@ -14,6 +14,8 @@ The public website loads Cloudflare's browser beacon only in production builds. 
 
 To exclude your own future visits, open https://www.jinliu.org/analytics-preferences/ in each browser profile you use and select **Exclude my visits**. The preference is stored only in that browser's local storage (`jinliu.analytics.exclude`), checked before the Cloudflare beacon loads, and survives browser restarts. Clearing site data removes it; other devices, profiles and private windows need their own setting. Reload other open website tabs after changing it. The preferences page itself is never measured. **Count my visits** reverses the exclusion. Existing anonymous totals cannot reliably be separated into your own previous visits and other visitors' visits.
 
+For approximate city totals, the deployed [private city report](docs/CITY-REPORT.md) uses the `jinliu-city-report` Cloudflare Worker and D1 database in the same account. Its collector is `https://jinliu-city-report.jin-liu-prc.workers.dev/collect`; it stores daily geographic counts without IP addresses or individual visit records. To read the report, sign in to Cloudflare, open **Storage & databases → D1 SQL database → jinliu-city-report → Studio/Console**, then run `SELECT * FROM city_report ORDER BY total_views DESC;`. No public report is exposed. Deployment details, retention, free-tier limits and local checks are documented there. GitHub Pages deployment does not deploy the Worker.
+
 ## Where to edit
 - Biography, role, affiliations, interests and degree summary: `content/authors/admin/_index.md`.
 - Research, appointments, education, conferences, publications, data products, awards, skills, outreach and contact: `content/_index.md`.

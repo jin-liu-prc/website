@@ -45,8 +45,26 @@
     return;
   }
 
+  if (excluded) return;
+
+  const cityEndpoint = loader && loader.getAttribute('data-city-endpoint');
+  if (cityEndpoint) {
+    try {
+      fetch(cityEndpoint, {
+        method: 'POST',
+        headers: { 'Content-Type': 'text/plain' },
+        body: 'pageview',
+        credentials: 'omit',
+        keepalive: true,
+        referrerPolicy: 'no-referrer'
+      }).catch(() => {});
+    } catch (_) {
+      // Collection is optional; unavailable networking must not affect the page.
+    }
+  }
+
   const beacon = loader && loader.getAttribute('data-cf-beacon');
-  if (excluded || !beacon) return;
+  if (!beacon) return;
 
   const script = document.createElement('script');
   script.type = 'module';

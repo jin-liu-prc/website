@@ -1,4 +1,4 @@
 {{ $mapScriptVersion := readFile "static/js/collaboration-map.js" | md5 }}
 <script src="{{ "/js/collaboration-map.js" | relURL }}?v={{ $mapScriptVersion }}" defer></script>
 {{ $analyticsScriptVersion := readFile "static/js/visitor-analytics.js" | md5 }}
-<script src="{{ "/js/visitor-analytics.js" | relURL }}?v={{ $analyticsScriptVersion }}" defer{{ if hugo.IsProduction }}{{ with .Site.Params.marketing.analytics.cloudflare_beacon }} data-cf-beacon="{{ dict "token" . | jsonify }}"{{ end }}{{ end }}></script>
+<script src="{{ "/js/visitor-analytics.js" | relURL }}?v={{ $analyticsScriptVersion }}" defer{{ if hugo.IsProduction }}{{ with .Site.Params.marketing.analytics.cloudflare_beacon }} data-cf-beacon="{{ dict "token" . | jsonify }}"{{ end }}{{ with .Site.Params.marketing.analytics.city_report_endpoint }} data-city-endpoint="{{ . }}"{{ end }}{{ end }}></script>

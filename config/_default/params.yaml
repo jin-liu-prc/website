@@ -24,6 +24,8 @@ marketing:
     google_analytics: ''
     baidu_tongji: ''
     cloudflare_beacon: 'cba29eab6af14dc0984c0c0d0054ea11'
+    # Optional public collector URL, included only in production builds.
+    city_report_endpoint: 'https://jinliu-city-report.jin-liu-prc.workers.dev/collect'
   verification:
     google: ''
     baidu: ''

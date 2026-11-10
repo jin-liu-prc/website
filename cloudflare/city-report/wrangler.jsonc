@@ -1,0 +1,23 @@
+{
+  "$schema": "https://raw.githubusercontent.com/cloudflare/workers-sdk/main/packages/wrangler/config-schema.json",
+  "name": "jinliu-city-report",
+  "main": "worker.mjs",
+  "compatibility_date": "2026-11-10",
+  "workers_dev": true,
+  "preview_urls": false,
+  "logpush": false,
+  "observability": {
+    "enabled": false,
+    "logs": { "enabled": false, "invocation_logs": false },
+    "traces": { "enabled": false }
+  },
+  "d1_databases": [
+    {
+      "binding": "DB",
+      "database_name": "jinliu-city-report",
+      "database_id": "ad7d0a48-fb6a-423c-8888-5d5a8c843ea7",
+      "migrations_dir": "migrations"
+    }
+  ],
+  "triggers": { "crons": ["30 14 * * *"] }
+}

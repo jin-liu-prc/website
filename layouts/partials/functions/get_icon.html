@@ -1,0 +1,12 @@
+{{/* Use the profile photo as the single source for website and sharing icons. */}}
+{{ $author := site.GetPage "/authors/admin" }}
+{{ $photo := $author.Resources.GetMatch "avatar.*" }}
+{{ $size := int . }}
+{{ $target := printf "icons/profile-%d.png" $size }}
+{{/* The theme requests 32px; serve 96px for clearer Google Search icons. */}}
+{{ if eq $size 32 }}
+  {{ $size = 96 }}
+  {{ $target = "favicon.png" }}
+{{ end }}
+{{ $icon := $photo.Fill (printf "%dx%d Center png" $size $size) }}
+{{ return (resources.Copy $target $icon) }}
